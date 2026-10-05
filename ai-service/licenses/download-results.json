@@ -1,0 +1,43 @@
+{
+  "rdd": {
+    "used_images": 275,
+    "license": "CC BY-SA 4.0",
+    "automatic": true,
+    "bytes_transferred": 30342429,
+    "license_conflict_documented": true
+  },
+  "taco": {
+    "used_unique_images": 339,
+    "license": "CC BY 4.0",
+    "automatic": true,
+    "retained_subsets": [
+      200,
+      171
+    ],
+    "duplicates_removed": 32,
+    "bytes_transferred_for_small_samples": 44423027
+  },
+  "floodnet": {
+    "used_images": 0,
+    "license": "CDLA Permissive 1.0",
+    "automatic": false,
+    "reason": "Exposed matching masks failed flooded-road filter; broader paired data download required."
+  },
+  "physical_demo": {
+    "used_images": 0,
+    "reason": "User recordings not yet supplied."
+  },
+  "roadway": {
+    "used_images": 200,
+    "license": "CC BY 4.0",
+    "automatic": true,
+    "domain": "street-level",
+    "original_source": "https://data.mendeley.com/datasets/t395bwcvbw/1"
+  },
+  "irdid": {
+    "used_images": 0,
+    "metadata_downloaded": true,
+    "training_images_downloaded": false,
+    "reason": "96 unique water photos, unresolved original rights, classification labels only"
+  }
+}

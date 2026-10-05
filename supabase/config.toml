@@ -1,0 +1,3 @@
+[functions.analyze-image]
+verify_jwt = false
+# The function validates every bearer token with Supabase Auth getUser().

@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "CivicEye AI",
+  "short_name": "CivicEye",
+  "description": "AI-powered civic issue detection, reporting and resolution platform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#112d45",
+  "background_color": "#112d45",
+  "lang": "en",
+  "prefer_related_applications": false,
+  "icons": [
+    {"src":"/icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"/icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"/icons/maskable-192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},
+    {"src":"/icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "verified_on": "2026-10-02",
+  "original_image_license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "original_source": "https://github.com/sekilab/RoadDamageDetector#license",
+  "figshare_record_license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "conflict": "Original author repository image-license notice is ShareAlike; official RDD2022 Figshare metadata specifies CC BY 4.0. Do not silently discard either. CivicEye preserves the original ShareAlike obligations for imported RDD image/annotation derivatives, pending author clarification.",
+  "effective_civiceye_obligations": [
+    "Credit original creators and link to source/license.",
+    "Identify subset selection and Pascal VOC D40 to YOLO conversion as modifications.",
+    "Preserve CC BY-SA 4.0 for RDD image/annotation derivatives when redistributed.",
+    "Do not claim the mixed dataset is uniformly CC BY 4.0."
+  ],
+  "creators": [
+    {
+      "id": 9104591,
+      "full_name": "Deeksha Arya",
+      "first_name": "Deeksha",
+      "last_name": "Arya",
+      "is_active": true,
+      "url_name": "Deeksha_Arya",
+      "orcid_id": "0000-0002-7948-5930"
+    },
+    {
+      "id": 14028513,
+      "full_name": "Hiroya Maeda",
+      "first_name": "Hiroya",
+      "last_name": "Maeda",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-2789-4019"
+    },
+    {
+      "id": 14028515,
+      "full_name": "Yoshihide Sekimoto",
+      "first_name": "Yoshihide",
+      "last_name": "Sekimoto",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-0305-7056"
+    },
+    {
+      "id": 10340394,
+      "full_name": "Hiroshi Omata",
+      "first_name": "Hiroshi",
+      "last_name": "Omata",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 14028516,
+      "full_name": "Sanjay Kumar Ghosh",
+      "first_name": "Sanjay Kumar",
+      "last_name": "Ghosh",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-7849-9313"
+    },
+    {
+      "id": 8541138,
+      "full_name": "Durga Toshniwal",
+      "first_name": "Durga",
+      "last_name": "Toshniwal",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 14028518,
+      "full_name": "Madhavendra Sharma",
+      "first_name": "Madhavendra",
+      "last_name": "Sharma",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 14028521,
+      "full_name": "Van Vung Pham",
+      "first_name": "Van Vung",
+      "last_name": "Pham",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 10729905,
+      "full_name": "Jingtao Zhong",
+      "first_name": "Jingtao",
+      "last_name": "Zhong",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 14028524,
+      "full_name": "Muneer Al-Hammadi",
+      "first_name": "Muneer",
+      "last_name": "Al-Hammadi",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 14028527,
+      "full_name": "Mamoona Birkhez Shami",
+      "first_name": "Mamoona Birkhez",
+      "last_name": "Shami",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 14028538,
+      "full_name": "Du Nguyen",
+      "first_name": "Du",
+      "last_name": "Nguyen",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 14028539,
+      "full_name": "Hanglin Cheng",
+      "first_name": "Hanglin",
+      "last_name": "Cheng",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 23775,
+      "full_name": "Jing Zhang",
+      "first_name": "Jing",
+      "last_name": "Zhang",
+      "is_active": false,
+      "url_name": "Jing_Zhang",
+      "orcid_id": ""
+    },
+    {
+      "id": 14028542,
+      "full_name": "Alex Klein-Paste",
+      "first_name": "Alex",
+      "last_name": "Klein-Paste",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 14028545,
+      "full_name": "Helge Mork",
+      "first_name": "Helge",
+      "last_name": "Mork",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 836620,
+      "full_name": "Frank Lindseth",
+      "first_name": "Frank",
+      "last_name": "Lindseth",
+      "is_active": false,
+      "url_name": "Frank_Lindseth",
+      "orcid_id": ""
+    },
+    {
+      "id": 4043825,
+      "full_name": "Toshikazu Seto",
+      "first_name": "Toshikazu",
+      "last_name": "Seto",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 10340400,
+      "full_name": "Alexander Mraz",
+      "first_name": "Alexander",
+      "last_name": "Mraz",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 10340397,
+      "full_name": "Takehiro Kashiyama",
+      "first_name": "Takehiro",
+      "last_name": "Kashiyama",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "doi": "10.6084/m9.figshare.21431547.v1"
+}

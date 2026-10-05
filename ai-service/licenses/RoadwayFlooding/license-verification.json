@@ -1,0 +1,19 @@
+{
+  "source": "https://data.mendeley.com/datasets/t395bwcvbw/1",
+  "doi": "10.17632/t395bwcvbw.1",
+  "authors": [
+    "Cem Sazara",
+    "Mecit Cetin",
+    "Khan Iftekharuddin"
+  ],
+  "institution": "Old Dominion University",
+  "version": 1,
+  "published": "2019-10-09",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "original_release_images": 441,
+  "selected_images": 200,
+  "verified_on": "2026-10-02",
+  "domain": "street-level",
+  "download": "original author Mendeley archive; Kaggle mirror was not needed"
+}

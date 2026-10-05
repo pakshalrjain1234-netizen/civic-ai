@@ -1,0 +1,39 @@
+{
+  "archive": "C:\\Users\\hp\\Downloads\\CivicEye_Starter_Dataset.zip",
+  "sha256": "6329d4b8b335a1f875e3d8f93abe8b590bf3fbd5a6a75497e42a091dfae42ba4",
+  "synthetic": true,
+  "original_validation": {
+    "splits": {
+      "train": {
+        "images": 305,
+        "pothole_boxes": 109,
+        "garbage_boxes": 109,
+        "waterlogging_boxes": 103,
+        "background_images": 30
+      },
+      "val": {
+        "images": 46,
+        "pothole_boxes": 16,
+        "garbage_boxes": 14,
+        "waterlogging_boxes": 18,
+        "background_images": 8
+      },
+      "test": {
+        "images": 46,
+        "pothole_boxes": 17,
+        "garbage_boxes": 15,
+        "waterlogging_boxes": 16,
+        "background_images": 8
+      }
+    },
+    "total": {
+      "images": 397,
+      "pothole_boxes": 142,
+      "garbage_boxes": 138,
+      "waterlogging_boxes": 137,
+      "background_images": 46
+    },
+    "issues": [],
+    "passed": true
+  }
+}

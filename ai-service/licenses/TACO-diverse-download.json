@@ -1,0 +1,285 @@
+{
+  "images": 171,
+  "bytes_transferred": 22223849,
+  "failures": [
+    {
+      "id": 549,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 597,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 386,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 397,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 510,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 444,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 632,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 550,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 558,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 640,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 315,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 346,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 373,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 294,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 526,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 383,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 405,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 434,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 391,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 297,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 513,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 374,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 307,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 491,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 682,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 602,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 608,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 547,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 359,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 441,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 354,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 368,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 400,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 520,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 353,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 616,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 243,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 675,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 347,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 492,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 385,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 544,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 454,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 654,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 402,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 325,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 623,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 562,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 588,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 581,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 288,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 310,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 396,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 556,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 482,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 321,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 342,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 635,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 573,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 515,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 554,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 376,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 474,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 351,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 381,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 531,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 252,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 673,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 498,
+      "error": "No bounded preview URL"
+    }
+  ],
+  "source_record": "https://zenodo.org/records/3587843",
+  "license": "CC BY 4.0",
+  "note": "Same published-release photos, retrieved at the release-provided Flickr 640 URL. COCO boxes scaled to retrieved image dimensions. No unofficial images used."
+}

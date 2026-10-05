@@ -1,0 +1,11 @@
+-- Apply immediately after schema.sql, before using Live Mode.
+
+create function public.first_evidence(p_id text) returns text language sql stable security definer set search_path=public as $$ select image_url from incident_reports where incident_id=p_id and image_url is not null order by created_at limit 1 $$;
+create or replace view public.incident_view with(security_invoker=true) as select i.*,public.report_count(i.id) reports,exists(select 1 from incident_reports r where r.incident_id=i.id and r.user_id=auth.uid()) mine,public.first_evidence(i.id) image_url,a.worker_id,a.assigned_at,v.after_image_url,v.ai_result->>'explanation' verification_explanation,(select jsonb_agg(jsonb_build_object('status',h.status,'created_at',h.created_at) order by h.created_at) from status_history h where h.incident_id=i.id) history from incidents i left join assignments a on a.incident_id=i.id left join lateral(select * from verification where incident_id=i.id order by created_at desc limit 1) v on true;
+-- Bind the photo recorded in a report to the exact evidence analyzed by the server.
+create function public.enforce_report_evidence() returns trigger language plpgsql security definer set search_path=public as $$begin if new.image_url is not null and not exists(select 1 from analysis_results where user_id=new.user_id and image_url=new.image_url and incident_id is null and created_at>now()-interval '1 hour') then raise exception 'Use the image returned by live analysis';end if;return new;end$$;
+create trigger report_evidence_check before insert on public.incident_reports for each row execute function public.enforce_report_evidence();
+create function public.enforce_completion_evidence() returns trigger language plpgsql security definer set search_path=public as $$begin if not exists(select 1 from analysis_results where id=(new.ai_result->>'analysis_id')::uuid and image_url=new.after_image_url and incident_id=new.incident_id and user_id=auth.uid()) then raise exception 'Completion image must match analyzed evidence';end if;return new;end$$;
+create trigger completion_evidence_check before insert on public.verification for each row execute function public.enforce_completion_evidence();
+revoke all on function first_evidence(text) from public;grant execute on function first_evidence(text) to authenticated;
+

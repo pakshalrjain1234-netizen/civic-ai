@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+!.env.production.example
+build/
+.sites-runtime/
+node_modules/
+*.tar.gz
+*.zip
+.venv/
+__pycache__/
+*.pyc
+ai-service/models/*.pt
+ai-service/training/runs/
+ai-service/training/validation/
+ai-service/training/prepared/
+ai-service/dataset/**/*.cache

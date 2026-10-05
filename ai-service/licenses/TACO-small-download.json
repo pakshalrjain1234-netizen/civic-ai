@@ -1,0 +1,89 @@
+{
+  "images": 200,
+  "bytes_transferred": 22199178,
+  "failures": [
+    {
+      "id": 220,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 221,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 222,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 223,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 224,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 225,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 226,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 227,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 228,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 229,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 230,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 231,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 232,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 233,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 234,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 235,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 236,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 237,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 238,
+      "error": "No bounded preview URL"
+    },
+    {
+      "id": 239,
+      "error": "No bounded preview URL"
+    }
+  ],
+  "source_record": "https://zenodo.org/records/3587843",
+  "license": "CC BY 4.0",
+  "note": "Same published-release photos, retrieved at the release-provided Flickr 640 URL. COCO boxes scaled to retrieved image dimensions. No unofficial images used."
+}

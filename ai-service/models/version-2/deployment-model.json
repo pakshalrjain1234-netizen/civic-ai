@@ -1,0 +1,9 @@
+{
+  "path": "models/version-2/civiceye-v2.onnx",
+  "sha256": "c3fb34a3d0c597b01155306980c75bb553af41870b7fd1328491b10c3720869f",
+  "runtime": "onnxruntime",
+  "source": "User-supplied Google Colab Version 2 export; unchanged",
+  "model_classes": ["pothole", "garbage", "waterlogging"],
+  "enabled_classes": ["garbage", "waterlogging"],
+  "automatic_pothole_enabled": false
+}

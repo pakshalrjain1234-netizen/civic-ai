@@ -1,0 +1,10 @@
+{
+  "name": "civiceye-ai",
+  "private": true,
+  "version": "2.1.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test:deployment": "node scripts/verify-deployment.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,445 @@
+{
+  "model_path": "C:\\Users\\hp\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-build\\outputs\\civiceye-ai\\ai-service\\models\\version-2\\civiceye-v2.onnx",
+  "source_sha256": "c3fb34a3d0c597b01155306980c75bb553af41870b7fd1328491b10c3720869f",
+  "stored_sha256": "c3fb34a3d0c597b01155306980c75bb553af41870b7fd1328491b10c3720869f",
+  "bytes": 10606283,
+  "v2_loaded": true,
+  "error": null,
+  "confidence": 0.35,
+  "nms_iou": 0.45,
+  "matching_iou": 0.5,
+  "deployed": false,
+  "trained": false,
+  "classes": {
+    "0": "pothole",
+    "1": "garbage",
+    "2": "waterlogging"
+  },
+  "onnx_metadata": {
+    "date": "2026-10-04T08:37:50.628168+00:00",
+    "description": "Ultralytics YOLO11n model trained on /content/civiceye-v2-runtime.yaml",
+    "author": "Ultralytics",
+    "version": "8.4.171",
+    "task": "detect",
+    "license": "AGPL-3.0 License (https://ultralytics.com/license)",
+    "docs": "https://docs.ultralytics.com",
+    "stride": "32",
+    "head": "Detect",
+    "batch": "1",
+    "imgsz": "[640, 640]",
+    "names": "{\"0\": \"pothole\", \"1\": \"garbage\", \"2\": \"waterlogging\"}",
+    "args": "{'data': None, 'batch': 1, 'fraction': 1.0, 'quantize': None, 'nms': False, 'dynamic': False, 'simplify': True, 'opset': 17}",
+    "channels": "3",
+    "end2end": "False",
+    "civiceye_format": "yolo11-raw-v1",
+    "civiceye_version": "SECOND PROTOTYPE / VERSION 2"
+  },
+  "test_class_results": {
+    "pothole": {
+      "ground_truth_boxes": 28,
+      "predicted_boxes": 0,
+      "true_positive_boxes": 0,
+      "false_positive_boxes": 0,
+      "false_negative_boxes": 28,
+      "positive_images": 16,
+      "positive_images_with_class_detection": 0,
+      "positive_images_with_matched_detection": 0,
+      "precision": 0,
+      "recall": 0.0
+    },
+    "garbage": {
+      "ground_truth_boxes": 15,
+      "predicted_boxes": 15,
+      "true_positive_boxes": 8,
+      "false_positive_boxes": 7,
+      "false_negative_boxes": 7,
+      "positive_images": 15,
+      "positive_images_with_class_detection": 10,
+      "positive_images_with_matched_detection": 8,
+      "precision": 0.5333333333333333,
+      "recall": 0.5333333333333333
+    },
+    "waterlogging": {
+      "ground_truth_boxes": 23,
+      "predicted_boxes": 18,
+      "true_positive_boxes": 18,
+      "false_positive_boxes": 0,
+      "false_negative_boxes": 5,
+      "positive_images": 20,
+      "positive_images_with_class_detection": 18,
+      "positive_images_with_matched_detection": 18,
+      "precision": 1.0,
+      "recall": 0.782608695652174
+    }
+  },
+  "test_image_count": 92,
+  "test_background_comparison": {
+    "v1": {
+      "images": 41,
+      "any_false_positive_images": 21,
+      "garbage_false_positive_images": 17,
+      "false_positive_boxes_by_class": {
+        "garbage": 49,
+        "waterlogging": 6
+      }
+    },
+    "v2": {
+      "images": 41,
+      "any_false_positive_images": 4,
+      "garbage_false_positive_images": 4,
+      "false_positive_boxes_by_class": {
+        "garbage": 4
+      }
+    }
+  },
+  "hard_negative_category_tests": {
+    "people": {
+      "available": {
+        "val": 21,
+        "train": 45
+      },
+      "selected": [
+        {
+          "image": "images/val/oiv2_003bd85424d5c61d7263.jpg",
+          "split": "val",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/val/oiv2_04e58f7963657fc9cb84.jpg",
+          "split": "val",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/val/oiv2_0500b36dc38e6bfd5bd3.jpg",
+          "split": "val",
+          "seen_sanity_check": false
+        }
+      ],
+      "results": {
+        "v1": {
+          "images": 3,
+          "any_false_positive_images": 1,
+          "garbage_false_positive_images": 1,
+          "false_positive_boxes_by_class": {
+            "garbage": 2
+          }
+        },
+        "v2": {
+          "images": 3,
+          "any_false_positive_images": 0,
+          "garbage_false_positive_images": 0,
+          "false_positive_boxes_by_class": {}
+        }
+      }
+    },
+    "faces_hair": {
+      "available": {
+        "train": 23
+      },
+      "selected": [
+        {
+          "image": "images/train/oiv2_0b4cc41137255e54911f.jpg",
+          "split": "train",
+          "seen_sanity_check": true
+        },
+        {
+          "image": "images/train/oiv2_214fd32d8787105d9a95.jpg",
+          "split": "train",
+          "seen_sanity_check": true
+        },
+        {
+          "image": "images/train/oiv2_2349ca0e01fa15279999.jpg",
+          "split": "train",
+          "seen_sanity_check": true
+        }
+      ],
+      "results": {
+        "v1": {
+          "images": 3,
+          "any_false_positive_images": 3,
+          "garbage_false_positive_images": 3,
+          "false_positive_boxes_by_class": {
+            "garbage": 6
+          }
+        },
+        "v2": {
+          "images": 3,
+          "any_false_positive_images": 1,
+          "garbage_false_positive_images": 1,
+          "false_positive_boxes_by_class": {
+            "garbage": 1
+          }
+        }
+      }
+    },
+    "chairs": {
+      "available": {
+        "train": 36
+      },
+      "selected": [
+        {
+          "image": "images/train/oiv2_0e0874534489c1c16d7d.jpg",
+          "split": "train",
+          "seen_sanity_check": true
+        },
+        {
+          "image": "images/train/oiv2_19a4ad79a5aa41b53f0c.jpg",
+          "split": "train",
+          "seen_sanity_check": true
+        },
+        {
+          "image": "images/train/oiv2_20d6532ae792723e67e7.jpg",
+          "split": "train",
+          "seen_sanity_check": true
+        }
+      ],
+      "results": {
+        "v1": {
+          "images": 3,
+          "any_false_positive_images": 2,
+          "garbage_false_positive_images": 2,
+          "false_positive_boxes_by_class": {
+            "garbage": 7
+          }
+        },
+        "v2": {
+          "images": 3,
+          "any_false_positive_images": 0,
+          "garbage_false_positive_images": 0,
+          "false_positive_boxes_by_class": {}
+        }
+      }
+    },
+    "furniture": {
+      "available": {
+        "test": 9,
+        "val": 8,
+        "train": 77
+      },
+      "selected": [
+        {
+          "image": "images/test/oiv2_662de00da3876e16fef0.jpg",
+          "split": "test",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/test/oiv2_69ca11f1d66c94c5d351.jpg",
+          "split": "test",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/test/oiv2_83a780e20d60a610aee3.jpg",
+          "split": "test",
+          "seen_sanity_check": false
+        }
+      ],
+      "results": {
+        "v1": {
+          "images": 3,
+          "any_false_positive_images": 2,
+          "garbage_false_positive_images": 2,
+          "false_positive_boxes_by_class": {
+            "garbage": 15
+          }
+        },
+        "v2": {
+          "images": 3,
+          "any_false_positive_images": 0,
+          "garbage_false_positive_images": 0,
+          "false_positive_boxes_by_class": {}
+        }
+      }
+    },
+    "indoor_scenes": {
+      "available": {
+        "val": 10,
+        "train": 77
+      },
+      "selected": [
+        {
+          "image": "images/val/oiv2_021c92af88fc9b3c97db.jpg",
+          "split": "val",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/val/oiv2_185851cf02025d44cc95.jpg",
+          "split": "val",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/val/oiv2_4e581b3db3a68122b628.jpg",
+          "split": "val",
+          "seen_sanity_check": false
+        }
+      ],
+      "results": {
+        "v1": {
+          "images": 3,
+          "any_false_positive_images": 1,
+          "garbage_false_positive_images": 1,
+          "false_positive_boxes_by_class": {
+            "garbage": 2
+          }
+        },
+        "v2": {
+          "images": 3,
+          "any_false_positive_images": 0,
+          "garbage_false_positive_images": 0,
+          "false_positive_boxes_by_class": {}
+        }
+      }
+    },
+    "metal_grills": {
+      "available": {
+        "test": 4,
+        "val": 3,
+        "train": 6
+      },
+      "selected": [
+        {
+          "image": "images/test/commonsv2_47bcafa817f7e3a0bb58.jpg",
+          "split": "test",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/test/commonsv2_86e1f019634c202f440c.jpg",
+          "split": "test",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/test/commonsv2_a4848807a5f034f07f80.jpg",
+          "split": "test",
+          "seen_sanity_check": false
+        }
+      ],
+      "results": {
+        "v1": {
+          "images": 3,
+          "any_false_positive_images": 1,
+          "garbage_false_positive_images": 1,
+          "false_positive_boxes_by_class": {
+            "garbage": 3
+          }
+        },
+        "v2": {
+          "images": 3,
+          "any_false_positive_images": 0,
+          "garbage_false_positive_images": 0,
+          "false_positive_boxes_by_class": {}
+        }
+      }
+    },
+    "manhole_covers": {
+      "available": {
+        "val": 1,
+        "train": 14
+      },
+      "selected": [
+        {
+          "image": "images/val/commonsv2_c7720fd4d4dc628f84c0.jpg",
+          "split": "val",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/train/commonsv2_1e6ee22795fef0148168.jpg",
+          "split": "train",
+          "seen_sanity_check": true
+        },
+        {
+          "image": "images/train/commonsv2_66b583b0a29bd47c9df8.jpg",
+          "split": "train",
+          "seen_sanity_check": true
+        }
+      ],
+      "results": {
+        "v1": {
+          "images": 3,
+          "any_false_positive_images": 1,
+          "garbage_false_positive_images": 1,
+          "false_positive_boxes_by_class": {
+            "garbage": 2
+          }
+        },
+        "v2": {
+          "images": 3,
+          "any_false_positive_images": 0,
+          "garbage_false_positive_images": 0,
+          "false_positive_boxes_by_class": {}
+        }
+      }
+    },
+    "clean_roads": {
+      "available": {
+        "test": 10,
+        "val": 20,
+        "train": 70
+      },
+      "selected": [
+        {
+          "image": "images/test/rdd_background_0119dc5842ffadc064de.jpg",
+          "split": "test",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/test/rdd_background_05545183e9c3e81aee8c.jpg",
+          "split": "test",
+          "seen_sanity_check": false
+        },
+        {
+          "image": "images/test/rdd_background_33dad5a8f2461b44d3ad.jpg",
+          "split": "test",
+          "seen_sanity_check": false
+        }
+      ],
+      "results": {
+        "v1": {
+          "images": 3,
+          "any_false_positive_images": 1,
+          "garbage_false_positive_images": 1,
+          "false_positive_boxes_by_class": {
+            "garbage": 2
+          }
+        },
+        "v2": {
+          "images": 3,
+          "any_false_positive_images": 0,
+          "garbage_false_positive_images": 0,
+          "false_positive_boxes_by_class": {}
+        }
+      }
+    }
+  },
+  "all_distinct_background_checks": {
+    "v1": {
+      "images": 56,
+      "any_false_positive_images": 29,
+      "garbage_false_positive_images": 25,
+      "false_positive_boxes_by_class": {
+        "garbage": 68,
+        "waterlogging": 6
+      }
+    },
+    "v2": {
+      "images": 56,
+      "any_false_positive_images": 5,
+      "garbage_false_positive_images": 5,
+      "false_positive_boxes_by_class": {
+        "garbage": 5
+      }
+    }
+  },
+  "duration_seconds": 25.16,
+  "limitations": [
+    "Fixed confidence 0.35 / NMS IoU 0.45 / match IoU 0.50. Precision and recall here are test-box metrics at this operating point, not Colab best-F1 metrics or AP.",
+    "Faces/hair and chairs have only training examples; those are seen sanity checks. Some room/person/manhole examples come from validation or train. Category totals can overlap.",
+    "Pothole recall must not be claimed solved; results are measured and not corrected or fabricated."
+  ],
+  "active_service_health": {
+    "reachable": false,
+    "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  "protected_files_unchanged": 12599,
+  "v1_active_file_sha256": "cf429f2a1d423d17ab49c72545a523641ce231ed9647605d84e77a94e83a7ee9",
+  "v1_configured_model_path": "models/civiceye.onnx",
+  "source_and_stored_model_identical": true
+}

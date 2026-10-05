@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: civiceye-ai
+    runtime: python
+    plan: free
+    rootDir: ai-service
+    buildCommand: pip install -r requirements.txt && python verify_model.py
+    startCommand: python start.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.12
+      - key: CIVICEYE_CORS_ORIGINS
+        value: https://dashing-speculoos-a9724c.netlify.app,http://127.0.0.1:5189,http://localhost:5189
+      - key: CIVICEYE_CONFIDENCE
+        value: "0.35"
+      - key: CIVICEYE_MAX_IMAGE_BYTES
+        value: "5242880"
+      - key: OMP_NUM_THREADS
+        value: "2"
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"

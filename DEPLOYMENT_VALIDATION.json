@@ -1,0 +1,87 @@
+{
+  "frontend_build": "passed",
+  "manifest_icons_install_handlers": "passed automated checks",
+  "service_worker_cache_policy": "passed API exclusion and offline shell tests",
+  "real_browser_service_worker_registration": "not verified: local browser connection timed out",
+  "android_device_installation": "requires HTTPS redeployment and Android device check",
+  "spa_configuration": "passed rewrite and route source checks",
+  "backend_validation": {
+    "health": {
+      "status": "online",
+      "model_loaded": true,
+      "garbage_waterlogging_detector": true,
+      "pothole_detector": false,
+      "pothole_runtime": "onnx",
+      "ready": true,
+      "automatic_pothole_ready": false,
+      "runtime": "onnx",
+      "model": "civiceye-v2.onnx",
+      "pothole_evaluation": "pretrained and zero-shot candidates failed acceptance",
+      "pothole_reporting": "user-assisted",
+      "supported_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "model_error": null,
+      "pothole_error": "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review.",
+      "inference_location": "local",
+      "cloud_inference": false,
+      "paid_api_dependency": false
+    },
+    "cors": {
+      "netlify": "allowed",
+      "unknown_origin": "denied",
+      "credentials": false
+    },
+    "real_detect_tests": [
+      {
+        "source_image": "garbageexp_008b4ca4a17f2d8c929f.jpg",
+        "detections": [
+          {
+            "class": "garbage",
+            "confidence": 0.9061,
+            "bbox": {
+              "x": 0.00033655166043899953,
+              "y": 0.25043489786187223,
+              "width": 0.9992263674794231,
+              "height": 0.7495651021381278
+            },
+            "severity": "high",
+            "detector": "civiceye-v2"
+          }
+        ],
+        "processingTimeMs": 4168.8
+      },
+      {
+        "source_image": "roadway_0d976f3dea575b4a33f8.jpg",
+        "detections": [
+          {
+            "class": "waterlogging",
+            "confidence": 0.809,
+            "bbox": {
+              "x": 0.0,
+              "y": 0.3461236159006755,
+              "width": 1.0,
+              "height": 0.6474382877349854
+            },
+            "severity": "high",
+            "detector": "civiceye-v2"
+          }
+        ],
+        "processingTimeMs": 108.6
+      }
+    ],
+    "invalid_image_rejected": true,
+    "render_port_startup": {
+      "host": "0.0.0.0",
+      "port": 63840,
+      "workers": 1,
+      "http_health": 200
+    }
+  },
+  "deployed_to_render": false,
+  "netlify_redeployed": false,
+  "production_sample_api": "https://civiceye-ai.example.invalid",
+  "local_port_5300": "connection timed out despite startup",
+  "paid_model_api_dependency": false
+}

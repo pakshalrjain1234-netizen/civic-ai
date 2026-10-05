@@ -1,0 +1,30 @@
+[
+  {
+    "class": 1,
+    "original_box": [
+      160.56798245614036,
+      -0.16,
+      286.5570175438597,
+      65.60000000000001
+    ],
+    "dimensions": [
+      292,
+      640
+    ],
+    "action": "clipped source rounding overshoot (at most 1 pixel) to image edge"
+  },
+  {
+    "class": 1,
+    "original_box": [
+      225.28,
+      -0.1600877192982456,
+      284.32,
+      75.24122807017544
+    ],
+    "dimensions": [
+      640,
+      292
+    ],
+    "action": "clipped source rounding overshoot (at most 1 pixel) to image edge"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "page_accessible": true,
+  "listed_images": 16,
+  "listed_masks": 16,
+  "matching_pairs": 16,
+  "road_flooded_pairs_passing_filter": 0,
+  "downloaded_images": 0,
+  "note": "Initial exposed matching masks failed the minimum-500-pixel road-flooded class-3 filter; need a broader manual supervised download."
+}

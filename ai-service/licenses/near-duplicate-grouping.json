@@ -1,0 +1,27 @@
+{
+  "candidate_pairs": 3,
+  "records_regrouped": 0,
+  "pairs": [
+    {
+      "a": "rdd_391b0a938b0931336d2a.jpg",
+      "b": "rdd_fa0503c6c1f2a84225a2.jpg",
+      "phash_distance": 8,
+      "dhash_distance": 4,
+      "mean_rgb_difference": 8.87
+    },
+    {
+      "a": "rdd_a9a52587733bb99008f0.jpg",
+      "b": "rdd_2bf1da51acce2a4a4ba5.jpg",
+      "phash_distance": 4,
+      "dhash_distance": 10,
+      "mean_rgb_difference": 10.27
+    },
+    {
+      "a": "rdd_c453a565c897e2096779.jpg",
+      "b": "rdd_ad29bc20587b1e674943.jpg",
+      "phash_distance": 8,
+      "dhash_distance": 6,
+      "mean_rgb_difference": 4.01
+    }
+  ]
+}
