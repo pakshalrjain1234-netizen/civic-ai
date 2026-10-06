@@ -62,7 +62,7 @@ class ApiTests(unittest.TestCase):
 
     def test_inference_lock_keeps_health_responsive(self):
         main.detector.local.model = object()
-        def slow_test_inference(image):
+        def slow_test_inference(image, include_pothole=True):
             sleep(.3)
             return []  # Test fixture, not a production detector.
         main.detector.detect = slow_test_inference

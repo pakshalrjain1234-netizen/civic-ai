@@ -1,0 +1,270 @@
+{
+  "health": {
+    "status": "online",
+    "model_loaded": true,
+    "garbage_waterlogging_detector": true,
+    "pothole_detector": true,
+    "pothole_runtime": "onnx",
+    "ready": true,
+    "automatic_pothole_ready": true,
+    "runtime": "onnx",
+    "model": "civiceye-v2.onnx",
+    "pothole_model": "Harisanth/pothole.onnx",
+    "pothole_confidence": 0.35,
+    "pothole_evaluation": "prototype screening passed; manhole false positives remain",
+    "pothole_reporting": "automatic and user-assisted",
+    "supported_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "model_error": null,
+    "pothole_error": null,
+    "pothole_limitations": "Manhole false positives: screening 3/15; integrated 640px JPEG 4/15; limited test scene diversity and unknown upstream training overlap.",
+    "live_pothole_interval_ms": 2000,
+    "inference_location": "local",
+    "cloud_inference": false,
+    "paid_api_dependency": false
+  },
+  "pothole": {
+    "confidence": 0.35,
+    "tp": 27,
+    "fp_boxes": 5,
+    "gt_boxes": 28,
+    "precision": 0.84375,
+    "recall": 0.9642857142857143,
+    "background_images": 41,
+    "background_false_positive_images": 3,
+    "background_false_positive_rate": 0.07317073170731707,
+    "background_categories": {
+      "repaired_asphalt": {
+        "images": 2,
+        "false_positive_images": 0
+      },
+      "dark_patches": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "cracks": {
+        "images": 7,
+        "false_positive_images": 1
+      },
+      "road_markings": {
+        "images": 7,
+        "false_positive_images": 1
+      },
+      "clean_roads": {
+        "images": 2,
+        "false_positive_images": 0
+      },
+      "manhole_covers": {
+        "images": 1,
+        "false_positive_images": 1
+      },
+      "road_patches": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "vehicles": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "poles": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "road_signs": {
+        "images": 7,
+        "false_positive_images": 0
+      },
+      "tables": {
+        "images": 9,
+        "false_positive_images": 2
+      },
+      "furniture": {
+        "images": 9,
+        "false_positive_images": 2
+      },
+      "trees": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "windows": {
+        "images": 11,
+        "false_positive_images": 0
+      },
+      "walls": {
+        "images": 11,
+        "false_positive_images": 0
+      },
+      "metal_grills": {
+        "images": 4,
+        "false_positive_images": 0
+      }
+    }
+  },
+  "unique_backgrounds": {
+    "confidence": 0.35,
+    "tp": 0,
+    "fp_boxes": 8,
+    "gt_boxes": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "background_images": 64,
+    "background_false_positive_images": 7,
+    "background_false_positive_rate": 0.109375,
+    "background_categories": {
+      "repaired_asphalt": {
+        "images": 2,
+        "false_positive_images": 0
+      },
+      "dark_patches": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "cracks": {
+        "images": 7,
+        "false_positive_images": 1
+      },
+      "road_markings": {
+        "images": 7,
+        "false_positive_images": 1
+      },
+      "clean_roads": {
+        "images": 2,
+        "false_positive_images": 0
+      },
+      "manhole_covers": {
+        "images": 16,
+        "false_positive_images": 5
+      },
+      "road_patches": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "vehicles": {
+        "images": 6,
+        "false_positive_images": 0
+      },
+      "poles": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "road_signs": {
+        "images": 7,
+        "false_positive_images": 0
+      },
+      "tables": {
+        "images": 9,
+        "false_positive_images": 2
+      },
+      "furniture": {
+        "images": 9,
+        "false_positive_images": 2
+      },
+      "trees": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "windows": {
+        "images": 11,
+        "false_positive_images": 0
+      },
+      "walls": {
+        "images": 11,
+        "false_positive_images": 0
+      },
+      "metal_grills": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "wet_roads": {
+        "images": 3,
+        "false_positive_images": 0
+      }
+    }
+  },
+  "supplemental": {
+    "confidence": 0.35,
+    "tp": 0,
+    "fp_boxes": 6,
+    "gt_boxes": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "background_images": 33,
+    "background_false_positive_images": 5,
+    "background_false_positive_rate": 0.15151515151515152,
+    "background_categories": {
+      "manhole_covers": {
+        "images": 15,
+        "false_positive_images": 4
+      },
+      "clean_roads": {
+        "images": 10,
+        "false_positive_images": 1
+      },
+      "road_shadows": {
+        "images": 10,
+        "false_positive_images": 1
+      },
+      "road_patches": {
+        "images": 10,
+        "false_positive_images": 1
+      },
+      "vehicles": {
+        "images": 5,
+        "false_positive_images": 0
+      },
+      "wet_roads": {
+        "images": 3,
+        "false_positive_images": 0
+      }
+    }
+  },
+  "latency": {
+    "full_asgi_mean_ms": 609.1832808051258,
+    "full_asgi_p95_ms": 638.9146199915558,
+    "v2_only_asgi_mean_ms": 138.63472889384462,
+    "full_backend_mean_ms": 604.8455999999999
+  },
+  "garbage_waterlogging": {
+    "garbage": {
+      "matched_boxes": 9,
+      "baseline_matched_boxes": 9,
+      "gt_boxes": 15,
+      "changed_images": 0
+    },
+    "waterlogging": {
+      "matched_boxes": 19,
+      "baseline_matched_boxes": 19,
+      "gt_boxes": 23,
+      "changed_images": 0
+    }
+  },
+  "images": 125,
+  "deployed": false,
+  "input_transform": "640px max dimension JPEG quality80, existing live capture settings; source files unchanged",
+  "browser_verification": "Loopback preview timed out; physical camera unverified",
+  "automated_regressions": {
+    "backend_tests": 22,
+    "moving_camera": "passed",
+    "photo_replacement": "passed",
+    "real_vs_demo": "passed"
+  },
+  "safe_to_deploy": true,
+  "deployment_hold_reason": null,
+  "model_hashes_verified": {
+    "models/version-2/civiceye-v2.onnx": "c3fb34a3d0c597b01155306980c75bb553af41870b7fd1328491b10c3720869f",
+    "models/pothole-specialist/pothole.onnx": "6199495dcacbaecf37d160d8df091ddd4fb185e98c96938888124b495e3445ff"
+  },
+  "adapter_real_response_regression": "passed",
+  "health_transport": "FastAPI TestClient ASGI, actual loaded models; TCP/browser loopback timed out",
+  "manual_browser_verification": {
+    "verified_by": "user",
+    "frontend_live_scan": true,
+    "pothole": true,
+    "garbage": true,
+    "waterlogging": true,
+    "replacement_clears_analysis": true
+  }
+}

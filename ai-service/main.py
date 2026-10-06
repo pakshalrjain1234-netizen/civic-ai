@@ -70,6 +70,7 @@ async def body_limit(request: Request, call_next):
 class FrameRequest(BaseModel):
     model_config = ConfigDict(extra='ignore')
     image: str = Field(min_length=10, max_length=MAX_BODY)
+    include_pothole: bool = True
 
 
 @app.get('/health')
@@ -96,15 +97,16 @@ async def detect(payload: FrameRequest):
             return JSONResponse({'success': False, 'error': str(exc)}, 400)
         try:
             if debug_timings:
-                detections, timings = await run_in_threadpool(detector.detect_profiled, image)
+                detections, timings = await run_in_threadpool(detector.detect_profiled, image, payload.include_pothole)
             else:
-                detections = await run_in_threadpool(detector.detect, image)
+                detections = await run_in_threadpool(detector.detect, image, payload.include_pothole)
         except Exception:
             logger.exception('ONNX inference failed')
             return JSONResponse({'success': False, 'error': 'AI detection temporarily unavailable.'}, 503)
     result = {'success': True, 'processingTimeMs': round((perf_counter() - started) * 1000, 1),
             'detections': detections, 'ready': detector.health()['ready'],
             'pothole_pending': False,
+            'evaluated_classes': (['pothole'] if payload.include_pothole and detector.health()['pothole_detector'] else []) + ['garbage','waterlogging'],
             'warnings': [detector.warning] if detector.warning else []}
     if debug_timings:
         result['timings'] = {**timings, 'decode_ms':round((decoded-started)*1000,2),

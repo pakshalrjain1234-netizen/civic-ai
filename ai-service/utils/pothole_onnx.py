@@ -48,7 +48,7 @@ class PotholeDetector:
             names = ast.literal_eval(meta.get('names', '{}'))
             if meta.get('task') != ('segment' if self.mask_channels else 'detect') or len(names) != self.class_count or not 0 <= self.class_index < self.class_count:
                 raise ValueError('Model class count does not match the documented pothole source.')
-            if self.class_count > 1 and str(names.get(self.class_index, names.get(str(self.class_index), ''))).lower() != 'pothole':
+            if str(names.get(self.class_index, names.get(str(self.class_index), ''))).lower() != 'pothole':
                 raise ValueError('Only the documented pothole class may be imported.')
             if len(inputs) != 1 or inputs[0].type != 'tensor(float)' or inputs[0].shape != [1,3,self.image_size,self.image_size]:
                 raise ValueError(f'Expected static float32 input [1,3,{self.image_size},{self.image_size}].')

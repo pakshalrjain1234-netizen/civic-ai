@@ -63,10 +63,10 @@ async function scanTick(){
     if(!navigator.onLine)throw Error('No internet connection. Reconnect to resume detection.');
     const image=await sharpestFrame(controller.signal,generation);
     if(controller.signal.aborted||generation!==scan.generation||scan.paused||!scan.active)return;
-    const response=await detectFrame(image,controller.signal);
+    const response=await detectFrame(image,controller.signal,{live:true,generation});
     if(generation!==scan.generation||!scan.active||scan.paused||scan.mode!=='live')return;
     scan.model=true;scan.error='';
-    const stabilized=scanStabilizer.update(response.detections,performance.now());
+    const stabilized=scanStabilizer.update(response.detections,performance.now(),response.evaluatedClasses);
     scan.detections=stabilized.display;
     scan.status=stabilized.fresh.length?'Civic issue detected':scan.detections.length?'Recent detection — awaiting next frame':response.detections.length?'Confirming detection…':'NO CIVIC ISSUE DETECTED';
     stabilized.fresh.forEach(d=>saveFinding(d,image,false,response.analysis));

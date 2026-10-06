@@ -20,10 +20,10 @@
   class Stabilizer{
     constructor(){this.reset();}
     reset(){this.pending=[];this.visible=[];this.expires=0;}
-    update(detections,time){
+    update(detections,time,evaluatedClasses=['pothole','garbage','waterlogging']){
       const confirmed=detections.filter(d=>d.confidence===null||d.confidence>=.65||this.pending.some(p=>
-        time-p.time<=1200&&p.d.class===d.class&&overlap(p.d.bbox,d.bbox)>=.15));
-      this.pending=detections.map(d=>({d,time}));
+        time-p.time<=(d.class==='pothole'?3000:1200)&&p.d.class===d.class&&overlap(p.d.bbox,d.bbox)>=.15));
+      this.pending=this.pending.filter(p=>!evaluatedClasses.includes(p.d.class)&&time-p.time<=3000).concat(detections.map(d=>({d,time})));
       if(confirmed.length){this.visible=confirmed;this.expires=time+900;return {fresh:confirmed,display:confirmed};}
       // A different observed class invalidates a stale overlay immediately.
       if(detections.length&&this.visible.some(v=>!detections.some(d=>d.class===v.class)))this.visible=[];
@@ -36,5 +36,13 @@
     // Start-to-start opportunity of 300 ms, with a quiet gap after slow requests.
     return failed?1000:Math.max(80,300-elapsed);
   }
-  root.CivicMotion={sharpness,Stabilizer,nextDelay};
+  class PotholeSchedule{
+    constructor(interval=2000){this.interval=interval;this.generation=null;this.last=-Infinity;}
+    due(time,generation,loaded){
+      if(this.generation!==generation){this.generation=generation;this.last=-Infinity;}
+      if(!loaded||time-this.last<this.interval)return false;
+      this.last=time;return true;
+    }
+  }
+  root.CivicMotion={sharpness,Stabilizer,nextDelay,PotholeSchedule};
 })(globalThis);

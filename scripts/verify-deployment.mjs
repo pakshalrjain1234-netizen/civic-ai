@@ -53,6 +53,8 @@ const healthContext={URL,Math,Number,AbortController,setTimeout,clearTimeout,
   updateScanUi:()=>{},scheduleScan:()=>{},
   fetch:async()=>({ok:true,json:async()=>({status:'online',model_loaded:true,ready:true,pothole_detector:false})})};
 const adapter=await read('vision-backend.js');
+const motionContext={};vm.runInNewContext(await read('motion-scan.js'),motionContext);
+healthContext.CivicMotion=motionContext.CivicMotion;
 vm.runInNewContext(adapter.slice(0,adapter.indexOf('\ndetectFrame=')),healthContext);
 assert.equal(vm.runInNewContext('visionUrls().detect',healthContext),'https://api.example/detect');
 await healthContext.checkVisionHealth();

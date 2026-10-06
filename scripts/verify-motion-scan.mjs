@@ -55,3 +55,17 @@ assert.equal(await captureContext.sharpestFrame(new AbortController().signal,1),
 assert.equal(frame,3);assert.equal(chosen,2);assert.equal(canvases[0].width,640);assert.equal(canvases[0].height,360);
 const cancelled=new AbortController();cancelled.abort();await assert.rejects(captureContext.sharpestFrame(cancelled.signal,1),{name:'AbortError'});
 console.log('PASS: sharpness, temporal matching/expiry, adaptive backoff, single-flight, late pause/stop rejection, 640 px capture.');
+const scheduler=new context.CivicMotion.PotholeSchedule(2000);
+assert.equal(scheduler.due(0,1,true),true);
+assert.equal(scheduler.due(300,1,true),false);
+assert.equal(scheduler.due(1999,1,true),false);
+assert.equal(scheduler.due(2000,1,true),true);
+assert.equal(scheduler.due(2100,2,true),true);
+assert.equal(scheduler.due(5000,2,false),false);
+const sampledTemporal=new context.CivicMotion.Stabilizer();
+const sampledRoad={...garbage,class:'pothole',confidence:.5};
+assert.equal(sampledTemporal.update([sampledRoad],0).fresh.length,0);
+sampledTemporal.update([],400,['garbage','waterlogging']);
+assert.equal(sampledTemporal.update([sampledRoad],2200).fresh.length,1);
+assert.equal(sampledTemporal.expire(3200).length,0);
+console.log('PASS: pothole scheduling, reset, sampled confirmation and stale expiry.');

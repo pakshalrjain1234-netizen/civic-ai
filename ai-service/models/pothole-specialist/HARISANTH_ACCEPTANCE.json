@@ -1,0 +1,12 @@
+{
+  "accepted": true,
+  "confidence": 0.35,
+  "sha256": "6199495dcacbaecf37d160d8df091ddd4fb185e98c96938888124b495e3445ff",
+  "source": "https://huggingface.co/Harisanth/Pothole-Finetuned-YOLOv8",
+  "revision": "30a4d21de50998dbfa7cc79abb0d7a0d4aa71a4d",
+  "license": "Publisher MIT; upstream Ultralytics AGPL obligations retained",
+  "test_recall": 0.9642857142857143,
+  "test_background_fpr": 0.0975609756097561,
+  "limitations": "Reviewed every test and supplemental image on four readable pages. Most positive boxes align with labeled small cavities. Residual false detections include manholes, marking/patch details and table/furniture details. Test positives include multiple similar views of a few road scenes; cannot claim broad generalization.",
+  "scope": "User-approved local prototype only; no deployment"
+}

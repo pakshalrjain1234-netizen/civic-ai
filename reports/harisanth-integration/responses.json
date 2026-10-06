@@ -1,0 +1,5226 @@
+{
+  "images/test/rdd_ad29bc20587b1e674943.jpg": {
+    "success": true,
+    "processingTimeMs": 760.5,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7699,
+        "bbox": {
+          "x": 0.2262156903743744,
+          "y": 0.18345022201538086,
+          "width": 0.0387883186340332,
+          "height": 0.026066020131111145
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 217.3,
+      "inference_ms": 97.99,
+      "postprocessing_ms": 3.34,
+      "pothole_ms": 437.16,
+      "hybrid_ms": 756.41,
+      "decode_ms": 3.5,
+      "total_ms": 760.5
+    },
+    "http_ms": 772.4686999572441,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 139.1,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 9.1,
+        "inference_ms": 124.26,
+        "postprocessing_ms": 0.51,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 134.53,
+        "decode_ms": 4.0,
+        "total_ms": 139.1
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_0824b7e672571ce1546e.jpg": {
+    "success": true,
+    "processingTimeMs": 570.3,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7536,
+        "bbox": {
+          "x": 0.5143858790397644,
+          "y": 0.5174573659896851,
+          "width": 0.03233093023300171,
+          "height": 0.04310727119445801
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 11.36,
+      "inference_ms": 113.56,
+      "postprocessing_ms": 0.64,
+      "pothole_ms": 438.98,
+      "hybrid_ms": 565.19,
+      "decode_ms": 4.53,
+      "total_ms": 570.3
+    },
+    "http_ms": 575.0698000192642,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 142.3,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 8.34,
+        "inference_ms": 127.1,
+        "postprocessing_ms": 0.67,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 136.79,
+        "decode_ms": 4.95,
+        "total_ms": 142.3
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_0a8190a7cb89abf58607.jpg": {
+    "success": true,
+    "processingTimeMs": 635.6,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8162,
+        "bbox": {
+          "x": 0.4606042802333832,
+          "y": 0.14486467838287354,
+          "width": 0.04971924424171448,
+          "height": 0.0417943000793457
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.7741,
+        "bbox": {
+          "x": 0.4387989640235901,
+          "y": 0.1548529863357544,
+          "width": 0.015292644500732422,
+          "height": 0.021435335278511047
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 14.08,
+      "inference_ms": 124.52,
+      "postprocessing_ms": 0.84,
+      "pothole_ms": 489.74,
+      "hybrid_ms": 629.7,
+      "decode_ms": 5.31,
+      "total_ms": 635.6
+    },
+    "http_ms": 640.6254000030458,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 110.7,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 10.76,
+        "inference_ms": 93.27,
+        "postprocessing_ms": 0.41,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 105.08,
+        "decode_ms": 5.04,
+        "total_ms": 110.7
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_ae0a70c81469547ff021.jpg": {
+    "success": true,
+    "processingTimeMs": 595.0,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7967,
+        "bbox": {
+          "x": 0.8053351640701294,
+          "y": 0.3796769976615906,
+          "width": 0.030413806438446045,
+          "height": 0.031532108783721924
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 9.63,
+      "inference_ms": 96.7,
+      "postprocessing_ms": 0.67,
+      "pothole_ms": 481.83,
+      "hybrid_ms": 589.5,
+      "decode_ms": 5.0,
+      "total_ms": 595.0
+    },
+    "http_ms": 599.39560003113,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 129.9,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 9.32,
+        "inference_ms": 114.59,
+        "postprocessing_ms": 1.0,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 125.58,
+        "decode_ms": 3.75,
+        "total_ms": 129.9
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_e4535b7679dd21bb0201.jpg": {
+    "success": true,
+    "processingTimeMs": 570.0,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7806,
+        "bbox": {
+          "x": 0.21095332503318787,
+          "y": 0.18808133900165558,
+          "width": 0.04420462250709534,
+          "height": 0.03309006989002228
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.26,
+      "inference_ms": 99.95,
+      "postprocessing_ms": 0.41,
+      "pothole_ms": 456.51,
+      "hybrid_ms": 565.74,
+      "decode_ms": 3.66,
+      "total_ms": 570.0
+    },
+    "http_ms": 575.4014999838546,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 142.0,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 8.99,
+        "inference_ms": 127.73,
+        "postprocessing_ms": 0.46,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 137.81,
+        "decode_ms": 3.73,
+        "total_ms": 142.0
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_e73034917e643354f144.jpg": {
+    "success": true,
+    "processingTimeMs": 614.8,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8611,
+        "bbox": {
+          "x": 0.4744643270969391,
+          "y": 0.43609604239463806,
+          "width": 0.0650966465473175,
+          "height": 0.06417408585548401
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.7304,
+        "bbox": {
+          "x": 0.446392685174942,
+          "y": 0.45455995202064514,
+          "width": 0.019832223653793335,
+          "height": 0.028791815042495728
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.02,
+      "inference_ms": 134.94,
+      "postprocessing_ms": 0.62,
+      "pothole_ms": 465.57,
+      "hybrid_ms": 609.85,
+      "decode_ms": 4.33,
+      "total_ms": 614.8
+    },
+    "http_ms": 618.9405999612063,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 132.1,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 7.92,
+        "inference_ms": 117.89,
+        "postprocessing_ms": 0.51,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 127.0,
+        "decode_ms": 4.59,
+        "total_ms": 132.1
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_a3905da10ec3bdf7d163.jpg": {
+    "success": true,
+    "processingTimeMs": 601.6,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7044,
+        "bbox": {
+          "x": 0.1588774472475052,
+          "y": 0.2246069610118866,
+          "width": 0.02151501178741455,
+          "height": 0.03170463442802429
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.6787,
+        "bbox": {
+          "x": 0.3548230230808258,
+          "y": 0.08373279869556427,
+          "width": 0.018229901790618896,
+          "height": 0.020011208951473236
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.6603,
+        "bbox": {
+          "x": 0.3081788122653961,
+          "y": 0.18035021424293518,
+          "width": 0.023744583129882812,
+          "height": 0.03130273520946503
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.97,
+      "inference_ms": 118.86,
+      "postprocessing_ms": 0.51,
+      "pothole_ms": 468.06,
+      "hybrid_ms": 597.03,
+      "decode_ms": 4.13,
+      "total_ms": 601.6
+    },
+    "http_ms": 606.4798000734299,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 108.5,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 8.82,
+        "inference_ms": 94.27,
+        "postprocessing_ms": 0.39,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 104.13,
+        "decode_ms": 3.92,
+        "total_ms": 108.5
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_ee2d2fddd85abdb5b856.jpg": {
+    "success": true,
+    "processingTimeMs": 518.2,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.6973,
+        "bbox": {
+          "x": 0.25002536177635193,
+          "y": 0.18717411160469055,
+          "width": 0.03422880172729492,
+          "height": 0.021762192249298096
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.79,
+      "inference_ms": 105.59,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 398.97,
+      "hybrid_ms": 513.58,
+      "decode_ms": 4.04,
+      "total_ms": 518.2
+    },
+    "http_ms": 522.7694999193773,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 107.5,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 8.37,
+        "inference_ms": 92.64,
+        "postprocessing_ms": 0.61,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 102.32,
+        "decode_ms": 4.59,
+        "total_ms": 107.5
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_740feccded27c59cb611.jpg": {
+    "success": true,
+    "processingTimeMs": 522.7,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8111,
+        "bbox": {
+          "x": 0.20117302238941193,
+          "y": 0.22465133666992188,
+          "width": 0.0522303432226181,
+          "height": 0.041646093130111694
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 10.81,
+      "inference_ms": 128.27,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 378.16,
+      "hybrid_ms": 518.49,
+      "decode_ms": 3.59,
+      "total_ms": 522.7
+    },
+    "http_ms": 526.7343000741675,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 131.5,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 9.2,
+        "inference_ms": 117.24,
+        "postprocessing_ms": 0.54,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 127.65,
+        "decode_ms": 3.42,
+        "total_ms": 131.5
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_b69fd5c083a1b3f25e40.jpg": {
+    "success": true,
+    "processingTimeMs": 616.0,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8766,
+        "bbox": {
+          "x": 0.43041810393333435,
+          "y": 0.2524029314517975,
+          "width": 0.07565310597419739,
+          "height": 0.08481597900390625
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.7456,
+        "bbox": {
+          "x": 0.395455926656723,
+          "y": 0.2792893350124359,
+          "width": 0.023708075284957886,
+          "height": 0.03828936815261841
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.12,
+      "inference_ms": 127.86,
+      "postprocessing_ms": 0.5,
+      "pothole_ms": 473.38,
+      "hybrid_ms": 610.52,
+      "decode_ms": 5.01,
+      "total_ms": 616.0
+    },
+    "http_ms": 620.1858998974785,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 138.9,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 7.94,
+        "inference_ms": 125.46,
+        "postprocessing_ms": 0.41,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 134.4,
+        "decode_ms": 4.01,
+        "total_ms": 138.9
+      }
+    },
+    "gw_unchanged": true
+  },
+  "images/test/rdd_ca7e39ca6527cb51ee40.jpg": {
+    "success": true,
+    "processingTimeMs": 597.3,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8286,
+        "bbox": {
+          "x": 0.5828976035118103,
+          "y": 0.6184743642807007,
+          "width": 0.03104764223098755,
+          "height": 0.06212484836578369
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.8179,
+        "bbox": {
+          "x": 0.7908861041069031,
+          "y": 0.5537272691726685,
+          "width": 0.04643172025680542,
+          "height": 0.07073855400085449
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.8162,
+        "bbox": {
+          "x": 0.796744704246521,
+          "y": 0.3367789685726166,
+          "width": 0.03545880317687988,
+          "height": 0.03817397356033325
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.61,
+      "inference_ms": 126.31,
+      "postprocessing_ms": 0.58,
+      "pothole_ms": 456.41,
+      "hybrid_ms": 592.64,
+      "decode_ms": 4.17,
+      "total_ms": 597.3
+    },
+    "http_ms": 601.3747999677435
+  },
+  "images/test/rdd_35f375bcfeb9c448512c.jpg": {
+    "success": true,
+    "processingTimeMs": 609.1,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7803,
+        "bbox": {
+          "x": 0.011426389217376709,
+          "y": 0.3645547032356262,
+          "width": 0.03163464739918709,
+          "height": 0.045090943574905396
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.7532,
+        "bbox": {
+          "x": 0.2804924547672272,
+          "y": 0.16458511352539062,
+          "width": 0.021117478609085083,
+          "height": 0.027793556451797485
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.7144,
+        "bbox": {
+          "x": 0.20721907913684845,
+          "y": 0.2977619171142578,
+          "width": 0.024901866912841797,
+          "height": 0.042972177267074585
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 10.23,
+      "inference_ms": 120.68,
+      "postprocessing_ms": 0.56,
+      "pothole_ms": 472.42,
+      "hybrid_ms": 604.59,
+      "decode_ms": 4.03,
+      "total_ms": 609.1
+    },
+    "http_ms": 614.806899917312
+  },
+  "images/test/rdd_0c4032cacd2ed7adef46.jpg": {
+    "success": true,
+    "processingTimeMs": 601.3,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8064,
+        "bbox": {
+          "x": 0.4338774085044861,
+          "y": 0.5066230893135071,
+          "width": 0.03381550312042236,
+          "height": 0.0695006251335144
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.7724,
+        "bbox": {
+          "x": 0.5104707479476929,
+          "y": 0.30644476413726807,
+          "width": 0.026082634925842285,
+          "height": 0.03827172517776489
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.7566,
+        "bbox": {
+          "x": 0.19607290625572205,
+          "y": 0.5828281044960022,
+          "width": 0.037521183490753174,
+          "height": 0.06526803970336914
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 9.42,
+      "inference_ms": 113.09,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 471.98,
+      "hybrid_ms": 595.7,
+      "decode_ms": 5.12,
+      "total_ms": 601.3
+    },
+    "http_ms": 605.938300024718
+  },
+  "images/test/rdd_c453a565c897e2096779.jpg": {
+    "success": true,
+    "processingTimeMs": 610.9,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7473,
+        "bbox": {
+          "x": 0.22679300606250763,
+          "y": 0.17791792750358582,
+          "width": 0.041057243943214417,
+          "height": 0.026611804962158203
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.57,
+      "inference_ms": 129.3,
+      "postprocessing_ms": 0.38,
+      "pothole_ms": 467.23,
+      "hybrid_ms": 606.27,
+      "decode_ms": 4.01,
+      "total_ms": 610.9
+    },
+    "http_ms": 614.8506000172347
+  },
+  "images/test/rdd_42a3bb33c71a66eefc4b.jpg": {
+    "success": true,
+    "processingTimeMs": 607.9,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7573,
+        "bbox": {
+          "x": 0.915394127368927,
+          "y": 0.48169833421707153,
+          "width": 0.029288113117218018,
+          "height": 0.02932339906692505
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.85,
+      "inference_ms": 123.72,
+      "postprocessing_ms": 0.51,
+      "pothole_ms": 470.56,
+      "hybrid_ms": 603.34,
+      "decode_ms": 4.03,
+      "total_ms": 607.9
+    },
+    "http_ms": 613.2715999847278
+  },
+  "images/test/rdd_8ae603589d31f2a8eee4.jpg": {
+    "success": true,
+    "processingTimeMs": 607.2,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8231,
+        "bbox": {
+          "x": 0.5185412168502808,
+          "y": 0.5177953243255615,
+          "width": 0.034494996070861816,
+          "height": 0.06864327192306519
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.7986,
+        "bbox": {
+          "x": 0.28989070653915405,
+          "y": 0.5917099714279175,
+          "width": 0.0347307026386261,
+          "height": 0.06354552507400513
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.7898,
+        "bbox": {
+          "x": 0.5729066729545593,
+          "y": 0.3138209283351898,
+          "width": 0.029243648052215576,
+          "height": 0.035897642374038696
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.7,
+      "inference_ms": 124.49,
+      "postprocessing_ms": 0.51,
+      "pothole_ms": 468.1,
+      "hybrid_ms": 602.46,
+      "decode_ms": 4.19,
+      "total_ms": 607.2
+    },
+    "http_ms": 611.1028000013903
+  },
+  "images/test/rdd_background_05545183e9c3e81aee8c.jpg": {
+    "success": true,
+    "processingTimeMs": 602.9,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.67,
+      "inference_ms": 115.74,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 472.78,
+      "hybrid_ms": 598.41,
+      "decode_ms": 3.99,
+      "total_ms": 602.9
+    },
+    "http_ms": 607.0720000425354
+  },
+  "images/test/rdd_background_a306ce6d67f7f2e4f4ed.jpg": {
+    "success": true,
+    "processingTimeMs": 585.1,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.94,
+      "inference_ms": 130.96,
+      "postprocessing_ms": 0.89,
+      "pothole_ms": 439.76,
+      "hybrid_ms": 580.25,
+      "decode_ms": 4.37,
+      "total_ms": 585.1
+    },
+    "http_ms": 588.9860999304801
+  },
+  "images/test/rdd_background_8776d54625ef6022b17f.jpg": {
+    "success": true,
+    "processingTimeMs": 595.4,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7473,
+        "bbox": {
+          "x": 0.5900099873542786,
+          "y": 0.7000311613082886,
+          "width": 0.07731586694717407,
+          "height": 0.09033554792404175
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.42,
+      "inference_ms": 114.15,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 466.49,
+      "hybrid_ms": 590.26,
+      "decode_ms": 4.55,
+      "total_ms": 595.4
+    },
+    "http_ms": 600.7014999631792
+  },
+  "images/test/rdd_background_bac7e6700f1edb1b3f7a.jpg": {
+    "success": true,
+    "processingTimeMs": 566.2,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.07,
+      "inference_ms": 120.77,
+      "postprocessing_ms": 0.49,
+      "pothole_ms": 431.08,
+      "hybrid_ms": 561.04,
+      "decode_ms": 4.63,
+      "total_ms": 566.2
+    },
+    "http_ms": 570.2801999868825
+  },
+  "images/test/rdd_background_78c74663698ac16619a2.jpg": {
+    "success": true,
+    "processingTimeMs": 628.0,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.71,
+      "inference_ms": 131.93,
+      "postprocessing_ms": 0.48,
+      "pothole_ms": 481.82,
+      "hybrid_ms": 623.54,
+      "decode_ms": 3.87,
+      "total_ms": 628.0
+    },
+    "http_ms": 633.5511000361294
+  },
+  "images/test/rdd_background_cf62b8fb9d7089ff24c1.jpg": {
+    "success": true,
+    "processingTimeMs": 591.8,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.62,
+      "inference_ms": 128.5,
+      "postprocessing_ms": 0.39,
+      "pothole_ms": 449.47,
+      "hybrid_ms": 586.7,
+      "decode_ms": 4.55,
+      "total_ms": 591.8
+    },
+    "http_ms": 595.3608000418171
+  },
+  "images/test/rdd_background_0119dc5842ffadc064de.jpg": {
+    "success": true,
+    "processingTimeMs": 607.0,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.96,
+      "inference_ms": 119.14,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 474.81,
+      "hybrid_ms": 602.18,
+      "decode_ms": 4.31,
+      "total_ms": 607.0
+    },
+    "http_ms": 611.3069000421092
+  },
+  "images/test/rdd_background_33dad5a8f2461b44d3ad.jpg": {
+    "success": true,
+    "processingTimeMs": 609.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.95,
+      "inference_ms": 128.44,
+      "postprocessing_ms": 0.53,
+      "pothole_ms": 467.1,
+      "hybrid_ms": 604.68,
+      "decode_ms": 4.4,
+      "total_ms": 609.6
+    },
+    "http_ms": 614.4636999815702
+  },
+  "images/test/rdd_background_518e377b64b002b10894.jpg": {
+    "success": true,
+    "processingTimeMs": 630.9,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.15,
+      "inference_ms": 142.08,
+      "postprocessing_ms": 0.73,
+      "pothole_ms": 474.57,
+      "hybrid_ms": 626.52,
+      "decode_ms": 3.88,
+      "total_ms": 630.9
+    },
+    "http_ms": 635.4951999383047
+  },
+  "images/test/rdd_background_c918b2f80312167f1823.jpg": {
+    "success": true,
+    "processingTimeMs": 598.4,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.25,
+      "inference_ms": 119.48,
+      "postprocessing_ms": 0.44,
+      "pothole_ms": 464.96,
+      "hybrid_ms": 593.81,
+      "decode_ms": 4.02,
+      "total_ms": 598.4
+    },
+    "http_ms": 603.4975999500602
+  },
+  "images/test/oiv2_c1dde6e0ce01d34d4c60.jpg": {
+    "success": true,
+    "processingTimeMs": 580.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.59,
+      "inference_ms": 122.57,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 444.0,
+      "hybrid_ms": 576.36,
+      "decode_ms": 3.74,
+      "total_ms": 580.6
+    },
+    "http_ms": 583.9558000443503
+  },
+  "images/test/oiv2_2112ef53884b667346f8.jpg": {
+    "success": true,
+    "processingTimeMs": 614.9,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.34,
+      "inference_ms": 133.44,
+      "postprocessing_ms": 0.6,
+      "pothole_ms": 467.95,
+      "hybrid_ms": 610.99,
+      "decode_ms": 3.42,
+      "total_ms": 614.9
+    },
+    "http_ms": 618.110700044781
+  },
+  "images/test/oiv2_7ff230e5903ca3f596d5.jpg": {
+    "success": true,
+    "processingTimeMs": 605.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.27,
+      "inference_ms": 124.73,
+      "postprocessing_ms": 0.59,
+      "pothole_ms": 466.41,
+      "hybrid_ms": 600.7,
+      "decode_ms": 4.4,
+      "total_ms": 605.6
+    },
+    "http_ms": 610.5929999612272
+  },
+  "images/test/oiv2_e7380898e7eff11b9cbd.jpg": {
+    "success": true,
+    "processingTimeMs": 609.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.6,
+      "inference_ms": 128.11,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 468.44,
+      "hybrid_ms": 605.37,
+      "decode_ms": 3.75,
+      "total_ms": 609.6
+    },
+    "http_ms": 613.6404999997467
+  },
+  "images/test/oiv2_c12ff139db47c2f6ea3a.jpg": {
+    "success": true,
+    "processingTimeMs": 622.2,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.5783,
+        "bbox": {
+          "x": 0.003841876983642578,
+          "y": 0.15912569241135505,
+          "width": 0.9961581230163574,
+          "height": 0.8371599551780238
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.5584,
+        "bbox": {
+          "x": 0.6820690631866455,
+          "y": 0.07441743281290775,
+          "width": 0.06332635879516602,
+          "height": 0.02521596124127415
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.93,
+      "inference_ms": 128.48,
+      "postprocessing_ms": 0.73,
+      "pothole_ms": 479.91,
+      "hybrid_ms": 617.73,
+      "decode_ms": 3.92,
+      "total_ms": 622.2
+    },
+    "http_ms": 625.6324000423774
+  },
+  "images/test/oiv2_8f1605d54296d6678f50.jpg": {
+    "success": true,
+    "processingTimeMs": 598.4,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.5135,
+        "bbox": {
+          "x": 0.17382707595825195,
+          "y": 0.8610190988701081,
+          "width": 0.25054111480712893,
+          "height": 0.13023875584112143
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.72,
+      "inference_ms": 126.48,
+      "postprocessing_ms": 0.55,
+      "pothole_ms": 459.46,
+      "hybrid_ms": 594.87,
+      "decode_ms": 2.99,
+      "total_ms": 598.4
+    },
+    "http_ms": 601.8107000272721
+  },
+  "images/test/oiv2_c0bc213d46c09567fb54.jpg": {
+    "success": true,
+    "processingTimeMs": 615.7,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.18,
+      "inference_ms": 122.17,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 481.33,
+      "hybrid_ms": 611.9,
+      "decode_ms": 3.17,
+      "total_ms": 615.7
+    },
+    "http_ms": 621.0186999524012
+  },
+  "images/test/oiv2_662de00da3876e16fef0.jpg": {
+    "success": true,
+    "processingTimeMs": 596.5,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.91,
+      "inference_ms": 106.52,
+      "postprocessing_ms": 0.57,
+      "pothole_ms": 476.82,
+      "hybrid_ms": 592.43,
+      "decode_ms": 3.55,
+      "total_ms": 596.5
+    },
+    "http_ms": 599.6508999960497
+  },
+  "images/test/oiv2_e3cbbd96319236efa0ba.jpg": {
+    "success": true,
+    "processingTimeMs": 621.5,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.02,
+      "inference_ms": 130.56,
+      "postprocessing_ms": 0.59,
+      "pothole_ms": 479.92,
+      "hybrid_ms": 618.73,
+      "decode_ms": 2.23,
+      "total_ms": 621.5
+    },
+    "http_ms": 625.3199999919161
+  },
+  "images/test/oiv2_d700148ff9f322643f39.jpg": {
+    "success": true,
+    "processingTimeMs": 612.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.74,
+      "inference_ms": 127.54,
+      "postprocessing_ms": 0.53,
+      "pothole_ms": 472.11,
+      "hybrid_ms": 608.69,
+      "decode_ms": 3.43,
+      "total_ms": 612.6
+    },
+    "http_ms": 616.5537000633776
+  },
+  "images/test/oiv2_9299019d853c1acba48a.jpg": {
+    "success": true,
+    "processingTimeMs": 613.2,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.33,
+      "inference_ms": 123.22,
+      "postprocessing_ms": 0.45,
+      "pothole_ms": 476.27,
+      "hybrid_ms": 608.88,
+      "decode_ms": 3.82,
+      "total_ms": 613.2
+    },
+    "http_ms": 617.1075999736786
+  },
+  "images/test/oiv2_69ca11f1d66c94c5d351.jpg": {
+    "success": true,
+    "processingTimeMs": 618.3,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.49,
+      "inference_ms": 131.28,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 475.62,
+      "hybrid_ms": 614.57,
+      "decode_ms": 3.26,
+      "total_ms": 618.3
+    },
+    "http_ms": 622.0336999977008
+  },
+  "images/test/oiv2_83a780e20d60a610aee3.jpg": {
+    "success": true,
+    "processingTimeMs": 623.0,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.45,
+      "inference_ms": 133.5,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 477.78,
+      "hybrid_ms": 618.93,
+      "decode_ms": 3.58,
+      "total_ms": 623.0
+    },
+    "http_ms": 627.3385001113638
+  },
+  "images/test/oiv2_2ce7c8772d5ae1964730.jpg": {
+    "success": true,
+    "processingTimeMs": 613.4,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.64,
+      "inference_ms": 129.94,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 471.93,
+      "hybrid_ms": 609.72,
+      "decode_ms": 3.17,
+      "total_ms": 613.4
+    },
+    "http_ms": 617.8160000126809
+  },
+  "images/test/oiv2_a7b99380bae42bfa07c2.jpg": {
+    "success": true,
+    "processingTimeMs": 497.7,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.57,
+      "inference_ms": 108.31,
+      "postprocessing_ms": 0.53,
+      "pothole_ms": 378.56,
+      "hybrid_ms": 493.44,
+      "decode_ms": 3.6,
+      "total_ms": 497.7
+    },
+    "http_ms": 502.8649000450969
+  },
+  "images/test/oiv2_59ed6179e4b8a4aadb72.jpg": {
+    "success": true,
+    "processingTimeMs": 565.0,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.99,
+      "inference_ms": 126.68,
+      "postprocessing_ms": 0.63,
+      "pothole_ms": 426.11,
+      "hybrid_ms": 560.84,
+      "decode_ms": 3.45,
+      "total_ms": 565.0
+    },
+    "http_ms": 568.6273000901565
+  },
+  "images/test/oiv2_6fcdaa15871dd4d380b9.jpg": {
+    "success": true,
+    "processingTimeMs": 588.1,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.87,
+      "inference_ms": 119.79,
+      "postprocessing_ms": 0.43,
+      "pothole_ms": 457.33,
+      "hybrid_ms": 583.81,
+      "decode_ms": 3.64,
+      "total_ms": 588.1
+    },
+    "http_ms": 591.695599956438
+  },
+  "images/test/oiv2_f93f399c09f926c0ad39.jpg": {
+    "success": true,
+    "processingTimeMs": 599.5,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.6427,
+        "bbox": {
+          "x": 0.0031831741333007814,
+          "y": 0.11574719746907552,
+          "width": 0.9806289672851562,
+          "height": 0.8121149698893229
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.94,
+      "inference_ms": 116.81,
+      "postprocessing_ms": 0.73,
+      "pothole_ms": 470.01,
+      "hybrid_ms": 594.86,
+      "decode_ms": 3.97,
+      "total_ms": 599.5
+    },
+    "http_ms": 603.3810999942943
+  },
+  "images/test/oiv2_1feb2b29e5eabd7ff1f5.jpg": {
+    "success": true,
+    "processingTimeMs": 610.3,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.53,
+      "inference_ms": 128.21,
+      "postprocessing_ms": 0.58,
+      "pothole_ms": 471.53,
+      "hybrid_ms": 606.31,
+      "decode_ms": 3.22,
+      "total_ms": 610.3
+    },
+    "http_ms": 614.6503000054508
+  },
+  "images/test/oiv2_8150f17370521888c828.jpg": {
+    "success": true,
+    "processingTimeMs": 608.2,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.14,
+      "inference_ms": 127.29,
+      "postprocessing_ms": 0.57,
+      "pothole_ms": 469.96,
+      "hybrid_ms": 604.8,
+      "decode_ms": 2.75,
+      "total_ms": 608.2
+    },
+    "http_ms": 611.4319000625983
+  },
+  "images/test/oiv2_c10d57e5049cfb7f5611.jpg": {
+    "success": true,
+    "processingTimeMs": 594.9,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.56,
+      "inference_ms": 128.05,
+      "postprocessing_ms": 0.4,
+      "pothole_ms": 455.93,
+      "hybrid_ms": 590.3,
+      "decode_ms": 3.98,
+      "total_ms": 594.9
+    },
+    "http_ms": 598.5773999709636
+  },
+  "images/test/oiv2_b4852ca6cc68cd60fd0f.jpg": {
+    "success": true,
+    "processingTimeMs": 589.2,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.53,
+      "inference_ms": 115.83,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 463.18,
+      "hybrid_ms": 585.45,
+      "decode_ms": 3.15,
+      "total_ms": 589.2
+    },
+    "http_ms": 592.8148999810219
+  },
+  "images/test/oiv2_0b9e1791a1bf7787531d.jpg": {
+    "success": true,
+    "processingTimeMs": 614.7,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.86,
+      "inference_ms": 132.96,
+      "postprocessing_ms": 0.53,
+      "pothole_ms": 469.91,
+      "hybrid_ms": 609.62,
+      "decode_ms": 4.25,
+      "total_ms": 614.7
+    },
+    "http_ms": 619.8216999182478
+  },
+  "images/test/oiv2_e53937ef32b01aeeb5a8.jpg": {
+    "success": true,
+    "processingTimeMs": 598.3,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.23,
+      "inference_ms": 128.73,
+      "postprocessing_ms": 0.61,
+      "pothole_ms": 457.49,
+      "hybrid_ms": 594.53,
+      "decode_ms": 3.21,
+      "total_ms": 598.3
+    },
+    "http_ms": 601.8209999892861
+  },
+  "images/test/oiv2_acd2d04e1949eb22e6bf.jpg": {
+    "success": true,
+    "processingTimeMs": 487.7,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 9.14,
+      "inference_ms": 117.3,
+      "postprocessing_ms": 0.48,
+      "pothole_ms": 355.45,
+      "hybrid_ms": 482.78,
+      "decode_ms": 4.33,
+      "total_ms": 487.7
+    },
+    "http_ms": 491.6776999598369
+  },
+  "images/test/oiv2_5aa0ec4d9e9d1379330c.jpg": {
+    "success": true,
+    "processingTimeMs": 583.9,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.6,
+      "inference_ms": 128.44,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 444.95,
+      "hybrid_ms": 579.88,
+      "decode_ms": 3.32,
+      "total_ms": 583.9
+    },
+    "http_ms": 587.6085000345483
+  },
+  "images/test/oiv2_f7fa241a889310e825e9.jpg": {
+    "success": true,
+    "processingTimeMs": 500.5,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.03,
+      "inference_ms": 111.38,
+      "postprocessing_ms": 0.64,
+      "pothole_ms": 377.03,
+      "hybrid_ms": 495.68,
+      "decode_ms": 4.03,
+      "total_ms": 500.5
+    },
+    "http_ms": 506.5349000506103
+  },
+  "images/test/commonsv2_47bcafa817f7e3a0bb58.jpg": {
+    "success": true,
+    "processingTimeMs": 562.2,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.81,
+      "inference_ms": 116.75,
+      "postprocessing_ms": 0.84,
+      "pothole_ms": 432.17,
+      "hybrid_ms": 557.16,
+      "decode_ms": 4.34,
+      "total_ms": 562.2
+    },
+    "http_ms": 567.567800055258
+  },
+  "images/test/commonsv2_86e1f019634c202f440c.jpg": {
+    "success": true,
+    "processingTimeMs": 635.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.39,
+      "inference_ms": 119.05,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 503.55,
+      "hybrid_ms": 631.19,
+      "decode_ms": 3.91,
+      "total_ms": 635.6
+    },
+    "http_ms": 638.9707999769598
+  },
+  "images/test/commonsv2_a4848807a5f034f07f80.jpg": {
+    "success": true,
+    "processingTimeMs": 596.7,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.28,
+      "inference_ms": 128.43,
+      "postprocessing_ms": 0.38,
+      "pothole_ms": 455.6,
+      "hybrid_ms": 591.37,
+      "decode_ms": 4.59,
+      "total_ms": 596.7
+    },
+    "http_ms": 600.5058999871835
+  },
+  "images/test/commonsv2_f25c393ae1c8e3de4206.jpg": {
+    "success": true,
+    "processingTimeMs": 608.7,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.68,
+      "inference_ms": 126.67,
+      "postprocessing_ms": 0.56,
+      "pothole_ms": 470.08,
+      "hybrid_ms": 604.68,
+      "decode_ms": 3.56,
+      "total_ms": 608.7
+    },
+    "http_ms": 613.3626000955701
+  },
+  "cover:images/val/commonsv2_c7720fd4d4dc628f84c0.jpg": {
+    "success": true,
+    "processingTimeMs": 617.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.37,
+      "inference_ms": 125.36,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 478.89,
+      "hybrid_ms": 612.83,
+      "decode_ms": 4.23,
+      "total_ms": 617.6
+    },
+    "http_ms": 621.695899986662
+  },
+  "cover:images/train/commonsv2_92df1fd9945e35c58bb3.jpg": {
+    "success": true,
+    "processingTimeMs": 621.9,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.68,
+      "inference_ms": 128.62,
+      "postprocessing_ms": 0.4,
+      "pothole_ms": 479.61,
+      "hybrid_ms": 615.92,
+      "decode_ms": 5.39,
+      "total_ms": 621.9
+    },
+    "http_ms": 626.0295000392944
+  },
+  "cover:images/train/commonsv2_904b83fb947782e4d435.jpg": {
+    "success": true,
+    "processingTimeMs": 627.1,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.5768,
+        "bbox": {
+          "x": 0.7123802185058594,
+          "y": 0.7334248542785644,
+          "width": 0.05272865295410156,
+          "height": 0.051350975036621116
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 10.61,
+      "inference_ms": 129.54,
+      "postprocessing_ms": 0.61,
+      "pothole_ms": 478.68,
+      "hybrid_ms": 620.2,
+      "decode_ms": 6.39,
+      "total_ms": 627.1
+    },
+    "http_ms": 631.6583999432623
+  },
+  "cover:images/train/commonsv2_1e6ee22795fef0148168.jpg": {
+    "success": true,
+    "processingTimeMs": 608.5,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.77,
+      "inference_ms": 128.37,
+      "postprocessing_ms": 0.61,
+      "pothole_ms": 465.46,
+      "hybrid_ms": 602.9,
+      "decode_ms": 5.1,
+      "total_ms": 608.5
+    },
+    "http_ms": 612.8678000532091
+  },
+  "cover:images/train/commonsv2_d250298114d5f25efdd3.jpg": {
+    "success": true,
+    "processingTimeMs": 588.9,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.63,
+      "inference_ms": 121.52,
+      "postprocessing_ms": 0.59,
+      "pothole_ms": 452.89,
+      "hybrid_ms": 583.35,
+      "decode_ms": 5.06,
+      "total_ms": 588.9
+    },
+    "http_ms": 594.8201999999583
+  },
+  "cover:images/train/commonsv2_b9080bbe5b23838c4b76.jpg": {
+    "success": true,
+    "processingTimeMs": 634.9,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.6587,
+        "bbox": {
+          "x": 0.5378420511881511,
+          "y": 0.019861555099487303,
+          "width": 0.054032643636067634,
+          "height": 0.0330042839050293
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.58,
+      "inference_ms": 131.55,
+      "postprocessing_ms": 0.47,
+      "pothole_ms": 490.31,
+      "hybrid_ms": 630.56,
+      "decode_ms": 3.84,
+      "total_ms": 634.9
+    },
+    "http_ms": 638.6899000499398
+  },
+  "cover:images/train/commonsv2_73cd7402661abb6ade6e.jpg": {
+    "success": true,
+    "processingTimeMs": 615.9,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.65,
+      "inference_ms": 128.37,
+      "postprocessing_ms": 0.57,
+      "pothole_ms": 474.56,
+      "hybrid_ms": 610.8,
+      "decode_ms": 4.65,
+      "total_ms": 615.9
+    },
+    "http_ms": 619.6099000517279
+  },
+  "cover:images/train/commonsv2_c0674d8e781cfb3d1327.jpg": {
+    "success": true,
+    "processingTimeMs": 618.0,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.5949,
+        "bbox": {
+          "x": 0.06461489995320638,
+          "y": 0.10032598972320557,
+          "width": 0.8471381823221843,
+          "height": 0.7112720251083373
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.31,
+      "inference_ms": 122.75,
+      "postprocessing_ms": 0.57,
+      "pothole_ms": 481.83,
+      "hybrid_ms": 613.15,
+      "decode_ms": 4.3,
+      "total_ms": 618.0
+    },
+    "http_ms": 622.6743999868631
+  },
+  "cover:images/train/commonsv2_e18ee5f55571af78e36f.jpg": {
+    "success": true,
+    "processingTimeMs": 635.4,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.75,
+      "inference_ms": 127.26,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 494.75,
+      "hybrid_ms": 629.99,
+      "decode_ms": 4.92,
+      "total_ms": 635.4
+    },
+    "http_ms": 639.6064000437036
+  },
+  "cover:images/train/commonsv2_b6ec7685aa8508100fc9.jpg": {
+    "success": true,
+    "processingTimeMs": 603.3,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.73,
+      "inference_ms": 127.33,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 463.31,
+      "hybrid_ms": 598.6,
+      "decode_ms": 4.18,
+      "total_ms": 603.3
+    },
+    "http_ms": 607.0349999936298
+  },
+  "cover:images/train/commonsv2_95074a17096895d5d889.jpg": {
+    "success": true,
+    "processingTimeMs": 617.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.85,
+      "inference_ms": 125.1,
+      "postprocessing_ms": 0.51,
+      "pothole_ms": 478.58,
+      "hybrid_ms": 612.43,
+      "decode_ms": 4.47,
+      "total_ms": 617.6
+    },
+    "http_ms": 621.1733999662101
+  },
+  "cover:images/train/commonsv2_66b583b0a29bd47c9df8.jpg": {
+    "success": true,
+    "processingTimeMs": 607.3,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.4152,
+        "bbox": {
+          "x": 0.436460018157959,
+          "y": 0.7610723495483398,
+          "width": 0.044292449951171875,
+          "height": 0.03422203063964846
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.3797,
+        "bbox": {
+          "x": 0.8135583877563477,
+          "y": 0.8720417022705078,
+          "width": 0.040022087097167924,
+          "height": 0.03671531677246098
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.37,
+      "inference_ms": 123.33,
+      "postprocessing_ms": 0.51,
+      "pothole_ms": 469.48,
+      "hybrid_ms": 602.09,
+      "decode_ms": 4.46,
+      "total_ms": 607.3
+    },
+    "http_ms": 611.6656000958756
+  },
+  "cover:images/train/commonsv2_673d871185e03a8977c0.jpg": {
+    "success": true,
+    "processingTimeMs": 613.3,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.82,
+      "inference_ms": 121.81,
+      "postprocessing_ms": 0.48,
+      "pothole_ms": 478.07,
+      "hybrid_ms": 607.63,
+      "decode_ms": 5.05,
+      "total_ms": 613.3
+    },
+    "http_ms": 618.691400042735
+  },
+  "cover:images/train/commonsv2_6b4fab4b8fe18237f72e.jpg": {
+    "success": true,
+    "processingTimeMs": 603.7,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.92,
+      "inference_ms": 130.85,
+      "postprocessing_ms": 0.57,
+      "pothole_ms": 458.82,
+      "hybrid_ms": 597.66,
+      "decode_ms": 5.56,
+      "total_ms": 603.7
+    },
+    "http_ms": 608.4749000146985
+  },
+  "cover:images/train/commonsv2_f2bfca5243b32f88a9b4.jpg": {
+    "success": true,
+    "processingTimeMs": 576.1,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 9.2,
+      "inference_ms": 120.75,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 438.46,
+      "hybrid_ms": 569.7,
+      "decode_ms": 5.85,
+      "total_ms": 576.1
+    },
+    "http_ms": 580.3011000389233
+  },
+  "cover:images/test/rdd_background_05545183e9c3e81aee8c.jpg": {
+    "success": true,
+    "processingTimeMs": 577.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.78,
+      "inference_ms": 121.78,
+      "postprocessing_ms": 0.83,
+      "pothole_ms": 439.87,
+      "hybrid_ms": 572.27,
+      "decode_ms": 4.62,
+      "total_ms": 577.6
+    },
+    "http_ms": 582.9277000157163
+  },
+  "cover:images/test/rdd_background_a306ce6d67f7f2e4f4ed.jpg": {
+    "success": true,
+    "processingTimeMs": 540.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 9.5,
+      "inference_ms": 110.05,
+      "postprocessing_ms": 0.58,
+      "pothole_ms": 415.25,
+      "hybrid_ms": 536.13,
+      "decode_ms": 4.01,
+      "total_ms": 540.6
+    },
+    "http_ms": 545.1954000163823
+  },
+  "cover:images/test/rdd_background_8776d54625ef6022b17f.jpg": {
+    "success": true,
+    "processingTimeMs": 548.9,
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7473,
+        "bbox": {
+          "x": 0.5900099873542786,
+          "y": 0.7000311613082886,
+          "width": 0.07731586694717407,
+          "height": 0.09033554792404175
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 9.04,
+      "inference_ms": 119.24,
+      "postprocessing_ms": 0.55,
+      "pothole_ms": 413.89,
+      "hybrid_ms": 543.41,
+      "decode_ms": 4.94,
+      "total_ms": 548.9
+    },
+    "http_ms": 553.8212000392377
+  },
+  "cover:images/test/rdd_background_bac7e6700f1edb1b3f7a.jpg": {
+    "success": true,
+    "processingTimeMs": 585.2,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 10.64,
+      "inference_ms": 119.25,
+      "postprocessing_ms": 0.58,
+      "pothole_ms": 449.19,
+      "hybrid_ms": 580.34,
+      "decode_ms": 4.41,
+      "total_ms": 585.2
+    },
+    "http_ms": 590.2409000555053
+  },
+  "cover:images/test/rdd_background_78c74663698ac16619a2.jpg": {
+    "success": true,
+    "processingTimeMs": 580.3,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.75,
+      "inference_ms": 119.33,
+      "postprocessing_ms": 0.6,
+      "pothole_ms": 446.34,
+      "hybrid_ms": 575.73,
+      "decode_ms": 4.0,
+      "total_ms": 580.3
+    },
+    "http_ms": 584.1047000139952
+  },
+  "cover:images/test/rdd_background_cf62b8fb9d7089ff24c1.jpg": {
+    "success": true,
+    "processingTimeMs": 588.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 9.15,
+      "inference_ms": 100.07,
+      "postprocessing_ms": 0.36,
+      "pothole_ms": 472.66,
+      "hybrid_ms": 582.9,
+      "decode_ms": 5.22,
+      "total_ms": 588.6
+    },
+    "http_ms": 595.7944999681786
+  },
+  "cover:images/test/rdd_background_0119dc5842ffadc064de.jpg": {
+    "success": true,
+    "processingTimeMs": 608.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.35,
+      "inference_ms": 124.62,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 470.43,
+      "hybrid_ms": 603.38,
+      "decode_ms": 4.45,
+      "total_ms": 608.6
+    },
+    "http_ms": 614.2561000306159
+  },
+  "cover:images/test/rdd_background_33dad5a8f2461b44d3ad.jpg": {
+    "success": true,
+    "processingTimeMs": 614.0,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.38,
+      "inference_ms": 118.64,
+      "postprocessing_ms": 0.51,
+      "pothole_ms": 483.09,
+      "hybrid_ms": 608.97,
+      "decode_ms": 4.41,
+      "total_ms": 614.0
+    },
+    "http_ms": 617.6830000476912
+  },
+  "cover:images/test/rdd_background_518e377b64b002b10894.jpg": {
+    "success": true,
+    "processingTimeMs": 586.6,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.67,
+      "inference_ms": 118.18,
+      "postprocessing_ms": 0.57,
+      "pothole_ms": 456.44,
+      "hybrid_ms": 582.29,
+      "decode_ms": 3.7,
+      "total_ms": 586.6
+    },
+    "http_ms": 590.3091999934986
+  },
+  "cover:images/test/rdd_background_c918b2f80312167f1823.jpg": {
+    "success": true,
+    "processingTimeMs": 621.2,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.74,
+      "inference_ms": 131.8,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 477.54,
+      "hybrid_ms": 616.98,
+      "decode_ms": 3.62,
+      "total_ms": 621.2
+    },
+    "http_ms": 625.1458000624552
+  },
+  "cover:images/train/oiv2_6fa5440054be27a4b605.jpg": {
+    "success": true,
+    "processingTimeMs": 609.7,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.13,
+      "inference_ms": 133.81,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 466.5,
+      "hybrid_ms": 606.31,
+      "decode_ms": 2.85,
+      "total_ms": 609.7
+    },
+    "http_ms": 613.905300037004
+  },
+  "cover:images/train/oiv2_eef32dbe2e98288f397a.jpg": {
+    "success": true,
+    "processingTimeMs": 591.4,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.15,
+      "inference_ms": 128.15,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 452.15,
+      "hybrid_ms": 587.43,
+      "decode_ms": 3.33,
+      "total_ms": 591.4
+    },
+    "http_ms": 595.4987000441179
+  },
+  "cover:images/train/oiv2_6e6d42bfb50d4a5f88ef.jpg": {
+    "success": true,
+    "processingTimeMs": 634.3,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.86,
+      "inference_ms": 128.23,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 495.76,
+      "hybrid_ms": 630.75,
+      "decode_ms": 2.91,
+      "total_ms": 634.3
+    },
+    "http_ms": 637.6613999018446
+  },
+  "cover:images/train/oiv2_140f8069dd3bcc2a4564.jpg": {
+    "success": true,
+    "processingTimeMs": 601.5,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.97,
+      "inference_ms": 125.88,
+      "postprocessing_ms": 0.52,
+      "pothole_ms": 464.89,
+      "hybrid_ms": 597.7,
+      "decode_ms": 3.22,
+      "total_ms": 601.5
+    },
+    "http_ms": 605.9088000329211
+  },
+  "cover:images/train/oiv2_9ead032a77286d5ec115.jpg": {
+    "success": true,
+    "processingTimeMs": 627.4,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.16,
+      "inference_ms": 127.28,
+      "postprocessing_ms": 0.53,
+      "pothole_ms": 488.44,
+      "hybrid_ms": 622.92,
+      "decode_ms": 3.87,
+      "total_ms": 627.4
+    },
+    "http_ms": 631.2495999736711
+  },
+  "wet:images/test/roadway_2cb7c48d09105a283961.jpg": {
+    "success": true,
+    "processingTimeMs": 597.5,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.589,
+        "bbox": {
+          "x": 0.0014471054309979081,
+          "y": 0.21542370319366455,
+          "width": 0.9951656222110614,
+          "height": 0.7803121010462443
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.66,
+      "inference_ms": 113.77,
+      "postprocessing_ms": 0.92,
+      "pothole_ms": 472.47,
+      "hybrid_ms": 594.5,
+      "decode_ms": 2.44,
+      "total_ms": 597.5
+    },
+    "http_ms": 600.9607000742108
+  },
+  "wet:images/test/roadway_3b98d0a9a2c6a837c3e7.jpg": {
+    "success": true,
+    "processingTimeMs": 597.7,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7481,
+        "bbox": {
+          "x": 0.003913688473403454,
+          "y": 0.37851957480112713,
+          "width": 0.9952634694054723,
+          "height": 0.6214804251988728
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.97,
+      "inference_ms": 119.63,
+      "postprocessing_ms": 0.71,
+      "pothole_ms": 468.4,
+      "hybrid_ms": 595.37,
+      "decode_ms": 1.76,
+      "total_ms": 597.7
+    },
+    "http_ms": 602.6538000442088
+  },
+  "wet:commons": {
+    "success": true,
+    "processingTimeMs": 592.2,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.41,
+      "inference_ms": 127.06,
+      "postprocessing_ms": 0.45,
+      "pothole_ms": 451.24,
+      "hybrid_ms": 586.8,
+      "decode_ms": 4.75,
+      "total_ms": 592.2
+    },
+    "http_ms": 596.0574999917299
+  },
+  "gw:images/test/roadway_cec9ee1d6d7f6a7e3a10.jpg": {
+    "success": true,
+    "processingTimeMs": 560.1,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8724,
+        "bbox": {
+          "x": 0.012557124719023705,
+          "y": 0.5355544884999593,
+          "width": 0.9850342515856028,
+          "height": 0.46309145291646314
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 9.18,
+      "inference_ms": 106.45,
+      "postprocessing_ms": 0.72,
+      "pothole_ms": 439.6,
+      "hybrid_ms": 556.54,
+      "decode_ms": 3.01,
+      "total_ms": 560.1
+    },
+    "http_ms": 565.9556000027806,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 124.3,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.8724,
+          "bbox": {
+            "x": 0.012557124719023705,
+            "y": 0.5355544884999593,
+            "width": 0.9850342515856028,
+            "height": 0.46309145291646314
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 7.63,
+        "inference_ms": 112.33,
+        "postprocessing_ms": 0.79,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 121.39,
+        "decode_ms": 2.42,
+        "total_ms": 124.3
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_37d11a3da85155f94ca7.jpg": {
+    "success": true,
+    "processingTimeMs": 573.9,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8649,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3311433394749959,
+          "width": 1.0,
+          "height": 0.6355316241582234
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.9,
+      "inference_ms": 114.85,
+      "postprocessing_ms": 0.6,
+      "pothole_ms": 448.1,
+      "hybrid_ms": 571.05,
+      "decode_ms": 2.31,
+      "total_ms": 573.9
+    },
+    "http_ms": 577.6454000733793,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 136.4,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.8649,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.3311433394749959,
+            "width": 1.0,
+            "height": 0.6355316241582234
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 8.61,
+        "inference_ms": 123.01,
+        "postprocessing_ms": 0.8,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 133.05,
+        "decode_ms": 2.82,
+        "total_ms": 136.4
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_346a74fbcbd6b4368c0a.jpg": {
+    "success": true,
+    "processingTimeMs": 532.2,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8596,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3599855899810791,
+          "width": 0.9971696734428406,
+          "height": 0.638556718826294
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 9.34,
+      "inference_ms": 115.99,
+      "postprocessing_ms": 0.77,
+      "pothole_ms": 402.55,
+      "hybrid_ms": 529.26,
+      "decode_ms": 2.48,
+      "total_ms": 532.2
+    },
+    "http_ms": 535.7616000110283,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 139.4,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.8596,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.3599855899810791,
+            "width": 0.9971696734428406,
+            "height": 0.638556718826294
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 8.35,
+        "inference_ms": 126.82,
+        "postprocessing_ms": 0.6,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 136.45,
+        "decode_ms": 2.48,
+        "total_ms": 139.4
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_750a5f9e9e68db5ddd02.jpg": {
+    "success": true,
+    "processingTimeMs": 579.7,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8621,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.2509326934814453,
+          "width": 1.0,
+          "height": 0.7448185284932455
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.36,
+      "inference_ms": 133.39,
+      "postprocessing_ms": 0.82,
+      "pothole_ms": 433.22,
+      "hybrid_ms": 576.55,
+      "decode_ms": 2.6,
+      "total_ms": 579.7
+    },
+    "http_ms": 583.6142998887226,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 125.7,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.8621,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.2509326934814453,
+            "width": 1.0,
+            "height": 0.7448185284932455
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 7.4,
+        "inference_ms": 113.85,
+        "postprocessing_ms": 0.58,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 122.17,
+        "decode_ms": 2.8,
+        "total_ms": 125.7
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_8f12f86348ebbda22ab4.jpg": {
+    "success": true,
+    "processingTimeMs": 622.7,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.9646,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.34028204282124835,
+          "width": 0.9983296394348145,
+          "height": 0.6561524868011475
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.47,
+      "inference_ms": 123.17,
+      "postprocessing_ms": 0.84,
+      "pothole_ms": 489.07,
+      "hybrid_ms": 619.96,
+      "decode_ms": 2.03,
+      "total_ms": 622.7
+    },
+    "http_ms": 626.3946000253782,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 122.9,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.9646,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.34028204282124835,
+            "width": 0.9983296394348145,
+            "height": 0.6561524868011475
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.02,
+        "inference_ms": 114.24,
+        "postprocessing_ms": 0.75,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 120.34,
+        "decode_ms": 2.01,
+        "total_ms": 122.9
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_ea7c07bf692014b97adb.jpg": {
+    "success": true,
+    "processingTimeMs": 590.4,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.6207,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.20979702472686768,
+          "width": 0.9919661283493042,
+          "height": 0.7870308955510458
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 4.96,
+      "inference_ms": 119.62,
+      "postprocessing_ms": 0.69,
+      "pothole_ms": 461.52,
+      "hybrid_ms": 587.26,
+      "decode_ms": 2.48,
+      "total_ms": 590.4
+    },
+    "http_ms": 593.8645999412984,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 132.1,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.6207,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.20979702472686768,
+            "width": 0.9919661283493042,
+            "height": 0.7870308955510458
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.4,
+        "inference_ms": 122.4,
+        "postprocessing_ms": 0.89,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 129.09,
+        "decode_ms": 2.35,
+        "total_ms": 132.1
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_2fcd246703015f3a48eb.jpg": {
+    "success": true,
+    "processingTimeMs": 596.3,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.4764,
+        "bbox": {
+          "x": 0.0012860298156738281,
+          "y": 0.6648180484771729,
+          "width": 0.9987139701843262,
+          "height": 0.3083366552988688
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.1,
+      "inference_ms": 129.29,
+      "postprocessing_ms": 0.79,
+      "pothole_ms": 457.11,
+      "hybrid_ms": 593.63,
+      "decode_ms": 2.07,
+      "total_ms": 596.3
+    },
+    "http_ms": 599.8308999696746,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 124.1,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.4764,
+          "bbox": {
+            "x": 0.0012860298156738281,
+            "y": 0.6648180484771729,
+            "width": 0.9987139701843262,
+            "height": 0.3083366552988688
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 6.18,
+        "inference_ms": 113.67,
+        "postprocessing_ms": 0.8,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 121.09,
+        "decode_ms": 2.35,
+        "total_ms": 124.1
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_ffbc1b9309fc03e9f3b8.jpg": {
+    "success": true,
+    "processingTimeMs": 627.2,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.96,
+      "inference_ms": 131.99,
+      "postprocessing_ms": 0.61,
+      "pothole_ms": 485.32,
+      "hybrid_ms": 624.26,
+      "decode_ms": 2.38,
+      "total_ms": 627.2
+    },
+    "http_ms": 630.6897000176832,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 136.1,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.92,
+        "inference_ms": 126.25,
+        "postprocessing_ms": 0.58,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 133.1,
+        "decode_ms": 2.33,
+        "total_ms": 136.1
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_c0ee57c322c84f60871e.jpg": {
+    "success": true,
+    "processingTimeMs": 603.1,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7847,
+        "bbox": {
+          "x": 0.0017389297718182206,
+          "y": 0.26951928933461505,
+          "width": 0.9982610702281818,
+          "height": 0.730480710665385
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.72,
+      "inference_ms": 127.37,
+      "postprocessing_ms": 0.79,
+      "pothole_ms": 465.74,
+      "hybrid_ms": 599.96,
+      "decode_ms": 2.54,
+      "total_ms": 603.1
+    },
+    "http_ms": 606.8613999523222,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 124.3,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.7847,
+          "bbox": {
+            "x": 0.0017389297718182206,
+            "y": 0.26951928933461505,
+            "width": 0.9982610702281818,
+            "height": 0.730480710665385
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.48,
+        "inference_ms": 115.03,
+        "postprocessing_ms": 0.74,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 121.59,
+        "decode_ms": 2.06,
+        "total_ms": 124.3
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_8eb05329b3c17ad31553.jpg": {
+    "success": true,
+    "processingTimeMs": 590.8,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.968,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.26424864927927655,
+          "width": 0.9987794756889343,
+          "height": 0.734389344851176
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.38,
+      "inference_ms": 125.98,
+      "postprocessing_ms": 0.81,
+      "pothole_ms": 455.41,
+      "hybrid_ms": 587.92,
+      "decode_ms": 2.24,
+      "total_ms": 590.8
+    },
+    "http_ms": 594.9318000348285,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 125.6,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.968,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.26424864927927655,
+            "width": 0.9987794756889343,
+            "height": 0.734389344851176
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.47,
+        "inference_ms": 115.99,
+        "postprocessing_ms": 0.81,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 122.6,
+        "decode_ms": 2.42,
+        "total_ms": 125.6
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_e4383ff1bb30fe8ccaa7.jpg": {
+    "success": true,
+    "processingTimeMs": 595.0,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.9357,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.483932097752889,
+          "width": 0.9980758428573608,
+          "height": 0.5154062906901042
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.5,
+      "inference_ms": 119.17,
+      "postprocessing_ms": 0.77,
+      "pothole_ms": 466.33,
+      "hybrid_ms": 592.11,
+      "decode_ms": 2.31,
+      "total_ms": 595.0
+    },
+    "http_ms": 599.6256000362337,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 126.8,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.9357,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.483932097752889,
+            "width": 0.9980758428573608,
+            "height": 0.5154062906901042
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.38,
+        "inference_ms": 117.45,
+        "postprocessing_ms": 0.79,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 123.95,
+        "decode_ms": 2.29,
+        "total_ms": 126.8
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_207730a0ee4df0ba87c4.jpg": {
+    "success": true,
+    "processingTimeMs": 618.8,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.729,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.1804435650507609,
+          "width": 1.0,
+          "height": 0.8195475339889526
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.6444,
+        "bbox": {
+          "x": 0.8270881772041321,
+          "y": 0.43030762672424316,
+          "width": 0.06472337245941162,
+          "height": 0.039164225260416685
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.49,
+      "inference_ms": 122.66,
+      "postprocessing_ms": 0.72,
+      "pothole_ms": 486.73,
+      "hybrid_ms": 615.96,
+      "decode_ms": 2.27,
+      "total_ms": 618.8
+    },
+    "http_ms": 622.4860999500379,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 122.6,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.729,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.1804435650507609,
+            "width": 1.0,
+            "height": 0.8195475339889526
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.26,
+        "inference_ms": 113.25,
+        "postprocessing_ms": 0.58,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 119.43,
+        "decode_ms": 2.48,
+        "total_ms": 122.6
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_7cf3947a4c6fa13ac93d.jpg": {
+    "success": true,
+    "processingTimeMs": 600.6,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8903,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.4574263095855713,
+          "width": 1.0,
+          "height": 0.5403985182444254
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.11,
+      "inference_ms": 121.69,
+      "postprocessing_ms": 0.71,
+      "pothole_ms": 468.39,
+      "hybrid_ms": 597.26,
+      "decode_ms": 2.61,
+      "total_ms": 600.6
+    },
+    "http_ms": 604.2218999937177,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 136.7,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.8903,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.4574263095855713,
+            "width": 1.0,
+            "height": 0.5403985182444254
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.32,
+        "inference_ms": 127.5,
+        "postprocessing_ms": 0.73,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 133.9,
+        "decode_ms": 2.13,
+        "total_ms": 136.7
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_2cb7c48d09105a283961.jpg": {
+    "success": true,
+    "processingTimeMs": 591.5,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.589,
+        "bbox": {
+          "x": 0.0014471054309979081,
+          "y": 0.21542370319366455,
+          "width": 0.9951656222110614,
+          "height": 0.7803121010462443
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.85,
+      "inference_ms": 131.26,
+      "postprocessing_ms": 0.58,
+      "pothole_ms": 450.22,
+      "hybrid_ms": 588.27,
+      "decode_ms": 2.57,
+      "total_ms": 591.5
+    },
+    "http_ms": 595.2345000114292,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 134.9,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.589,
+          "bbox": {
+            "x": 0.0014471054309979081,
+            "y": 0.21542370319366455,
+            "width": 0.9951656222110614,
+            "height": 0.7803121010462443
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 6.52,
+        "inference_ms": 124.59,
+        "postprocessing_ms": 0.73,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 132.21,
+        "decode_ms": 2.07,
+        "total_ms": 134.9
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_267d194e88135814019c.jpg": {
+    "success": true,
+    "processingTimeMs": 624.1,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8764,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.24710299571355185,
+          "width": 0.9955615997314453,
+          "height": 0.7517767548561096
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.82,
+      "inference_ms": 129.27,
+      "postprocessing_ms": 0.74,
+      "pothole_ms": 485.06,
+      "hybrid_ms": 621.23,
+      "decode_ms": 2.13,
+      "total_ms": 624.1
+    },
+    "http_ms": 627.6029999135062,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 125.2,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.8764,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.24710299571355185,
+            "width": 0.9955615997314453,
+            "height": 0.7517767548561096
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.36,
+        "inference_ms": 115.8,
+        "postprocessing_ms": 0.72,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 122.23,
+        "decode_ms": 2.32,
+        "total_ms": 125.2
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_0d976f3dea575b4a33f8.jpg": {
+    "success": true,
+    "processingTimeMs": 618.1,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8096,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.34614841143290204,
+          "width": 1.0,
+          "height": 0.6471944650014241
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.16,
+      "inference_ms": 129.76,
+      "postprocessing_ms": 0.73,
+      "pothole_ms": 478.78,
+      "hybrid_ms": 614.78,
+      "decode_ms": 2.62,
+      "total_ms": 618.1
+    },
+    "http_ms": 621.8086999142542,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 136.6,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.8096,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.34614841143290204,
+            "width": 1.0,
+            "height": 0.6471944650014241
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.42,
+        "inference_ms": 126.42,
+        "postprocessing_ms": 0.81,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 133.12,
+        "decode_ms": 2.79,
+        "total_ms": 136.6
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_729668cab87c6c8e533f.jpg": {
+    "success": true,
+    "processingTimeMs": 612.6,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.4484,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.26220206419626874,
+          "width": 1.0,
+          "height": 0.7306616703669231
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.55,
+      "inference_ms": 120.19,
+      "postprocessing_ms": 0.66,
+      "pothole_ms": 482.8,
+      "hybrid_ms": 609.57,
+      "decode_ms": 2.37,
+      "total_ms": 612.6
+    },
+    "http_ms": 616.2722000153735,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 131.5,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.4484,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.26220206419626874,
+            "width": 1.0,
+            "height": 0.7306616703669231
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 6.22,
+        "inference_ms": 121.15,
+        "postprocessing_ms": 0.76,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 128.47,
+        "decode_ms": 2.37,
+        "total_ms": 131.5
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_3b98d0a9a2c6a837c3e7.jpg": {
+    "success": true,
+    "processingTimeMs": 614.9,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7481,
+        "bbox": {
+          "x": 0.003913688473403454,
+          "y": 0.37851957480112713,
+          "width": 0.9952634694054723,
+          "height": 0.6214804251988728
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.13,
+      "inference_ms": 130.11,
+      "postprocessing_ms": 0.57,
+      "pothole_ms": 475.21,
+      "hybrid_ms": 611.37,
+      "decode_ms": 2.9,
+      "total_ms": 614.9
+    },
+    "http_ms": 618.8598000444472,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 129.7,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.7481,
+          "bbox": {
+            "x": 0.003913688473403454,
+            "y": 0.37851957480112713,
+            "width": 0.9952634694054723,
+            "height": 0.6214804251988728
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.14,
+        "inference_ms": 120.56,
+        "postprocessing_ms": 0.85,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 126.95,
+        "decode_ms": 2.08,
+        "total_ms": 129.7
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_7a5dee6c17d3544e225e.jpg": {
+    "success": true,
+    "processingTimeMs": 592.6,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7512,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.38409539063771564,
+          "width": 0.7399055361747742,
+          "height": 0.6156201759974163
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.3986,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3492921193440755,
+          "width": 0.9105688333511353,
+          "height": 0.6397398312886555
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.11,
+      "inference_ms": 131.59,
+      "postprocessing_ms": 0.95,
+      "pothole_ms": 450.02,
+      "hybrid_ms": 589.06,
+      "decode_ms": 2.86,
+      "total_ms": 592.6
+    },
+    "http_ms": 596.4120000135154,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 136.4,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.7512,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.38409539063771564,
+            "width": 0.7399055361747742,
+            "height": 0.6156201759974163
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.61,
+        "inference_ms": 126.61,
+        "postprocessing_ms": 0.75,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 133.31,
+        "decode_ms": 2.5,
+        "total_ms": 136.4
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/roadway_52b7b3c711deff66ba30.jpg": {
+    "success": true,
+    "processingTimeMs": 580.0,
+    "detections": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.9486,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3780892690022786,
+          "width": 0.998095691204071,
+          "height": 0.620190938313802
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.35,
+      "inference_ms": 128.99,
+      "postprocessing_ms": 0.73,
+      "pothole_ms": 441.75,
+      "hybrid_ms": 577.21,
+      "decode_ms": 2.08,
+      "total_ms": 580.0
+    },
+    "http_ms": 584.0566999977455,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 125.7,
+      "detections": [
+        {
+          "class": "waterlogging",
+          "confidence": 0.9486,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.3780892690022786,
+            "width": 0.998095691204071,
+            "height": 0.620190938313802
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.33,
+        "inference_ms": 116.0,
+        "postprocessing_ms": 0.78,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 122.46,
+        "decode_ms": 2.52,
+        "total_ms": 125.7
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_db4b1d32d35b9abbda41.jpg": {
+    "success": true,
+    "processingTimeMs": 598.1,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.3504,
+        "bbox": {
+          "x": 0.008236026763916016,
+          "y": 0.5065498352050781,
+          "width": 0.9864485740661622,
+          "height": 0.4855626424153646
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.16,
+      "inference_ms": 125.07,
+      "postprocessing_ms": 0.66,
+      "pothole_ms": 461.19,
+      "hybrid_ms": 594.47,
+      "decode_ms": 2.97,
+      "total_ms": 598.1
+    },
+    "http_ms": 601.653499994427,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 129.5,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.3504,
+          "bbox": {
+            "x": 0.008236026763916016,
+            "y": 0.5065498352050781,
+            "width": 0.9864485740661622,
+            "height": 0.4855626424153646
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 6.24,
+        "inference_ms": 117.89,
+        "postprocessing_ms": 0.68,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 125.15,
+        "decode_ms": 3.73,
+        "total_ms": 129.5
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_6628d380d0ee64bf78ab.jpg": {
+    "success": true,
+    "processingTimeMs": 525.2,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.8177,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.180929692586263,
+          "width": 0.9990249633789062,
+          "height": 0.5187154134114583
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.76,
+      "inference_ms": 109.59,
+      "postprocessing_ms": 0.58,
+      "pothole_ms": 403.48,
+      "hybrid_ms": 520.77,
+      "decode_ms": 3.52,
+      "total_ms": 525.2
+    },
+    "http_ms": 529.9158000852913,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 132.4,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.8177,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.180929692586263,
+            "width": 0.9990249633789062,
+            "height": 0.5187154134114583
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 7.41,
+        "inference_ms": 119.93,
+        "postprocessing_ms": 0.66,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 128.55,
+        "decode_ms": 3.33,
+        "total_ms": 132.4
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_f3d65c6b4ff1fefb0674.jpg": {
+    "success": true,
+    "processingTimeMs": 563.2,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.9026,
+        "bbox": {
+          "x": 0.03113232522344393,
+          "y": 0.5229996681213379,
+          "width": 0.940498132273984,
+          "height": 0.4579246520996093
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.2,
+      "inference_ms": 114.39,
+      "postprocessing_ms": 0.62,
+      "pothole_ms": 433.08,
+      "hybrid_ms": 556.86,
+      "decode_ms": 5.74,
+      "total_ms": 563.2
+    },
+    "http_ms": 567.0633999397978,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 133.4,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.9026,
+          "bbox": {
+            "x": 0.03113232522344393,
+            "y": 0.5229996681213379,
+            "width": 0.940498132273984,
+            "height": 0.4579246520996093
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 7.47,
+        "inference_ms": 119.95,
+        "postprocessing_ms": 0.88,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 129.03,
+        "decode_ms": 3.92,
+        "total_ms": 133.4
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_831144a5ffb08af6c5e8.jpg": {
+    "success": true,
+    "processingTimeMs": 556.8,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.5235,
+        "bbox": {
+          "x": 0.006773757934570313,
+          "y": 0.14608375781791033,
+          "width": 0.9878614425659179,
+          "height": 0.8537482686980609
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.58,
+      "inference_ms": 122.17,
+      "postprocessing_ms": 0.58,
+      "pothole_ms": 422.65,
+      "hybrid_ms": 553.56,
+      "decode_ms": 2.71,
+      "total_ms": 556.8
+    },
+    "http_ms": 560.6003999710083,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 127.7,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.5235,
+          "bbox": {
+            "x": 0.006773757934570313,
+            "y": 0.14608375781791033,
+            "width": 0.9878614425659179,
+            "height": 0.8537482686980609
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 7.9,
+        "inference_ms": 114.14,
+        "postprocessing_ms": 1.04,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 123.76,
+        "decode_ms": 3.43,
+        "total_ms": 127.7
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_32d03b65e78d213154cf.jpg": {
+    "success": true,
+    "processingTimeMs": 569.4,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.4848,
+        "bbox": {
+          "x": 0.008125066757202148,
+          "y": 0.1770547866821289,
+          "width": 0.986321210861206,
+          "height": 0.8063596725463867
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.83,
+      "inference_ms": 118.52,
+      "postprocessing_ms": 0.97,
+      "pothole_ms": 435.23,
+      "hybrid_ms": 564.22,
+      "decode_ms": 4.67,
+      "total_ms": 569.4
+    },
+    "http_ms": 574.3885999545455,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 134.6,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.4848,
+          "bbox": {
+            "x": 0.008125066757202148,
+            "y": 0.1770547866821289,
+            "width": 0.986321210861206,
+            "height": 0.8063596725463867
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 9.78,
+        "inference_ms": 117.89,
+        "postprocessing_ms": 0.63,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 128.88,
+        "decode_ms": 5.05,
+        "total_ms": 134.6
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_9cdd21b85f7c81a4491d.jpg": {
+    "success": true,
+    "processingTimeMs": 595.7,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.3739,
+        "bbox": {
+          "x": 0.002923393249511719,
+          "y": 0.12312434819598946,
+          "width": 0.9926914215087891,
+          "height": 0.867368604316086
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.39,
+      "inference_ms": 109.71,
+      "postprocessing_ms": 0.68,
+      "pothole_ms": 473.19,
+      "hybrid_ms": 591.31,
+      "decode_ms": 3.7,
+      "total_ms": 595.7
+    },
+    "http_ms": 600.213099969551,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 126.3,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.3739,
+          "bbox": {
+            "x": 0.002923393249511719,
+            "y": 0.12312434819598946,
+            "width": 0.9926914215087891,
+            "height": 0.867368604316086
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 6.03,
+        "inference_ms": 114.48,
+        "postprocessing_ms": 0.74,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 121.62,
+        "decode_ms": 4.01,
+        "total_ms": 126.3
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_33015182935ec9abd2e5.jpg": {
+    "success": true,
+    "processingTimeMs": 602.7,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.63,
+      "inference_ms": 129.26,
+      "postprocessing_ms": 0.59,
+      "pothole_ms": 462.02,
+      "hybrid_ms": 597.87,
+      "decode_ms": 4.21,
+      "total_ms": 602.7
+    },
+    "http_ms": 606.9023999152705,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 124.4,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 6.28,
+        "inference_ms": 112.73,
+        "postprocessing_ms": 0.68,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 120.1,
+        "decode_ms": 3.62,
+        "total_ms": 124.4
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_726ab65cd85728940c39.jpg": {
+    "success": true,
+    "processingTimeMs": 612.4,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.49,
+      "inference_ms": 122.02,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 477.99,
+      "hybrid_ms": 607.4,
+      "decode_ms": 4.17,
+      "total_ms": 612.4
+    },
+    "http_ms": 616.6343999793753,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 135.1,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.34,
+        "inference_ms": 123.57,
+        "postprocessing_ms": 0.69,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 130.14,
+        "decode_ms": 4.3,
+        "total_ms": 135.1
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_bafd285fbc1bf95f6a67.jpg": {
+    "success": true,
+    "processingTimeMs": 625.0,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.93,
+      "inference_ms": 133.93,
+      "postprocessing_ms": 0.54,
+      "pothole_ms": 477.51,
+      "hybrid_ms": 619.29,
+      "decode_ms": 5.11,
+      "total_ms": 625.0
+    },
+    "http_ms": 629.4524000259116,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 123.8,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.84,
+        "inference_ms": 110.46,
+        "postprocessing_ms": 0.59,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 117.34,
+        "decode_ms": 5.8,
+        "total_ms": 123.8
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_7bbdc68f75cba1057cbd.jpg": {
+    "success": true,
+    "processingTimeMs": 582.1,
+    "detections": [],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.09,
+      "inference_ms": 130.93,
+      "postprocessing_ms": 0.6,
+      "pothole_ms": 439.64,
+      "hybrid_ms": 577.73,
+      "decode_ms": 3.71,
+      "total_ms": 582.1
+    },
+    "http_ms": 585.6743999756873,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 133.9,
+      "detections": [],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 5.46,
+        "inference_ms": 122.44,
+        "postprocessing_ms": 0.54,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 128.8,
+        "decode_ms": 4.31,
+        "total_ms": 133.9
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_b054986f71e6bcd90c07.jpg": {
+    "success": true,
+    "processingTimeMs": 591.8,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.4327,
+        "bbox": {
+          "x": 0.01473061392240435,
+          "y": 0.32154369354248047,
+          "width": 0.9728658444413515,
+          "height": 0.6654339790344238
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.01,
+      "inference_ms": 131.12,
+      "postprocessing_ms": 0.72,
+      "pothole_ms": 449.51,
+      "hybrid_ms": 587.77,
+      "decode_ms": 3.39,
+      "total_ms": 591.8
+    },
+    "http_ms": 595.174300018698,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 126.0,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.4327,
+          "bbox": {
+            "x": 0.01473061392240435,
+            "y": 0.32154369354248047,
+            "width": 0.9728658444413515,
+            "height": 0.6654339790344238
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 6.34,
+        "inference_ms": 114.29,
+        "postprocessing_ms": 0.71,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 121.71,
+        "decode_ms": 3.59,
+        "total_ms": 126.0
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_008b4ca4a17f2d8c929f.jpg": {
+    "success": true,
+    "processingTimeMs": 604.9,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.7992,
+        "bbox": {
+          "x": 0.002473258972167969,
+          "y": 0.2727285752274061,
+          "width": 0.9934381484985352,
+          "height": 0.7272714247725939
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 5.75,
+      "inference_ms": 121.13,
+      "postprocessing_ms": 0.74,
+      "pothole_ms": 471.85,
+      "hybrid_ms": 599.83,
+      "decode_ms": 4.45,
+      "total_ms": 604.9
+    },
+    "http_ms": 609.0791000751778,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 138.8,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.7992,
+          "bbox": {
+            "x": 0.002473258972167969,
+            "y": 0.2727285752274061,
+            "width": 0.9934381484985352,
+            "height": 0.7272714247725939
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 6.2,
+        "inference_ms": 126.89,
+        "postprocessing_ms": 0.76,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 134.19,
+        "decode_ms": 3.79,
+        "total_ms": 138.8
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_97d2e98d3f28cebbc20e.jpg": {
+    "success": true,
+    "processingTimeMs": 868.9,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.8593,
+        "bbox": {
+          "x": 0.004230686875640369,
+          "y": 0.0074175834655761715,
+          "width": 0.9944719944402262,
+          "height": 0.6543396472930908
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 6.05,
+      "inference_ms": 161.29,
+      "postprocessing_ms": 1.17,
+      "pothole_ms": 694.79,
+      "hybrid_ms": 863.88,
+      "decode_ms": 4.05,
+      "total_ms": 868.9
+    },
+    "http_ms": 873.957300093025,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 201.4,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.8593,
+          "bbox": {
+            "x": 0.004230686875640369,
+            "y": 0.0074175834655761715,
+            "width": 0.9944719944402262,
+            "height": 0.6543396472930908
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 7.83,
+        "inference_ms": 183.88,
+        "postprocessing_ms": 1.95,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 194.46,
+        "decode_ms": 5.89,
+        "total_ms": 201.4
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_89bf69bd62b933a8732a.jpg": {
+    "success": true,
+    "processingTimeMs": 927.7,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.9287,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.27977714538574217,
+          "width": 1.0,
+          "height": 0.6604696909586589
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.6513,
+        "bbox": {
+          "x": 0.19940600395202637,
+          "y": 0.8387702306111654,
+          "width": 0.21159176826477052,
+          "height": 0.05261484781901038
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 8.94,
+      "inference_ms": 199.92,
+      "postprocessing_ms": 0.8,
+      "pothole_ms": 710.58,
+      "hybrid_ms": 920.8,
+      "decode_ms": 5.99,
+      "total_ms": 927.7
+    },
+    "http_ms": 933.5554999997839,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 202.6,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.9287,
+          "bbox": {
+            "x": 0.0,
+            "y": 0.27977714538574217,
+            "width": 1.0,
+            "height": 0.6604696909586589
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 8.33,
+        "inference_ms": 185.34,
+        "postprocessing_ms": 1.16,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 195.38,
+        "decode_ms": 6.0,
+        "total_ms": 202.6
+      }
+    },
+    "gw_unchanged": true
+  },
+  "gw:images/test/garbageexp_f70f7146904aa7419868.jpg": {
+    "success": true,
+    "processingTimeMs": 924.0,
+    "detections": [
+      {
+        "class": "garbage",
+        "confidence": 0.8767,
+        "bbox": {
+          "x": 0.0028604507446289063,
+          "y": 0.31922709147135414,
+          "width": 0.992552375793457,
+          "height": 0.6603048960367839
+        },
+        "severity": "high",
+        "detector": "civiceye-v2"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.5456,
+        "bbox": {
+          "x": 0.002517890930175781,
+          "y": 0.2593732515970866,
+          "width": 0.9671876907348633,
+          "height": 0.6227561632792155
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "ready": true,
+    "pothole_pending": false,
+    "evaluated_classes": [
+      "pothole",
+      "garbage",
+      "waterlogging"
+    ],
+    "warnings": [],
+    "timings": {
+      "preprocessing_ms": 7.05,
+      "inference_ms": 199.81,
+      "postprocessing_ms": 1.1,
+      "pothole_ms": 707.51,
+      "hybrid_ms": 916.07,
+      "decode_ms": 7.15,
+      "total_ms": 924.0
+    },
+    "http_ms": 930.5193000473082,
+    "v2_only": {
+      "success": true,
+      "processingTimeMs": 192.3,
+      "detections": [
+        {
+          "class": "garbage",
+          "confidence": 0.8767,
+          "bbox": {
+            "x": 0.0028604507446289063,
+            "y": 0.31922709147135414,
+            "width": 0.992552375793457,
+            "height": 0.6603048960367839
+          },
+          "severity": "high",
+          "detector": "civiceye-v2"
+        }
+      ],
+      "ready": true,
+      "pothole_pending": false,
+      "evaluated_classes": [
+        "garbage",
+        "waterlogging"
+      ],
+      "warnings": [],
+      "timings": {
+        "preprocessing_ms": 9.18,
+        "inference_ms": 174.03,
+        "postprocessing_ms": 1.07,
+        "pothole_ms": 0.0,
+        "hybrid_ms": 184.91,
+        "decode_ms": 6.61,
+        "total_ms": 192.3
+      }
+    },
+    "gw_unchanged": true
+  }
+}
