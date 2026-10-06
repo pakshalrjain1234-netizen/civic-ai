@@ -4,7 +4,9 @@
   "version": "2.1.0",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test:deployment": "node scripts/verify-deployment.mjs"
+    "test:deployment": "node scripts/verify-deployment.mjs",
+    "test:motion": "node scripts/verify-motion-scan.mjs",
+    "test:photo": "node scripts/verify-photo-analysis.mjs"
   },
   "engines": { "node": ">=20" }
 }

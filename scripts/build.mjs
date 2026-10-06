@@ -15,7 +15,7 @@ if (development && !['http:', 'https:'].includes(url.protocol)) throw new Error(
 await rm(target, {recursive:true, force:true});
 await mkdir(target, {recursive:true});
 await cp(path.join(root, 'dist'), target, {recursive:true});
-await writeFile(path.join(target, 'vision-env.js'), 'window.CIVICEYE_VISION_ENV = ' + JSON.stringify({visionApiUrl:url.origin, production:!development, frameIntervalMs:700}) + ';\n');
+await writeFile(path.join(target, 'vision-env.js'), 'window.CIVICEYE_VISION_ENV = ' + JSON.stringify({visionApiUrl:url.origin, production:!development, frameIntervalMs:300}) + ';\n');
 // Strip the legacy development-only Connections hostname literal from production.
 if (!development) {
   const file = path.join(target, 'live-scan.js');

@@ -1,0 +1,154 @@
+[
+  {
+    "repo": "EngJamesO/pothole-detector",
+    "revision": "73812508005f777f67e00f4959f8a1e4c752de81",
+    "license": "mit",
+    "files": [
+      {
+        "name": ".gitattributes",
+        "size": 1519
+      },
+      {
+        "name": "README.md",
+        "size": 2744
+      },
+      {
+        "name": "models/yolov11.pt",
+        "size": 5471770
+      },
+      {
+        "name": "models/yolov12n.pt",
+        "size": 5518042
+      },
+      {
+        "name": "models/yolov8-fpn.pt",
+        "size": 4618390
+      },
+      {
+        "name": "models/yolov8n.pt",
+        "size": 6249386
+      },
+      {
+        "name": "models/yolov9c.pt",
+        "size": 51590476
+      }
+    ]
+  },
+  {
+    "repo": "Harisanth/Pothole-Finetuned-YOLOv8",
+    "revision": "30a4d21de50998dbfa7cc79abb0d7a0d4aa71a4d",
+    "license": "mit",
+    "files": [
+      {
+        "name": ".gitattributes",
+        "size": 1519
+      },
+      {
+        "name": "PUSH_TO_HUGGINGFACE.md",
+        "size": 4047
+      },
+      {
+        "name": "README.md",
+        "size": 4339
+      },
+      {
+        "name": "args.yaml",
+        "size": 1724
+      },
+      {
+        "name": "best.pt",
+        "size": 22492970
+      },
+      {
+        "name": "config.json",
+        "size": 704
+      },
+      {
+        "name": "model_card.md",
+        "size": 2348
+      }
+    ]
+  },
+  {
+    "repo": "TamAko783/YOLO26n_RDD_Base",
+    "revision": "043727c05db663bd85b5bc84673ddb06c097b8d9",
+    "license": "agpl-3.0",
+    "files": [
+      {
+        "name": ".gitattributes",
+        "size": 1519
+      },
+      {
+        "name": "README.md",
+        "size": 4280
+      },
+      {
+        "name": "YOLO26n_RDD_Base.pt",
+        "size": 5400069
+      }
+    ]
+  },
+  {
+    "repo": "warstad11/pothole",
+    "revision": "4e6c793c9c724affb879e5fca63373a4579ba76f",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "weights": [
+      {
+        "path": "models/pretrained/fusion_head.pth",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe5cc303c8d6002a9d3c42a210e2f9dc21194f60",
+        "size": 138539,
+        "url": "https://api.github.com/repos/warstad11/pothole/git/blobs/fe5cc303c8d6002a9d3c42a210e2f9dc21194f60"
+      },
+      {
+        "path": "models/pretrained/image_yolov8.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "118e9f141619a4c0137f5e687235a5895901c01e",
+        "size": 6247786,
+        "url": "https://api.github.com/repos/warstad11/pothole/git/blobs/118e9f141619a4c0137f5e687235a5895901c01e"
+      }
+    ],
+    "ml_files": []
+  },
+  {
+    "repo": "coding-parrot/pothole-reporter",
+    "revision": "01b313466f2cf7d440232a078f6db93476acc4d5",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "weights": [],
+    "ml_files": [
+      "ml/yolo/.dockerignore",
+      "ml/yolo/.gitignore",
+      "ml/yolo/Dockerfile.release",
+      "ml/yolo/MODEL_CONTRACT.md",
+      "ml/yolo/README.md",
+      "ml/yolo/__init__.py",
+      "ml/yolo/audits/owned-box-audit.example.json",
+      "ml/yolo/audits/owned-training-rights.example.json",
+      "ml/yolo/audits/rad-box-audit.example.json",
+      "ml/yolo/common.py",
+      "ml/yolo/evaluate.py",
+      "ml/yolo/parity.py",
+      "ml/yolo/prepare_dataset.py",
+      "ml/yolo/release.py",
+      "ml/yolo/requirements-train.txt",
+      "ml/yolo/source_registry.json",
+      "ml/yolo/tests/__init__.py",
+      "ml/yolo/tests/test_pipeline.py",
+      "ml/yolo/train.py"
+    ]
+  }
+]

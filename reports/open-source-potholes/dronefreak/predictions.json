@@ -1,0 +1,6105 @@
+{
+  "images/val/rdd_fc5031b3c928f33ec729.jpg": {
+    "detections": [],
+    "milliseconds": 848.2193000381812,
+    "sha256": "fc5031b3c928f33ec72954918ce5b04b82742f2b082fa5df6b7ee7b81e6cc4af"
+  },
+  "images/val/rdd_75a6145095bf4810c19a.jpg": {
+    "detections": [],
+    "milliseconds": 925.8819000096992,
+    "sha256": "75a6145095bf4810c19abebd6aa0802ee32e817a796eef8da56f9fde8fbb93c4"
+  },
+  "images/val/rdd_f77709fd4bf5a9a196ca.jpg": {
+    "detections": [],
+    "milliseconds": 1255.1624999614432,
+    "sha256": "f77709fd4bf5a9a196caed8d433c2b8755ba8a0b5428e39d6b1e44701d12e2ba"
+  },
+  "images/val/rdd_0b9c8a0df994da240f99.jpg": {
+    "detections": [],
+    "milliseconds": 1243.2237999746576,
+    "sha256": "0b9c8a0df994da240f992c7101b1769662936577b848f7d42e4233cfb887b68b"
+  },
+  "images/val/rdd_20a2454f7bb9c18bdfd6.jpg": {
+    "detections": [],
+    "milliseconds": 1237.2004999779165,
+    "sha256": "20a2454f7bb9c18bdfd6a98a891d52a7280701e470d4908c736c42d2514f1878"
+  },
+  "images/val/rdd_9ce4ea9aff79db78ee1f.jpg": {
+    "detections": [],
+    "milliseconds": 1298.8749999785796,
+    "sha256": "9ce4ea9aff79db78ee1ff9a976bb6cc72d123fe4c060d0cb00f423fa472c61bf"
+  },
+  "images/val/rdd_7c3c94117b4183fca4f9.jpg": {
+    "detections": [],
+    "milliseconds": 1097.1184999216348,
+    "sha256": "7c3c94117b4183fca4f940de2bc5762c37a25bc5fbf9b25eb99b622fd504cb28"
+  },
+  "images/val/rdd_abc3862dd2bc3e88911d.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 0.347249755859375,
+          "height": 0.3823218027750651
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1111.6571000311524,
+    "sha256": "abc3862dd2bc3e88911de3cd609abac97567b0f76a51288777cf898e7dbc2d59"
+  },
+  "images/val/rdd_a150ce3eb666ca6d4126.jpg": {
+    "detections": [],
+    "milliseconds": 1139.0738999471068,
+    "sha256": "a150ce3eb666ca6d412674993886cef9815f9c1853c1d5b831951302890d308d"
+  },
+  "images/val/rdd_aa359b12fed343e627a2.jpg": {
+    "detections": [],
+    "milliseconds": 1178.3766999142244,
+    "sha256": "aa359b12fed343e627a2de3cf52299bc242da70f7a3d627c3b202c635f5a7137"
+  },
+  "images/val/rdd_aa9a158e456a7203be29.jpg": {
+    "detections": [],
+    "milliseconds": 1127.7987000066787,
+    "sha256": "aa9a158e456a7203be295648c3103ca8d14d6d27a14d9b238e38542cf9874600"
+  },
+  "images/val/rdd_b07da3d759462aa71382.jpg": {
+    "detections": [],
+    "milliseconds": 1153.9763000328094,
+    "sha256": "b07da3d759462aa7138245e5b6d01a5152794fbdc9b2037730243fd775c08cfa"
+  },
+  "images/val/rdd_81ddd0170eef0a13da9e.jpg": {
+    "detections": [],
+    "milliseconds": 1070.2964999945834,
+    "sha256": "81ddd0170eef0a13da9e904bf4cd4cc3437a2d5b6f6020428df8edd50121ec3d"
+  },
+  "images/val/rdd_084ee7933e5ea5522518.jpg": {
+    "detections": [],
+    "milliseconds": 1038.3781000273302,
+    "sha256": "084ee7933e5ea5522518dacb4481544f365bb2f6176d6fe3fce0aaa645b47c45"
+  },
+  "images/val/rdd_de6b0b3b1f18d2cdd21d.jpg": {
+    "detections": [],
+    "milliseconds": 1094.9633000418544,
+    "sha256": "de6b0b3b1f18d2cdd21da0e50d8ca33bf26bd00afcd928439cbf9ed4ef34cbc0"
+  },
+  "images/val/rdd_b97ff4a7a2dae9ec6e15.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.06218758900960286,
+          "y": 0.6959931945800781,
+          "width": 0.08467937469482423,
+          "height": 0.02094080607096349
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1089.086199994199,
+    "sha256": "b97ff4a7a2dae9ec6e157610ff42f1726b65d6cd6b07625776d0ca3e2729ee0c"
+  },
+  "images/val/rdd_a0edbd77fdd5004ff67b.jpg": {
+    "detections": [],
+    "milliseconds": 1061.0988999251276,
+    "sha256": "a0edbd77fdd5004ff67be824de0bc57046f22ec5b6873549d321a856cbc0974f"
+  },
+  "images/val/rdd_0812eb365851c054d898.jpg": {
+    "detections": [],
+    "milliseconds": 1077.1392000606284,
+    "sha256": "0812eb365851c054d8981943b2b32fd96b2a8d158ebe2a312b1476cf1f7d66fa"
+  },
+  "images/val/rdd_6ff8d7d3d7e4b0c42100.jpg": {
+    "detections": [],
+    "milliseconds": 1166.3913999218494,
+    "sha256": "6ff8d7d3d7e4b0c42100461568d2e8e4a78b3eaf7ba27a427a7b76f92f41d59e"
+  },
+  "images/val/rdd_4605496ce6705d3266c8.jpg": {
+    "detections": [],
+    "milliseconds": 1244.668799918145,
+    "sha256": "4605496ce6705d3266c8cf6707304315c8e2f8156c952d1998604b225a8e3ead"
+  },
+  "images/val/rdd_e501839b182afa4b704f.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.0005435108641783397,
+          "y": 0.7311260477701823,
+          "width": 0.038959815551837286,
+          "height": 0.027683258056640625
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1196.3846000144258,
+    "sha256": "e501839b182afa4b704fd5e5f2b1066c71d633908bcb943e9f5c7ebfaa7b0d4d"
+  },
+  "images/val/rdd_f9376ec36b9392d8ca5e.jpg": {
+    "detections": [],
+    "milliseconds": 1073.8733999896795,
+    "sha256": "f9376ec36b9392d8ca5eb7b68111b0884e9a48c347f3c744c9737cd287c66ab4"
+  },
+  "images/val/rdd_ffe5283da109054a6e8d.jpg": {
+    "detections": [],
+    "milliseconds": 1029.7426000470296,
+    "sha256": "ffe5283da109054a6e8de258a9e53b96651a6b7c93ad3ad9fe8b2927035764d6"
+  },
+  "images/val/rdd_6ddac4bc2b5d5b7af456.jpg": {
+    "detections": [],
+    "milliseconds": 1267.2383999451995,
+    "sha256": "6ddac4bc2b5d5b7af4569b714eede772e7ca95147c67fb04e9fa74e800967c58"
+  },
+  "images/val/rdd_fbabc889bd7200392192.jpg": {
+    "detections": [],
+    "milliseconds": 1226.7772000050172,
+    "sha256": "fbabc889bd7200392192d71a91bb8dd60772d37decacddb722b0ab1942ce094e"
+  },
+  "images/val/rdd_6dc6d87141625d952985.jpg": {
+    "detections": [],
+    "milliseconds": 1313.672099960968,
+    "sha256": "6dc6d87141625d95298545d9148576833eeed96f5b5ca46cf0e2e6f2e377bdc8"
+  },
+  "images/val/rdd_4c4a9541be9cb07398e1.jpg": {
+    "detections": [],
+    "milliseconds": 1293.0813001003116,
+    "sha256": "4c4a9541be9cb07398e1dcd998158a5daefb647e88b07fe60ea6a6acdfeef293"
+  },
+  "images/val/rdd_46ab32786f6963853510.jpg": {
+    "detections": [],
+    "milliseconds": 1239.3617999041453,
+    "sha256": "46ab32786f69638535103724255ab828e43fa6aefc2158c2dfbca6c31cd20d95"
+  },
+  "images/val/rdd_78eb4022c18ee9b7f3cb.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.003,
+        "bbox": {
+          "x": 0.8992940266927083,
+          "y": 0.3096381378173828,
+          "width": 0.1007059733072917,
+          "height": 0.1701012420654297
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1305.2470000693575,
+    "sha256": "78eb4022c18ee9b7f3cba52a8e575906765ccd673bbe56aed6f1017c1fb69b94"
+  },
+  "images/val/rdd_63ca3ce1d838ed73f2ed.jpg": {
+    "detections": [],
+    "milliseconds": 1323.9475999725983,
+    "sha256": "63ca3ce1d838ed73f2ed3ee87c7efdec0844047e6daa1d05badbe02349a17e0b"
+  },
+  "images/val/rdd_e94f4811e3abe4e87e66.jpg": {
+    "detections": [],
+    "milliseconds": 1213.006499921903,
+    "sha256": "e94f4811e3abe4e87e6628f787ed20a5eadf07ec83b1b25cb7a632d8b357b131"
+  },
+  "images/val/rdd_dffd51176c216703e703.jpg": {
+    "detections": [],
+    "milliseconds": 1272.325100027956,
+    "sha256": "dffd51176c216703e7037834f568d3e94977744b10283a03344d335f25884527"
+  },
+  "images/val/rdd_d27bbbb968d124fb76c8.jpg": {
+    "detections": [],
+    "milliseconds": 1218.433800037019,
+    "sha256": "d27bbbb968d124fb76c8b97e0c251cb77af03a74bd94217558c5961b7626c227"
+  },
+  "images/val/rdd_f1cfe826e059c32077e4.jpg": {
+    "detections": [],
+    "milliseconds": 1309.476500027813,
+    "sha256": "f1cfe826e059c32077e4cf01883318ab21095f75fcd0aa6aa678abbd5c9df6c2"
+  },
+  "images/val/rdd_119e9cbcd213b09f1c5c.jpg": {
+    "detections": [],
+    "milliseconds": 1236.0522999661043,
+    "sha256": "119e9cbcd213b09f1c5c860c0ffe52d71f83a41f108f99d136b60217cecb54ec"
+  },
+  "images/val/rdd_e6ba155bd239feac7846.jpg": {
+    "detections": [],
+    "milliseconds": 1305.0252000102773,
+    "sha256": "e6ba155bd239feac784616cc657d608fc4433234192c747e7922c6c2c62c4117"
+  },
+  "images/val/rdd_3875408ca6b80e6a80a9.jpg": {
+    "detections": [],
+    "milliseconds": 1315.700399922207,
+    "sha256": "3875408ca6b80e6a80a9002088a7e474e297f5fa733948c83a53920574a8b265"
+  },
+  "images/val/rdd_c2bee00916f8baf8a26d.jpg": {
+    "detections": [],
+    "milliseconds": 1304.6768000349402,
+    "sha256": "c2bee00916f8baf8a26d03dc29a7913b145b3b62675b891ed83ba29b31cc3a1b"
+  },
+  "images/val/rdd_ef3bfe40c36ecbb3684c.jpg": {
+    "detections": [],
+    "milliseconds": 1304.2574999853969,
+    "sha256": "ef3bfe40c36ecbb3684c6432b3484b764ca27a4ad9d827f468ad71c42d485f58"
+  },
+  "images/val/rdd_eeca78042a7957109c13.jpg": {
+    "detections": [],
+    "milliseconds": 1308.3984999684617,
+    "sha256": "eeca78042a7957109c13014cd1b73306ed839b7d566cf3ae5cd242e730ac37b7"
+  },
+  "images/val/rdd_6fcd4a193b4864fd5897.jpg": {
+    "detections": [],
+    "milliseconds": 961.6119000129402,
+    "sha256": "6fcd4a193b4864fd589784e1f1ea04d311dbe53dcdaa0a14e28f780598e68d46"
+  },
+  "images/val/rdd_c80a34e91c1707b98394.jpg": {
+    "detections": [],
+    "milliseconds": 979.6752999536693,
+    "sha256": "c80a34e91c1707b983943276f5d743407b9183e90ffd7fca795977fab8712659"
+  },
+  "images/val/rdd_a7fd2eb6b9a1adcb98b7.jpg": {
+    "detections": [],
+    "milliseconds": 982.2779999813065,
+    "sha256": "a7fd2eb6b9a1adcb98b712f2aed81f9872c64041333414d3e172b5521722c545"
+  },
+  "images/val/rdd_ac9b0ab3ec65d98bdd37.jpg": {
+    "detections": [],
+    "milliseconds": 945.3769000247121,
+    "sha256": "ac9b0ab3ec65d98bdd37f324e01fec0a4694310136a694752b585ee863c46dfb"
+  },
+  "images/val/rdd_aaa0c04fbb9fddc0efa0.jpg": {
+    "detections": [],
+    "milliseconds": 939.7224999265745,
+    "sha256": "aaa0c04fbb9fddc0efa093f352ab1c6df65366313af01f2bc7d63a6cd402ad30"
+  },
+  "images/val/rdd_ca54c8db66e51f71c932.jpg": {
+    "detections": [],
+    "milliseconds": 922.3829000256956,
+    "sha256": "ca54c8db66e51f71c9325362283efdf541127b65bf00f22af2b2db484d1c5494"
+  },
+  "images/val/rdd_background_62fbb8ae2ef07e945d7c.jpg": {
+    "detections": [],
+    "milliseconds": 1005.3682000143453,
+    "sha256": "62fbb8ae2ef07e945d7c71b42fe01e5e3965ef74097e470f3b83cf9e086a1cbb"
+  },
+  "images/val/rdd_background_41333074145be562fd90.jpg": {
+    "detections": [],
+    "milliseconds": 894.4754999829456,
+    "sha256": "41333074145be562fd90cfc09f9c3d3ee1afe47524e9fc597c9c60457807a517"
+  },
+  "images/val/rdd_background_8ea555788681b38c39ad.jpg": {
+    "detections": [],
+    "milliseconds": 919.6599000133574,
+    "sha256": "8ea555788681b38c39ad8c58f79934fe9ab8ced30d00efd72e0ed50c52531a36"
+  },
+  "images/val/rdd_background_d4571a41c49a48108e2f.jpg": {
+    "detections": [],
+    "milliseconds": 1006.9905000273138,
+    "sha256": "d4571a41c49a48108e2fb66d7f73f8a124a64c04975fa0a6c15e58abc3d69cdd"
+  },
+  "images/val/rdd_background_8af0612963d5e2aaf70b.jpg": {
+    "detections": [],
+    "milliseconds": 941.128799924627,
+    "sha256": "8af0612963d5e2aaf70b3aecc64a2dc1fa436080f2c5a6f6b503af7b235b0ca9"
+  },
+  "images/val/rdd_background_22a0d674b75e50a2c9b8.jpg": {
+    "detections": [],
+    "milliseconds": 970.4643000150099,
+    "sha256": "22a0d674b75e50a2c9b89ae8f641bad0a764e80778c0d9cd7574878418c9114a"
+  },
+  "images/val/rdd_background_e60ff9e94068e5fa14d3.jpg": {
+    "detections": [],
+    "milliseconds": 942.7809999324381,
+    "sha256": "e60ff9e94068e5fa14d34e5e92e9a97b132045936e4df9d6af5ef51b0f0912f4"
+  },
+  "images/val/rdd_background_cc52c30a270381090dc8.jpg": {
+    "detections": [],
+    "milliseconds": 926.4884000876918,
+    "sha256": "cc52c30a270381090dc8e74f43b017bed387e78e59b1b53089ad2d8b34f721f3"
+  },
+  "images/val/rdd_background_9ca428068e56d3595688.jpg": {
+    "detections": [],
+    "milliseconds": 938.0110999336466,
+    "sha256": "9ca428068e56d359568895e23c45ac27093a9db603c14f5750c19a824354a626"
+  },
+  "images/val/rdd_background_0f76773699011b6aa882.jpg": {
+    "detections": [],
+    "milliseconds": 911.7013999493793,
+    "sha256": "0f76773699011b6aa882191eb0481e56b4ff1952319cfc8c3af8c2b4241d3335"
+  },
+  "images/val/rdd_background_aa801ab25ccfcd0de512.jpg": {
+    "detections": [],
+    "milliseconds": 922.1055000089109,
+    "sha256": "aa801ab25ccfcd0de5121dc8478b6785bb22515e2e3e8bdc26bc3aba8e2b7d1b"
+  },
+  "images/val/rdd_background_7d18dea88fa6e8d84cf4.jpg": {
+    "detections": [],
+    "milliseconds": 1001.8851000349969,
+    "sha256": "7d18dea88fa6e8d84cf4b3b3d04bbba43e189605c6c196ea57a79dc65f613590"
+  },
+  "images/val/rdd_background_c3572a603ea0dcc2fef2.jpg": {
+    "detections": [],
+    "milliseconds": 930.1054000388831,
+    "sha256": "c3572a603ea0dcc2fef27ed2d679a024e343e5785fca0896c265735044ee1633"
+  },
+  "images/val/rdd_background_23128c932ce13df2be88.jpg": {
+    "detections": [],
+    "milliseconds": 874.910100013949,
+    "sha256": "23128c932ce13df2be8899b325240c360fede514bec7002e251dea845d50898c"
+  },
+  "images/val/rdd_background_31a1879ab7d4895f60d0.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0017,
+        "bbox": {
+          "x": 0.0013033865888913473,
+          "y": 0.007726740042368571,
+          "width": 0.9054257393876711,
+          "height": 0.7857448379198709
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 860.6230999575928,
+    "sha256": "31a1879ab7d4895f60d0e942e1c28a0c6e40a9fab5d0792e9ccbc84175e78cd4"
+  },
+  "images/val/rdd_background_dfcb5ec656e6be2c6d2c.jpg": {
+    "detections": [],
+    "milliseconds": 997.7061999961734,
+    "sha256": "dfcb5ec656e6be2c6d2cd228cb815130bdfe41a212b69b9d56bcb4c4b30465cd"
+  },
+  "images/val/rdd_background_6356e18648ffb2ae388e.jpg": {
+    "detections": [],
+    "milliseconds": 920.5570000922307,
+    "sha256": "6356e18648ffb2ae388e5bfeaac877763ae9c694a9f6ea302f5623eb772b57de"
+  },
+  "images/val/rdd_background_4aa9e099672473b6c982.jpg": {
+    "detections": [],
+    "milliseconds": 939.932500012219,
+    "sha256": "4aa9e099672473b6c9827cb32ca46010c98aa842554281a0126895956924d0fc"
+  },
+  "images/val/rdd_background_09ab40982dd24d5c3e6d.jpg": {
+    "detections": [],
+    "milliseconds": 979.1476000100374,
+    "sha256": "09ab40982dd24d5c3e6d6b96b61bdccd5fbd031f9ceba24cd43f393b69c7f587"
+  },
+  "images/val/rdd_background_85cf57c719b44387b22c.jpg": {
+    "detections": [],
+    "milliseconds": 926.1633999412879,
+    "sha256": "85cf57c719b44387b22c20376dc9fd2b869d366ef592d3b92ec0d33efd83de4c"
+  },
+  "images/val/oiv2_6948ffbd6d9871a63a23.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0028,
+        "bbox": {
+          "x": 0.4643475413322449,
+          "y": 0.6286562836992933,
+          "width": 0.11238211393356323,
+          "height": 0.050889114626353704
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 965.9239000175148,
+    "sha256": "6948ffbd6d9871a63a23c8e5962522618fd81de1784de8eda1aae6e2699a4cf3"
+  },
+  "images/val/oiv2_5ca193dbd99085d83d66.jpg": {
+    "detections": [],
+    "milliseconds": 938.0439999513328,
+    "sha256": "5ca193dbd99085d83d6610d635bb5a8da2702fc53034575f7943e9eb87e8243c"
+  },
+  "images/val/oiv2_cdc8692303605471cb57.jpg": {
+    "detections": [],
+    "milliseconds": 1016.0181000828743,
+    "sha256": "cdc8692303605471cb574743bab00b2d36a04a5cb50f1766a2b056407ab2c1c4"
+  },
+  "images/val/oiv2_b193c77e94b9c222a441.jpg": {
+    "detections": [],
+    "milliseconds": 978.8792999461293,
+    "sha256": "b193c77e94b9c222a441458d6ec54fc1a9976ebac6ca4aa78544116160b8e237"
+  },
+  "images/val/oiv2_07a11df9e203927edd49.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0142,
+        "bbox": {
+          "x": 0.7520958781242371,
+          "y": 0.8672787348429362,
+          "width": 0.078072190284729,
+          "height": 0.07605383131239152
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0139,
+        "bbox": {
+          "x": 0.006475687026977539,
+          "y": 0.5735536151462131,
+          "width": 0.10486769676208496,
+          "height": 0.07411315706041133
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0135,
+        "bbox": {
+          "x": 0.07088420540094376,
+          "y": 0.6117627355787489,
+          "width": 0.04256529361009598,
+          "height": 0.027231693267822266
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0097,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.8532487551371256,
+          "width": 0.11145951598882675,
+          "height": 0.046938419342041016
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0088,
+        "bbox": {
+          "x": 0.506598949432373,
+          "y": 0.5094295077853732,
+          "width": 0.49313193559646606,
+          "height": 0.13799640867445206
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0071,
+        "bbox": {
+          "x": 0.0005756616592407227,
+          "y": 0.5381657812330458,
+          "width": 0.155950665473938,
+          "height": 0.15693426132202148
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0047,
+        "bbox": {
+          "x": 0.11860828101634979,
+          "y": 0.7407538625929091,
+          "width": 0.09557054936885834,
+          "height": 0.04961427052815748
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0029,
+        "bbox": {
+          "x": 0.03789855167269707,
+          "y": 0.5942462285359701,
+          "width": 0.07837953791022301,
+          "height": 0.046011024051242355
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0025,
+        "bbox": {
+          "x": 0.4098687767982483,
+          "y": 0.8745434019300673,
+          "width": 0.06563186645507812,
+          "height": 0.06360562642415357
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0025,
+        "bbox": {
+          "x": 0.5542897582054138,
+          "y": 0.5156792534722222,
+          "width": 0.032775044441223145,
+          "height": 0.09631246990627718
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.00016130208678077906,
+          "y": 0.5689851442972819,
+          "width": 0.0781812548666494,
+          "height": 0.13296222686767578
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 6.259381916606799e-05,
+          "y": 0.5676630867852105,
+          "width": 0.036164647339319345,
+          "height": 0.1155296961466471
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0017,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.9355044894748263,
+          "width": 0.019782928749918938,
+          "height": 0.0489501953125
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 930.016899947077,
+    "sha256": "07a11df9e203927edd491f2ed929b28812db78d30382502de5ac14e7f65748e8"
+  },
+  "images/val/oiv2_04e58f7963657fc9cb84.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0079,
+        "bbox": {
+          "x": 0.8752767443656921,
+          "y": 0.8570514520009359,
+          "width": 0.11586380004882812,
+          "height": 0.031193415323893192
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0023,
+        "bbox": {
+          "x": 0.5133352279663086,
+          "y": 0.913538376490275,
+          "width": 0.060773491859436035,
+          "height": 0.02121734619140625
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.599202036857605,
+          "y": 0.9167823791503906,
+          "width": 0.09465676546096802,
+          "height": 0.0449004968007406
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 978.1017999630421,
+    "sha256": "04e58f7963657fc9cb84305716c44322da0bcb3db95cc833f133ebcaaba4d342"
+  },
+  "images/val/oiv2_0500b36dc38e6bfd5bd3.jpg": {
+    "detections": [],
+    "milliseconds": 904.759900062345,
+    "sha256": "0500b36dc38e6bfd5bd30e9efd620867177ff82d43561273c4f12159392f037e"
+  },
+  "images/val/oiv2_003bd85424d5c61d7263.jpg": {
+    "detections": [],
+    "milliseconds": 900.8845000062138,
+    "sha256": "003bd85424d5c61d7263ed7bc231c12e3de9096fc6de27da60cdb3979fe87b22"
+  },
+  "images/val/oiv2_7383c9d618f608843d2a.jpg": {
+    "detections": [],
+    "milliseconds": 909.013600088656,
+    "sha256": "7383c9d618f608843d2a727043ff18fb96dfac42e7ed260c20c2fa94ae24935a"
+  },
+  "images/val/oiv2_540b388457dcbd185aa9.jpg": {
+    "detections": [],
+    "milliseconds": 958.4635000210255,
+    "sha256": "540b388457dcbd185aa98556af402e3154aea4ef540ac2bfbea3706d567a98b7"
+  },
+  "images/val/oiv2_dc4b1345b7ff0c1d0b18.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0025,
+        "bbox": {
+          "x": 0.6866005261739095,
+          "y": 0.874738335609436,
+          "width": 0.2147334416707356,
+          "height": 0.12434536218643188
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 938.6737999739125,
+    "sha256": "dc4b1345b7ff0c1d0b18a863e1e6e910b6e7803cad967b6740c7858a7d0231d0"
+  },
+  "images/val/oiv2_fa49358f2af3341ab5c5.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0075,
+        "bbox": {
+          "x": 0.1408471316099167,
+          "y": 0.836713492426183,
+          "width": 0.16777946054935455,
+          "height": 0.0757202512283438
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0031,
+        "bbox": {
+          "x": 0.14055219292640686,
+          "y": 0.6900088087101807,
+          "width": 0.04680265486240387,
+          "height": 0.03265180744108609
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.1455322802066803,
+          "y": 0.5346723349012668,
+          "width": 0.3624512851238251,
+          "height": 0.29630830995016766
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.681011808256101,
+          "width": 0.034407034516334534,
+          "height": 0.05198080457980159
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 968.2592999888584,
+    "sha256": "fa49358f2af3341ab5c5f315605cbdab0863fd340cea3217835b51fde7fa6f87"
+  },
+  "images/val/oiv2_883287642825a68d4bb4.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0449,
+        "bbox": {
+          "x": 0.27181681990623474,
+          "y": 0.23654313882191977,
+          "width": 0.27828940749168396,
+          "height": 0.05962371826171872
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0043,
+        "bbox": {
+          "x": 0.623642086982727,
+          "y": 0.7611277103424072,
+          "width": 0.09556698799133301,
+          "height": 0.04102412859598792
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0043,
+        "bbox": {
+          "x": 0.29770201444625854,
+          "y": 0.42406801382700604,
+          "width": 0.06702852249145508,
+          "height": 0.02651810646057129
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0042,
+        "bbox": {
+          "x": 0.2744990289211273,
+          "y": 0.253349502881368,
+          "width": 0.13139650225639343,
+          "height": 0.04505715767542523
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.5965965390205383,
+          "y": 0.3309662739435832,
+          "width": 0.05457305908203125,
+          "height": 0.01816999912261963
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.4867544174194336,
+          "y": 0.6398499011993408,
+          "width": 0.11548197269439697,
+          "height": 0.0767150719960531
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.38138842582702637,
+          "y": 0.2435455322265625,
+          "width": 0.1677907109260559,
+          "height": 0.044223785400390625
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 935.8649000059813,
+    "sha256": "883287642825a68d4bb4a16fd94d18fd7739b80c05272f96bb5da6cd846667d0"
+  },
+  "images/val/oiv2_de67facc386508acc8f6.jpg": {
+    "detections": [],
+    "milliseconds": 1059.8437000298873,
+    "sha256": "de67facc386508acc8f65a678cf92b5644681fd6a77c07344ef664a539da80c9"
+  },
+  "images/val/oiv2_ebd5eff4d07a24df7fb9.jpg": {
+    "detections": [],
+    "milliseconds": 1062.1205000206828,
+    "sha256": "ebd5eff4d07a24df7fb97de52afec2ea1024860624eb45e4266c44f30b23b6e0"
+  },
+  "images/val/oiv2_6e4e0ceb39fdda5bcdce.jpg": {
+    "detections": [],
+    "milliseconds": 1074.9890999868512,
+    "sha256": "6e4e0ceb39fdda5bcdced36febfbde2fc7ed9ff5ddd0807a1d90ff987d8e3868"
+  },
+  "images/val/oiv2_0adb6afb4636aeb88e14.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0019,
+        "bbox": {
+          "x": 0.4108976551286861,
+          "y": 0.8859504461288452,
+          "width": 0.5831177777188805,
+          "height": 0.09570449590682983
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 0.6442054318485778,
+          "y": 0.9429457783699036,
+          "width": 0.13214468109831679,
+          "height": 0.057054221630096436
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.5380796301091141,
+          "y": 0.9201834797859192,
+          "width": 0.2799131516872716,
+          "height": 0.06453931331634521
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.10958172632906282,
+          "y": 0.9092756509780884,
+          "width": 0.8612828423932102,
+          "height": 0.09064650535583496
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1031.3728000037372,
+    "sha256": "0adb6afb4636aeb88e143da8f603db65b156d65694ff02c37113b97599c248d2"
+  },
+  "images/val/oiv2_b8e8e61b13fa6ab133bd.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0024,
+        "bbox": {
+          "x": 0.20643720030784607,
+          "y": 0.7243564577868385,
+          "width": 0.08458110690116882,
+          "height": 0.2732479346059534
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0019,
+        "bbox": {
+          "x": 0.6292474865913391,
+          "y": 0.7773967659386405,
+          "width": 0.1744268536567688,
+          "height": 0.17674881315579383
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1055.0777999451384,
+    "sha256": "b8e8e61b13fa6ab133bdf5324427bf0b567809aafb033b069983036b94a3ea41"
+  },
+  "images/val/oiv2_972f82d9a41cb9ce0285.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.007,
+        "bbox": {
+          "x": 0.5309417843818665,
+          "y": 0.624847412109375,
+          "width": 0.3320339322090149,
+          "height": 0.3682436943054199
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0033,
+        "bbox": {
+          "x": 0.6123380661010742,
+          "y": 0.7211668491363525,
+          "width": 0.3748447299003601,
+          "height": 0.2756458123524984
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1031.798499985598,
+    "sha256": "972f82d9a41cb9ce028583a239b2fb92b612285ae18463137c60056369859c38"
+  },
+  "images/val/oiv2_8eb2d53a4cb0dc276a43.jpg": {
+    "detections": [],
+    "milliseconds": 1069.6008000522852,
+    "sha256": "8eb2d53a4cb0dc276a436224b2eabfeef79d0b66d1c94f82a0d24cc363072849"
+  },
+  "images/val/oiv2_6e36a5955e0a353e112f.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.2242218686133316,
+          "y": 0.9376257061958313,
+          "width": 0.04331010641510952,
+          "height": 0.021335959434509277
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.43953555392235827,
+          "y": 0.9413471221923828,
+          "width": 0.36690662816627734,
+          "height": 0.058556199073791504
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1114.312200108543,
+    "sha256": "6e36a5955e0a353e112f8aeb51694a66e73881c863892e530293ced815f0cea6"
+  },
+  "images/val/oiv2_185851cf02025d44cc95.jpg": {
+    "detections": [],
+    "milliseconds": 1233.5203000111505,
+    "sha256": "185851cf02025d44cc9567a8502d1ca802c78cd26cd32f71eebb5062658216c0"
+  },
+  "images/val/oiv2_a2cb038e474b2d8ae21d.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.4359983503818512,
+          "y": 0.0,
+          "width": 0.21691933274269104,
+          "height": 0.16141152486313867
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1028.5360999405384,
+    "sha256": "a2cb038e474b2d8ae21dd8a1bfcb0be64ee84637ae95d09943cafea26d79f8fb"
+  },
+  "images/val/oiv2_d65fbd74d7cd7ba88a94.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0029,
+        "bbox": {
+          "x": 0.406724750995636,
+          "y": 0.9576388200124105,
+          "width": 0.11961060762405396,
+          "height": 0.03973944981892896
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1102.5407999986783,
+    "sha256": "d65fbd74d7cd7ba88a94b8c923b065bf19fd0beb9718deae0e0e345b110d5489"
+  },
+  "images/val/oiv2_576f4c2545951544a4df.jpg": {
+    "detections": [],
+    "milliseconds": 1072.8210000088438,
+    "sha256": "576f4c2545951544a4df18a0abb1ca16ad24e17d9b0aeca2994ddd8860213b0e"
+  },
+  "images/val/oiv2_8e1476046ba90baafd51.jpg": {
+    "detections": [],
+    "milliseconds": 1168.986100004986,
+    "sha256": "8e1476046ba90baafd515b47618ddb2fe5b13642f2e38a0401f39de94dfd2cf5"
+  },
+  "images/val/oiv2_a76499d083b9399f146c.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.2671741843223572,
+          "y": 0.9605834420803374,
+          "width": 0.0956428050994873,
+          "height": 0.03941655791966259
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 894.6847999468446,
+    "sha256": "a76499d083b9399f146c7af3db9f4168fa2a167633d099e6957e36d7aade3d7f"
+  },
+  "images/val/oiv2_021c92af88fc9b3c97db.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0026,
+        "bbox": {
+          "x": 0.4761027256531387,
+          "y": 0.9716919660568237,
+          "width": 0.3480045882709554,
+          "height": 0.02830803394317627
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 0.5823513941394811,
+          "y": 0.9854341745376587,
+          "width": 0.19893765763691895,
+          "height": 0.014565825462341309
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.46617191253259976,
+          "y": 0.9417007565498352,
+          "width": 0.49669708654088124,
+          "height": 0.05819547176361084
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 902.4659999413416,
+    "sha256": "021c92af88fc9b3c97db55b61f1a94087c60869f1ae43653ec3a53da13d1e161"
+  },
+  "images/val/oiv2_4e581b3db3a68122b628.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0152,
+        "bbox": {
+          "x": 0.14294257760047913,
+          "y": 0.7809411200161638,
+          "width": 0.09793037176132202,
+          "height": 0.21007964035560345
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0026,
+        "bbox": {
+          "x": 0.27967211604118347,
+          "y": 0.8473535998114224,
+          "width": 0.3498821556568146,
+          "height": 0.14898639547413794
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.5682859420776367,
+          "y": 0.8124874562230604,
+          "width": 0.059838294982910156,
+          "height": 0.12269590180495682
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 854.5102999778464,
+    "sha256": "4e581b3db3a68122b628aeedf625ff599e3175dffc3878d4209dd62a6b878c12"
+  },
+  "images/val/oiv2_7363b0438d9069bacf13.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0161,
+        "bbox": {
+          "x": 0.41432029008865356,
+          "y": 0.6345900694529215,
+          "width": 0.0407794713973999,
+          "height": 0.02066195011138916
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.002,
+        "bbox": {
+          "x": 0.2717665433883667,
+          "y": 0.6400938034057617,
+          "width": 0.08091980218887329,
+          "height": 0.028491179148356083
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.38903334736824036,
+          "y": 0.6327958504358927,
+          "width": 0.06803491711616516,
+          "height": 0.028142809867858887
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.7924343943595886,
+          "y": 0.8351195653279623,
+          "width": 0.08818072080612183,
+          "height": 0.13790138562520338
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 857.4996000388637,
+    "sha256": "7363b0438d9069bacf13fab7f8cf9808acb5214278334ce3de1b369637121f41"
+  },
+  "images/val/oiv2_b1125d0450c88c640ed4.jpg": {
+    "detections": [],
+    "milliseconds": 860.6692999601364,
+    "sha256": "b1125d0450c88c640ed445f320d656dd965ef092df3862b38643b720a7aae8b4"
+  },
+  "images/val/oiv2_90393abb34ff351376ce.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0032,
+        "bbox": {
+          "x": 0.5883282423019409,
+          "y": 0.3938667376836141,
+          "width": 0.11247104406356812,
+          "height": 0.0359499454498291
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 819.4506000727415,
+    "sha256": "90393abb34ff351376ce00261787e1bfc01ce0ae3e492a734fa6a11b273cb1b2"
+  },
+  "images/val/oiv2_411947866ddeb2cb3dd0.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0331,
+        "bbox": {
+          "x": 0.7347826957702637,
+          "y": 0.7447443725307873,
+          "width": 0.08145254850387573,
+          "height": 0.11131741951701313
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0297,
+        "bbox": {
+          "x": 0.6421769857406616,
+          "y": 0.7435707318212557,
+          "width": 0.172177255153656,
+          "height": 0.15499398268436793
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0116,
+        "bbox": {
+          "x": 0.4527432322502136,
+          "y": 0.7403151527352648,
+          "width": 0.363142192363739,
+          "height": 0.18737494049419845
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0096,
+        "bbox": {
+          "x": 0.4421922564506531,
+          "y": 0.71567057477043,
+          "width": 0.22876185178756714,
+          "height": 0.1432980339728075
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0096,
+        "bbox": {
+          "x": 0.7725480198860168,
+          "y": 0.713877197821754,
+          "width": 0.04223209619522095,
+          "height": 0.11284302035876992
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0089,
+        "bbox": {
+          "x": 0.5511816740036011,
+          "y": 0.7190447483627562,
+          "width": 0.12088817358016968,
+          "height": 0.08195519936111906
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0047,
+        "bbox": {
+          "x": 0.6092813611030579,
+          "y": 0.7198742842619946,
+          "width": 0.060636699199676514,
+          "height": 0.06467648030413575
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.003,
+        "bbox": {
+          "x": 0.25574713945388794,
+          "y": 0.7358087005267654,
+          "width": 0.4066704511642456,
+          "height": 0.16362468745550962
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.002,
+        "bbox": {
+          "x": 0.4799981117248535,
+          "y": 0.7520094330598662,
+          "width": 0.16011810302734375,
+          "height": 0.08295525831079154
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.9516979455947876,
+          "y": 0.7194954213900555,
+          "width": 0.0483020544052124,
+          "height": 0.2542315159408812
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.9411722421646118,
+          "y": 0.72161316057001,
+          "width": 0.05868816375732422,
+          "height": 0.07101190171643645
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.6513981819152832,
+          "y": 0.8211681739615959,
+          "width": 0.11275255680084229,
+          "height": 0.07393957324886113
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.4891273081302643,
+          "y": 0.6933531185489038,
+          "width": 0.059176892042160034,
+          "height": 0.04263201389877558
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 803.9960999740288,
+    "sha256": "411947866ddeb2cb3dd0c502784c137f53ee6e9e72b1601788f3fe7bad74db87"
+  },
+  "images/val/oiv2_7c0584ca1f215d90d313.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0058,
+        "bbox": {
+          "x": 0.5596934159596761,
+          "y": 0.9365979433059692,
+          "width": 0.1744687557220459,
+          "height": 0.0411188006401062
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.5794645150502523,
+          "y": 0.8946828842163086,
+          "width": 0.138922373453776,
+          "height": 0.030666351318359375
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 858.0426999833435,
+    "sha256": "7c0584ca1f215d90d313aab8753400987d0ae73bc1a3184d61144011f17abd78"
+  },
+  "images/val/oiv2_ca08a7cbcbb920cea8d8.jpg": {
+    "detections": [],
+    "milliseconds": 1032.3132999474183,
+    "sha256": "ca08a7cbcbb920cea8d834899c5bc125578f618c2430aa0a8e7273e285e7982c"
+  },
+  "images/val/oiv2_8da736657ccd7c013894.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.7022517919540405,
+          "y": 0.04073298170002897,
+          "width": 0.10894489288330078,
+          "height": 0.0476363906076126
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1162.0410999748856,
+    "sha256": "8da736657ccd7c013894a962a1a3e79803a34bc75152642c5f8783139d368f06"
+  },
+  "images/val/oiv2_0299e2254e2a75883791.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.9025457501411438,
+          "y": 0.9416175683339437,
+          "width": 0.07470279932022095,
+          "height": 0.0313929716746012
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1162.3496999964118,
+    "sha256": "0299e2254e2a75883791621e6126819b6043ce3931587af9abb5e8ebc78cebe6"
+  },
+  "images/val/oiv2_a661a7f57fd4622b237e.jpg": {
+    "detections": [],
+    "milliseconds": 1316.0173000069335,
+    "sha256": "a661a7f57fd4622b237e161ab214b59b4e163ca6f50f995e78fb5d3195e97874"
+  },
+  "images/val/oiv2_0e600f62bf319f2c92f3.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0172,
+        "bbox": {
+          "x": 0.2950669825077057,
+          "y": 0.6316940387090048,
+          "width": 0.27491864562034607,
+          "height": 0.1728571653366089
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0134,
+        "bbox": {
+          "x": 0.6128475666046143,
+          "y": 0.8111849625905355,
+          "width": 0.3866385817527771,
+          "height": 0.18881503740946448
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0094,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.8339845339457194,
+          "width": 0.21678271889686584,
+          "height": 0.16477465629577637
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0041,
+        "bbox": {
+          "x": 0.8433381915092468,
+          "y": 0.8204898834228516,
+          "width": 0.15640908479690552,
+          "height": 0.0823214054107666
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0039,
+        "bbox": {
+          "x": 0.37317752838134766,
+          "y": 0.7014005978902181,
+          "width": 0.10854005813598633,
+          "height": 0.06258678436279297
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 5.883574340259656e-05,
+          "y": 0.77302352587382,
+          "width": 0.0373029164984473,
+          "height": 0.08669598897298181
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1309.5159999793395,
+    "sha256": "0e600f62bf319f2c92f3abe3fc2330d31310e213a9ac50c63f921f281979726f"
+  },
+  "images/val/oiv2_a8102690d64978a16e3e.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0294,
+        "bbox": {
+          "x": 0.49907130002975464,
+          "y": 0.9077281588865758,
+          "width": 0.08928155899047852,
+          "height": 0.07145715492885252
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1283.5568999871612,
+    "sha256": "a8102690d64978a16e3e3ac6921e7a81c3ef61062dd61bc2a588706203b99cc7"
+  },
+  "images/val/oiv2_12b272df53da05f558c0.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0031,
+        "bbox": {
+          "x": 0.0031400383450090885,
+          "y": 0.9005133310953776,
+          "width": 0.08835462620481849,
+          "height": 0.09811607996622729
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.002,
+        "bbox": {
+          "x": 0.022304367274045944,
+          "y": 0.9368436336517334,
+          "width": 0.10363190248608589,
+          "height": 0.06211702028910315
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.4884467124938965,
+          "y": 0.9791464805603027,
+          "width": 0.07943171262741089,
+          "height": 0.0195620059967041
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1308.8163000065833,
+    "sha256": "12b272df53da05f558c0a026192d00972d59a5339c9bd91f85313cb08317972b"
+  },
+  "images/val/oiv2_fc485dc2a3abd377e240.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0264,
+        "bbox": {
+          "x": 0.2954988181591034,
+          "y": 0.10724973678588867,
+          "width": 0.09602928161621094,
+          "height": 0.04611664017041525
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0109,
+        "bbox": {
+          "x": 0.6906636953353882,
+          "y": 0.10165106256802876,
+          "width": 0.06465613842010498,
+          "height": 0.032983650763829545
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.20745877921581268,
+          "y": 0.38422127564748126,
+          "width": 0.06589128077030182,
+          "height": 0.030318697293599484
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1318.685100064613,
+    "sha256": "fc485dc2a3abd377e240332848d58239c8e06e143d5b916fe86c7468f489de9a"
+  },
+  "images/val/oiv2_b37a88f419fdb504d66f.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.1997,
+        "bbox": {
+          "x": 0.09895944595336914,
+          "y": 0.3255358161814402,
+          "width": 0.06063218414783478,
+          "height": 0.22367664236477042
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0101,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.8749643812431268,
+          "width": 0.02555791661143303,
+          "height": 0.05884048596155611
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.24806948006153107,
+          "y": 0.49864984327746975,
+          "width": 0.1835797280073166,
+          "height": 0.07772867420901297
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.6205481290817261,
+          "y": 0.3318079168146307,
+          "width": 0.04435169696807861,
+          "height": 0.1603666959969529
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1304.3235000222921,
+    "sha256": "b37a88f419fdb504d66fe9c0f5fda52a84adde35d22b52973e8a4262872974a8"
+  },
+  "images/val/oiv2_878d7a85ec34ca21d769.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0047,
+        "bbox": {
+          "x": 0.8075170516967773,
+          "y": 0.2970024214850532,
+          "width": 0.19211387634277344,
+          "height": 0.5344847043355306
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0021,
+        "bbox": {
+          "x": 0.22524146735668182,
+          "y": 0.9460003111097548,
+          "width": 0.08073367178440094,
+          "height": 0.0494807561238606
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1306.0341000091285,
+    "sha256": "878d7a85ec34ca21d769f1b284db17abc3b98a682c6a8892483104233e8039e4"
+  },
+  "images/val/oiv2_043e9710709ddabc8809.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.6029013732990571,
+          "y": 0.9652897119522095,
+          "width": 0.38439430769567273,
+          "height": 0.03471028804779053
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1113.9796000206843,
+    "sha256": "043e9710709ddabc88099c2dd9f416c2be228b25b2e16f2b091df3d4561fa769"
+  },
+  "images/val/oiv2_49cff2b1e808ab1c38fe.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0026,
+        "bbox": {
+          "x": 0.5676174163818359,
+          "y": 0.3829186260700226,
+          "width": 0.30036441485087073,
+          "height": 0.21909639239311218
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 978.6965999519452,
+    "sha256": "49cff2b1e808ab1c38fe7ebf2072794d8b5285ee58e4c31f825835f96c77c0bf"
+  },
+  "images/val/oiv2_c7ad301ab0f21f014cfa.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0017,
+        "bbox": {
+          "x": 0.0025187491749723754,
+          "y": 0.9603580236434937,
+          "width": 0.23474667873233557,
+          "height": 0.03964197635650635
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.7047108014424642,
+          "y": 0.9732762575149536,
+          "width": 0.2853050231933594,
+          "height": 0.02653026580810547
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.5505411624908447,
+          "y": 0.9743620157241821,
+          "width": 0.2113551298777262,
+          "height": 0.02536463737487793
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.003984514934321244,
+          "y": 0.9376508593559265,
+          "width": 0.3378522157048186,
+          "height": 0.062349140644073486
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 996.0429000202566,
+    "sha256": "c7ad301ab0f21f014cfa822e9a0ecadd18cfd869e149ab94ef6b8d48fcdda702"
+  },
+  "images/val/oiv2_fa99921ee19d0d2a588d.jpg": {
+    "detections": [],
+    "milliseconds": 1000.4325000336394,
+    "sha256": "fa99921ee19d0d2a588d245cdc4112a82e27850ea9859c9e40bcac528e87a2d0"
+  },
+  "images/val/oiv2_c378535927179d4dc98e.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.8139133453369141,
+          "y": 0.827308620263009,
+          "width": 0.1829468011856079,
+          "height": 0.04926945612980771
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1004.6406999463215,
+    "sha256": "c378535927179d4dc98ee60fc40e34ed49afb7be2358302b5cc94631c1e9d23c"
+  },
+  "images/val/oiv2_92e94e07bfb3df76316f.jpg": {
+    "detections": [],
+    "milliseconds": 1043.1801000377163,
+    "sha256": "92e94e07bfb3df76316f9b314e8b0123c065b55180760d134e304ccf18cfcf79"
+  },
+  "images/val/oiv2_1ee3eab491dffeae33db.jpg": {
+    "detections": [],
+    "milliseconds": 934.5300999702886,
+    "sha256": "1ee3eab491dffeae33dbd108f99bf10b118d2848b839e4ac5ac37c766bfa744f"
+  },
+  "images/val/oiv2_5a5dfaccb42ad5b7510b.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.006,
+        "bbox": {
+          "x": 0.22919294238090515,
+          "y": 0.9439440568288168,
+          "width": 0.034209221601486206,
+          "height": 0.018306493759155273
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1024.7668999945745,
+    "sha256": "5a5dfaccb42ad5b7510b4d265fce5dacae8d123393112729a6d08f5878f10917"
+  },
+  "images/val/oiv2_dd24a51dee4f5e2f22e8.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.2457529604434967,
+          "y": 0.8098368529405228,
+          "width": 0.05292004346847534,
+          "height": 0.023501400248933102
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1039.691700018011,
+    "sha256": "dd24a51dee4f5e2f22e8abe1032afe1db5413735bd1beb317c316e47e51e8968"
+  },
+  "images/val/oiv2_d99656af915cf9acdf3f.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0063,
+        "bbox": {
+          "x": 0.009900951758027077,
+          "y": 0.8233218374839626,
+          "width": 0.9900990482419729,
+          "height": 0.17169887509164228
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0042,
+        "bbox": {
+          "x": 0.0007268905756063759,
+          "y": 0.9183186729632514,
+          "width": 0.6363077044370584,
+          "height": 0.0730237317574689
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0024,
+        "bbox": {
+          "x": 0.7638927102088928,
+          "y": 0.5728907878797425,
+          "width": 0.0901024341583252,
+          "height": 0.05109398805500831
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 993.2432000059634,
+    "sha256": "d99656af915cf9acdf3f5ccc527ebb26c3b7f94cba930149fd2bd7df27012e8b"
+  },
+  "images/val/oiv2_69d39e129642951a532f.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0327,
+        "bbox": {
+          "x": 0.5576539039611816,
+          "y": 0.9231929779052734,
+          "width": 0.23137742280960083,
+          "height": 0.07679263750712073
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0046,
+        "bbox": {
+          "x": 0.6944650411605835,
+          "y": 0.5309526920318604,
+          "width": 0.14985144138336182,
+          "height": 0.03788975874582923
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.4199497103691101,
+          "y": 0.8901146252950033,
+          "width": 0.3727828860282898,
+          "height": 0.10988537470499671
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.949009895324707,
+          "y": 0.9379763603210449,
+          "width": 0.03496992588043213,
+          "height": 0.060496727625528934
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.9763771295547485,
+          "y": 0.7206615606943766,
+          "width": 0.023219645023345947,
+          "height": 0.2793384393056234
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1012.606400065124,
+    "sha256": "69d39e129642951a532fb2a72a1bed4863d37609a0e794abdc6a4db2e1f3ca72"
+  },
+  "images/val/oiv2_482c113b1a41abcf2b8b.jpg": {
+    "detections": [],
+    "milliseconds": 1009.6481000073254,
+    "sha256": "482c113b1a41abcf2b8bf46a35b26d8718f521474955cc1c9e1f8952526894ea"
+  },
+  "images/val/oiv2_87571791ae533f93df3d.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0478,
+        "bbox": {
+          "x": 0.8041387796401978,
+          "y": 0.9516177177429199,
+          "width": 0.05598294734954834,
+          "height": 0.04700239499409997
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1226.14790010266,
+    "sha256": "87571791ae533f93df3d8d49d65a8b63e70afd3cc6276905d92c93f7686c1251"
+  },
+  "images/val/oiv2_fc612691393ff76dc839.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0153,
+        "bbox": {
+          "x": 0.324547678232193,
+          "y": 0.680388609568278,
+          "width": 0.12193593382835388,
+          "height": 0.07858912150065112
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0028,
+        "bbox": {
+          "x": 2.6440620786161162e-05,
+          "y": 0.5413302183151245,
+          "width": 0.3880405068393884,
+          "height": 0.45502189795176184
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.00018293857283424586,
+          "y": 0.4244733254114787,
+          "width": 0.22391923070244957,
+          "height": 0.28782045841217035
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.7592350840568542,
+          "y": 0.710655689239502,
+          "width": 0.23154985904693604,
+          "height": 0.25118374824523926
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1169.6381999645382,
+    "sha256": "fc612691393ff76dc839d2f204b4b0042888591d4e018da00f6a588935d6b7ab"
+  },
+  "images/val/commonsv2_b017c4de8642c7f5b4b0.jpg": {
+    "detections": [],
+    "milliseconds": 1189.4461000338197,
+    "sha256": "b017c4de8642c7f5b4b0dc250f92fdaa3e51965b56e69bccca2552551a97925a"
+  },
+  "images/val/commonsv2_ce73f82b384d4bfee59f.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0055,
+        "bbox": {
+          "x": 0.09307427406311035,
+          "y": 0.5330630779266358,
+          "width": 0.04961018562316895,
+          "height": 0.02700519561767578
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.10408732891082764,
+          "y": 0.5328975677490234,
+          "width": 0.054083816210428876,
+          "height": 0.038190793991088934
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.11484199364980062,
+          "y": 0.5587160110473632,
+          "width": 0.06515115896860758,
+          "height": 0.022831535339355558
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.18575196266174315,
+          "y": 0.5748780727386474,
+          "width": 0.043982458114624035,
+          "height": 0.423351526260376
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1207.3977999389172,
+    "sha256": "ce73f82b384d4bfee59f25987809e0e5a626ecfd1ae9e04b23061e03d39cdb61"
+  },
+  "images/val/commonsv2_9e353f4dfcf60ab7e6d1.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0088,
+        "bbox": {
+          "x": 0.0029269620776176454,
+          "y": 0.5665573891962549,
+          "width": 0.09503429681062699,
+          "height": 0.024606335116731493
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0087,
+        "bbox": {
+          "x": 0.4385404586791992,
+          "y": 6.51627779006958e-05,
+          "width": 0.14444020589192708,
+          "height": 0.012219974769692476
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.10875210762023926,
+          "y": 0.27951866773315903,
+          "width": 0.07327106793721516,
+          "height": 0.022843321566451857
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.3537664731343587,
+          "y": 0.00010120124204613355,
+          "width": 0.2856984774271647,
+          "height": 0.024000373726225085
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1102.6005999883637,
+    "sha256": "9e353f4dfcf60ab7e6d1e9bda577647c1a5bcccbca1224ae9480a024088c5947"
+  },
+  "images/val/commonsv2_c7720fd4d4dc628f84c0.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0035,
+        "bbox": {
+          "x": 0.1520005702972412,
+          "y": 0.4835834503173828,
+          "width": 0.48739533424377435,
+          "height": 0.06620432535807297
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.17483444213867189,
+          "y": 0.020075273513793946,
+          "width": 0.019737100601196267,
+          "height": 0.023990249633789065
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1222.3714999854565,
+    "sha256": "c7720fd4d4dc628f84c065577dff65ec192c5cba2c98bc2c8f239f16c66a27bf"
+  },
+  "images/test/rdd_ad29bc20587b1e674943.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.762,
+        "bbox": {
+          "x": 0.002439785050228238,
+          "y": 0.25556814670562744,
+          "width": 0.9963883280288428,
+          "height": 0.5976560115814209
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0162,
+        "bbox": {
+          "x": 0.0005710601690225303,
+          "y": 0.5923776626586914,
+          "width": 0.9994289398309775,
+          "height": 0.4076223373413086
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1198.1141000287607,
+    "sha256": "ad29bc20587b1e674943fd200db4d6e039b9472260c39ab854f37bb792aa1320"
+  },
+  "images/test/rdd_0824b7e672571ce1546e.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9708,
+        "bbox": {
+          "x": 0.0002475738583598286,
+          "y": 0.0602421760559082,
+          "width": 0.50019165276899,
+          "height": 0.791729748249054
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.2246,
+        "bbox": {
+          "x": 0.5392153859138489,
+          "y": 0.44813746213912964,
+          "width": 0.4607846140861511,
+          "height": 0.4789391756057739
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.075,
+        "bbox": {
+          "x": 0.00011591911606956273,
+          "y": 0.5961146354675293,
+          "width": 0.48786903619475197,
+          "height": 0.2504422068595886
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0271,
+        "bbox": {
+          "x": 4.7397614252986386e-05,
+          "y": 0.8365671038627625,
+          "width": 0.2457741677753802,
+          "height": 0.1633392572402954
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0178,
+        "bbox": {
+          "x": 0.3860190808773041,
+          "y": 0.31333082914352417,
+          "width": 0.10885515809059143,
+          "height": 0.5376144647598267
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0117,
+        "bbox": {
+          "x": 0.09192685782909393,
+          "y": 0.4768044352531433,
+          "width": 0.9076495915651321,
+          "height": 0.5231955647468567
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.002,
+        "bbox": {
+          "x": 0.27984756231307983,
+          "y": 0.6016222834587097,
+          "width": 0.2078462839126587,
+          "height": 0.24600231647491455
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.000826930976472795,
+          "y": 0.07327480614185333,
+          "width": 0.4876092910999432,
+          "height": 0.22167463600635529
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.18001680076122284,
+          "y": 0.8426742553710938,
+          "width": 0.29181839525699615,
+          "height": 0.15732574462890625
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1270.8559000166133,
+    "sha256": "0824b7e672571ce1546ee414b79aab6202682bfd51ef66818e323144a4206bb4"
+  },
+  "images/test/rdd_0a8190a7cb89abf58607.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 0.46072760224342346,
+          "y": 0.14112047851085663,
+          "width": 0.04718896746635437,
+          "height": 0.04193115234375
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1242.1518000774086,
+    "sha256": "0a8190a7cb89abf586074d6907d2750cad030d26ba7251545307430f655b7ea7"
+  },
+  "images/test/rdd_ae0a70c81469547ff021.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9772,
+        "bbox": {
+          "x": 0.005382346920669079,
+          "y": 0.03397946432232857,
+          "width": 0.8718565227463841,
+          "height": 0.5652848593890667
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0234,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.598147988319397,
+          "width": 0.9421140551567078,
+          "height": 0.40058016777038574
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0171,
+        "bbox": {
+          "x": 0.7209817171096802,
+          "y": 0.3411320745944977,
+          "width": 0.2790182828903198,
+          "height": 0.6558558642864227
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0031,
+        "bbox": {
+          "x": 0.6738314628601074,
+          "y": 0.6045011281967163,
+          "width": 0.23391693830490112,
+          "height": 0.3954925537109375
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.00012454987154342234,
+          "y": 0.027233576402068138,
+          "width": 0.7711096048296895,
+          "height": 0.22184250690042973
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1074.1322999820113,
+    "sha256": "ae0a70c81469547ff021912d9022c5f68c00915ed278ac941f2ab9169fc8d295"
+  },
+  "images/test/rdd_e4535b7679dd21bb0201.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8504,
+        "bbox": {
+          "x": 0.0004899978521279991,
+          "y": 0.271495521068573,
+          "width": 0.9972803115961142,
+          "height": 0.728504478931427
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.7568872570991516,
+          "y": 0.3065146803855896,
+          "width": 0.242698073387146,
+          "height": 0.287925124168396
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 924.964000005275,
+    "sha256": "e4535b7679dd21bb020154a084ac2c5689ace4b27c98ad93a7db616ec96e72d6"
+  },
+  "images/test/rdd_e73034917e643354f144.jpg": {
+    "detections": [],
+    "milliseconds": 1000.1414000289515,
+    "sha256": "e73034917e643354f144e667757eec207d90c46c89f49029dc7dafa02122db1a"
+  },
+  "images/test/rdd_a3905da10ec3bdf7d163.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9099,
+        "bbox": {
+          "x": 0.24297352135181427,
+          "y": 0.003443008754402399,
+          "width": 0.20453451573848724,
+          "height": 0.08937768032774329
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 950.3273000009358,
+    "sha256": "a3905da10ec3bdf7d1636221d850c295cd94549962e7303b8cb5a7bb75f038fc"
+  },
+  "images/test/rdd_ee2d2fddd85abdb5b856.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7198,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.25114402174949646,
+          "width": 1.0,
+          "height": 0.41577646136283875
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.1734,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3426010012626648,
+          "width": 1.0,
+          "height": 0.6565689444541931
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.039,
+        "bbox": {
+          "x": 2.896785645134514e-06,
+          "y": 0.26923972368240356,
+          "width": 0.025436872243972175,
+          "height": 0.026343703269958496
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.24496683478355408,
+          "y": 0.17788851261138916,
+          "width": 0.04560708999633789,
+          "height": 0.035482972860336304
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 867.9561000317335,
+    "sha256": "ee2d2fddd85abdb5b856b7498cec5eed45db0ea58f19afeeb3c01df310d2bd47"
+  },
+  "images/test/rdd_740feccded27c59cb611.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8633,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.43020448088645935,
+          "width": 1.0,
+          "height": 0.5697955191135406
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 891.7386000975966,
+    "sha256": "740feccded27c59cb611bcafdb1df76ef7b902482b14280af641ce798a949ebb"
+  },
+  "images/test/rdd_b69fd5c083a1b3f25e40.jpg": {
+    "detections": [],
+    "milliseconds": 830.1357000600547,
+    "sha256": "b69fd5c083a1b3f25e40928d1f1b1aab0ef5d0040a3ce9c50d4b00136e857873"
+  },
+  "images/test/rdd_ca7e39ca6527cb51ee40.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9279,
+        "bbox": {
+          "x": 0.6121823191642761,
+          "y": 0.16837532818317413,
+          "width": 0.3231039047241211,
+          "height": 0.1727478951215744
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0144,
+        "bbox": {
+          "x": 0.4065057635307312,
+          "y": 0.0002240799367427826,
+          "width": 0.07886525988578796,
+          "height": 0.007402058690786362
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.009,
+        "bbox": {
+          "x": 0.7973349094390869,
+          "y": 0.3396727442741394,
+          "width": 0.038391053676605225,
+          "height": 0.034826576709747314
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0023,
+        "bbox": {
+          "x": 0.7949303388595581,
+          "y": 0.5515729188919067,
+          "width": 0.04388850927352905,
+          "height": 0.0629199743270874
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0017,
+        "bbox": {
+          "x": 0.6807810664176941,
+          "y": 0.33714383840560913,
+          "width": 0.19167006015777588,
+          "height": 0.039177268743515015
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.7520970106124878,
+          "y": 0.3389154076576233,
+          "width": 0.08122903108596802,
+          "height": 0.03606903553009033
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 810.8338000020012,
+    "sha256": "ca7e39ca6527cb51ee40eef7f6b0bdc0cb1da78cd64e7c10a76508bb3a4a5e45"
+  },
+  "images/test/rdd_35f375bcfeb9c448512c.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9449,
+        "bbox": {
+          "x": 0.16110031306743622,
+          "y": 0.06198620796203613,
+          "width": 0.23188166320323944,
+          "height": 0.12017782032489777
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 833.8877999922261,
+    "sha256": "35f375bcfeb9c448512cdf26ece2b93d00de115d5be4d8a5e4d6de45b48ca5cc"
+  },
+  "images/test/rdd_0c4032cacd2ed7adef46.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9536,
+        "bbox": {
+          "x": 0.3717421591281891,
+          "y": 0.149170383810997,
+          "width": 0.2736218273639679,
+          "height": 0.16352160274982452
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1088.3705000160262,
+    "sha256": "0c4032cacd2ed7adef463dbe5c81b202c9c4f2c3b8f39356a5034cd3b2f6c320"
+  },
+  "images/test/rdd_c453a565c897e2096779.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.7889,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.25336164236068726,
+          "width": 1.0,
+          "height": 0.5480258464813232
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.071,
+        "bbox": {
+          "x": 0.0011449813609942794,
+          "y": 0.48237675428390503,
+          "width": 0.9988550186390057,
+          "height": 0.517623245716095
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1005.8209999697283,
+    "sha256": "c453a565c897e209677968e51bb042ece301ea5770a4e807eac01597f399dc1f"
+  },
+  "images/test/rdd_42a3bb33c71a66eefc4b.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9672,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.150027796626091,
+          "width": 0.9974027872085571,
+          "height": 0.582662895321846
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0225,
+        "bbox": {
+          "x": 0.9182950854301453,
+          "y": 0.45177382230758667,
+          "width": 0.08170491456985474,
+          "height": 0.25391387939453125
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.012,
+        "bbox": {
+          "x": 0.0012088775401934981,
+          "y": 0.7093008756637573,
+          "width": 0.9828083157772198,
+          "height": 0.2906991243362427
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0105,
+        "bbox": {
+          "x": 0.18463678658008575,
+          "y": 0.052075743675231934,
+          "width": 0.14129184186458588,
+          "height": 0.06224670261144638
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.002,
+        "bbox": {
+          "x": 0.0,
+          "y": 3.4892560506705195e-05,
+          "width": 0.3276579976081848,
+          "height": 0.15969803035113728
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.8397291302680969,
+          "y": 0.7062803506851196,
+          "width": 0.16027086973190308,
+          "height": 0.29229217767715454
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 955.4141999688,
+    "sha256": "42a3bb33c71a66eefc4b82eae3b4bcda42b291162cb3abe63c5c0044b7fb80bd"
+  },
+  "images/test/rdd_8ae603589d31f2a8eee4.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9612,
+        "bbox": {
+          "x": 0.4350830912590027,
+          "y": 0.15626777708530426,
+          "width": 0.2763814926147461,
+          "height": 0.15961237251758575
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.5673738121986389,
+          "y": 0.3135993480682373,
+          "width": 0.03729361295700073,
+          "height": 0.034233033657073975
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 912.2538000810891,
+    "sha256": "8ae603589d31f2a8eee4b850970e70ace6690b51b59751b508c0cfee9de2e3cb"
+  },
+  "images/test/rdd_background_05545183e9c3e81aee8c.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9415,
+        "bbox": {
+          "x": 0.26967981457710266,
+          "y": 0.13466206192970276,
+          "width": 0.7303201854228973,
+          "height": 0.8653379380702972
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0131,
+        "bbox": {
+          "x": 0.011092806234955788,
+          "y": 0.5233478546142578,
+          "width": 0.29756913147866726,
+          "height": 0.47305357456207275
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0052,
+        "bbox": {
+          "x": 0.8016027212142944,
+          "y": 0.3994464874267578,
+          "width": 0.19839727878570557,
+          "height": 0.22782593965530396
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.8254444003105164,
+          "y": 0.3996635377407074,
+          "width": 0.1741045117378235,
+          "height": 0.5991783440113068
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 888.3375000441447,
+    "sha256": "05545183e9c3e81aee8cc5a8273e0a0f37421bba50150fa6cb131196ef029f13"
+  },
+  "images/test/rdd_background_a306ce6d67f7f2e4f4ed.jpg": {
+    "detections": [],
+    "milliseconds": 901.909799897112,
+    "sha256": "a306ce6d67f7f2e4f4ed459195d955d7243be8c7540398998b0d51ef2887aac3"
+  },
+  "images/test/rdd_background_8776d54625ef6022b17f.jpg": {
+    "detections": [],
+    "milliseconds": 866.6931000771001,
+    "sha256": "8776d54625ef6022b17f296c4e7668990d8cd53e7ca5140df060a6a17fe525be"
+  },
+  "images/test/rdd_background_bac7e6700f1edb1b3f7a.jpg": {
+    "detections": [],
+    "milliseconds": 885.8284999150783,
+    "sha256": "bac7e6700f1edb1b3f7a6b05c4ecd104ae7af0d8b97374fd3da3f59cb59c9630"
+  },
+  "images/test/rdd_background_78c74663698ac16619a2.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.004,
+        "bbox": {
+          "x": 3.725886199390516e-05,
+          "y": 0.06631388515233994,
+          "width": 0.06954651475098217,
+          "height": 0.030396439135074615
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.0025817870628088713,
+          "y": 0.056973863393068314,
+          "width": 0.28662310843355954,
+          "height": 0.040990326553583145
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1042.6760000409558,
+    "sha256": "78c74663698ac16619a2b84a019c6a600a8dd1732c38e77025294b0e4a8fe362"
+  },
+  "images/test/rdd_background_cf62b8fb9d7089ff24c1.jpg": {
+    "detections": [],
+    "milliseconds": 922.7533000521362,
+    "sha256": "cf62b8fb9d7089ff24c1f1daf40d855b9d29446a54a7aa23f978fe64c660a741"
+  },
+  "images/test/rdd_background_0119dc5842ffadc064de.jpg": {
+    "detections": [],
+    "milliseconds": 866.4710000157356,
+    "sha256": "0119dc5842ffadc064de8da6cddfec28f90b47642685b9a8faa72b9c0ef56b44"
+  },
+  "images/test/rdd_background_33dad5a8f2461b44d3ad.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.959,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.05789437144994736,
+          "width": 1.0,
+          "height": 0.6813615337014198
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.1077,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.7039254903793335,
+          "width": 1.0,
+          "height": 0.2960745096206665
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0023,
+        "bbox": {
+          "x": 0.5597348213195801,
+          "y": 9.504258923698217e-05,
+          "width": 0.06427651643753052,
+          "height": 0.010130075548659079
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 862.8501000348479,
+    "sha256": "33dad5a8f2461b44d3addc5c800d009b8f725c61e1a9788f253b00d9e41ee00a"
+  },
+  "images/test/rdd_background_518e377b64b002b10894.jpg": {
+    "detections": [],
+    "milliseconds": 910.3570999577641,
+    "sha256": "518e377b64b002b10894621090fcc5311805d6a15ea29258abbf0ad55d122d14"
+  },
+  "images/test/rdd_background_c918b2f80312167f1823.jpg": {
+    "detections": [],
+    "milliseconds": 927.9033999191597,
+    "sha256": "c918b2f80312167f1823c382364312ec34198db839e39c57f8b942ff8d6bf8e0"
+  },
+  "images/test/oiv2_c1dde6e0ce01d34d4c60.jpg": {
+    "detections": [],
+    "milliseconds": 929.723999928683,
+    "sha256": "c1dde6e0ce01d34d4c60660da38be9ccf84ceb23b6a0907488bc527f628bff98"
+  },
+  "images/test/oiv2_2112ef53884b667346f8.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.3033201102750847,
+          "y": 0.13425952196121216,
+          "width": 0.34953758515507344,
+          "height": 0.2996761202812195
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 908.4780000848696,
+    "sha256": "2112ef53884b667346f8a84fc9b1a435491894d8fd1f0bc2f11ac1935cad4b2a"
+  },
+  "images/test/oiv2_7ff230e5903ca3f596d5.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0187,
+        "bbox": {
+          "x": 0.1563948094844818,
+          "y": 0.8151116371154785,
+          "width": 0.04275280237197876,
+          "height": 0.017841974894205692
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0115,
+        "bbox": {
+          "x": 0.2472272366285324,
+          "y": 0.8092891375223795,
+          "width": 0.06764699518680573,
+          "height": 0.02133353551228845
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.006,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.8957711855570475,
+          "width": 0.42130976915359497,
+          "height": 0.1001434326171875
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0054,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.8906739552815756,
+          "width": 0.3855072557926178,
+          "height": 0.047795136769612556
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0047,
+        "bbox": {
+          "x": 0.5727509260177612,
+          "y": 0.7642555236816406,
+          "width": 0.2351512312889099,
+          "height": 0.04497933387756348
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0029,
+        "bbox": {
+          "x": 0.5326573848724365,
+          "y": 0.7864797115325928,
+          "width": 0.039530396461486816,
+          "height": 0.2078601519266764
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0021,
+        "bbox": {
+          "x": 0.5354052186012268,
+          "y": 0.7745877901713053,
+          "width": 0.03492623567581177,
+          "height": 0.11804604530334473
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 0.35315147042274475,
+          "y": 0.7247788111368815,
+          "width": 0.17249497771263123,
+          "height": 0.07412425676981615
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.5750142931938171,
+          "y": 0.7556157112121582,
+          "width": 0.4093274474143982,
+          "height": 0.05782882372538245
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.32432636618614197,
+          "y": 0.9149509270985922,
+          "width": 0.07804974913597107,
+          "height": 0.08314593633015943
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1104.0078999940306,
+    "sha256": "7ff230e5903ca3f596d5d8d526d4b9bbc773f3461916f781f81b4d62c71ff917"
+  },
+  "images/test/oiv2_e7380898e7eff11b9cbd.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0028,
+        "bbox": {
+          "x": 0.609673798084259,
+          "y": 0.6983861128489176,
+          "width": 0.3860923647880554,
+          "height": 0.11861673990885424
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 0.5538033843040466,
+          "y": 0.6823382377624512,
+          "width": 0.07468003034591675,
+          "height": 0.02117411295572913
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.0579679012298584,
+          "y": 0.7418434619903564,
+          "width": 0.06799681484699249,
+          "height": 0.02029307683308923
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.672412633895874,
+          "y": 0.8263796170552572,
+          "width": 0.03744041919708252,
+          "height": 0.0724912484486897
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1112.9122999263927,
+    "sha256": "e7380898e7eff11b9cbd2e7f63212d08d15b160f23a861120e56b95a65294d9d"
+  },
+  "images/test/oiv2_c12ff139db47c2f6ea3a.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0031,
+        "bbox": {
+          "x": 0.9771908521652222,
+          "y": 0.516314195279353,
+          "width": 0.022809147834777832,
+          "height": 0.09586786414562254
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.9459524154663086,
+          "y": 0.6057051217898376,
+          "width": 0.054047584533691406,
+          "height": 0.08022079268572535
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1112.1262999949977,
+    "sha256": "c12ff139db47c2f6ea3acacf47a2f90514a8ebb7c077d36b2323cb9502c85afd"
+  },
+  "images/test/oiv2_8f1605d54296d6678f50.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0099,
+        "bbox": {
+          "x": 0.18327319622039795,
+          "y": 0.857222731096031,
+          "width": 0.1953568458557129,
+          "height": 0.08903140325615877
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.2646253705024719,
+          "y": 0.6657842260207573,
+          "width": 0.09519365429878235,
+          "height": 0.050454244126368675
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1171.3300000410527,
+    "sha256": "8f1605d54296d6678f5028f5b46ff2ef8619fba386ce4426f012fa53215139fb"
+  },
+  "images/test/oiv2_c0bc213d46c09567fb54.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0426,
+        "bbox": {
+          "x": 0.3088998794555664,
+          "y": 0.285505731900533,
+          "width": 0.3168957829475403,
+          "height": 0.12771670023600262
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0354,
+        "bbox": {
+          "x": 0.9648386240005493,
+          "y": 0.7060580253601074,
+          "width": 0.035161375999450684,
+          "height": 0.2921488285064697
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0067,
+        "bbox": {
+          "x": 0.9695771932601929,
+          "y": 0.7053116162618002,
+          "width": 0.03042280673980713,
+          "height": 0.13431239128112793
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0037,
+        "bbox": {
+          "x": 0.8380790948867798,
+          "y": 0.655674417813619,
+          "width": 0.16192090511322021,
+          "height": 0.05361441771189368
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.971287727355957,
+          "y": 0.6824550628662109,
+          "width": 0.028709053993225098,
+          "height": 0.0942906538645426
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1107.4482999974862,
+    "sha256": "c0bc213d46c09567fb549197f8de9358c03fa82359a88f418a3a134e72a5b5c7"
+  },
+  "images/test/oiv2_662de00da3876e16fef0.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0026,
+        "bbox": {
+          "x": 0.09093259274959564,
+          "y": 0.6135924657185873,
+          "width": 0.06596596539020538,
+          "height": 0.029720425605773926
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0025,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.7081682682037354,
+          "width": 0.24731239676475525,
+          "height": 0.2739870548248291
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1001.7398999771103,
+    "sha256": "662de00da3876e16fef05da0d6e71c51d275e17c9fb2a79ca5400676c6ec1cf0"
+  },
+  "images/test/oiv2_e3cbbd96319236efa0ba.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.021,
+        "bbox": {
+          "x": 0.4821810722351074,
+          "y": 0.9173094431559244,
+          "width": 0.0661352276802063,
+          "height": 0.02988518608940971
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0029,
+        "bbox": {
+          "x": 0.30968621373176575,
+          "y": 0.8774717648824056,
+          "width": 0.0788176953792572,
+          "height": 0.032439178890652065
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.4769565463066101,
+          "y": 0.9078993267483182,
+          "width": 0.1385456919670105,
+          "height": 0.03981272379557288
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 977.8157999971882,
+    "sha256": "e3cbbd96319236efa0bab3ba510f01f3b05d9bef52dfba5d21e38c8d63fc364c"
+  },
+  "images/test/oiv2_d700148ff9f322643f39.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0035,
+        "bbox": {
+          "x": 0.23125219345092773,
+          "y": 0.0030206680918733277,
+          "width": 0.21830588579177856,
+          "height": 0.07907339526961246
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 971.8718999065459,
+    "sha256": "d700148ff9f322643f39d2dd8b0ff1c9df52cb5637444bee4eadc0a886ffe29e"
+  },
+  "images/test/oiv2_9299019d853c1acba48a.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0319,
+        "bbox": {
+          "x": 0.14223345588235295,
+          "y": 0.8774763941764832,
+          "width": 0.13267367493872548,
+          "height": 0.03772926330566406
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1006.3068999443203,
+    "sha256": "9299019d853c1acba48a5682a73fdc8535dc5b356d2444c570bbbb57500277c4"
+  },
+  "images/test/oiv2_69ca11f1d66c94c5d351.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0035,
+        "bbox": {
+          "x": 0.0003977239248342812,
+          "y": 0.3010519623264486,
+          "width": 0.04941624327329919,
+          "height": 0.034310174283495976
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.4920263067400275,
+          "width": 0.012500462122261524,
+          "height": 0.21679015861416778
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 964.9719999870285,
+    "sha256": "69ca11f1d66c94c5d35119de80733a1e733b97f2d0267851dc529b1872ef1db0"
+  },
+  "images/test/oiv2_83a780e20d60a610aee3.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0411,
+        "bbox": {
+          "x": 0.8090971310933431,
+          "y": 0.8820983171463013,
+          "width": 0.09446541468302405,
+          "height": 0.021571338176727295
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0026,
+        "bbox": {
+          "x": 0.9043622016906738,
+          "y": 0.8926590085029602,
+          "width": 0.09256339073181152,
+          "height": 0.032282233238220215
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 0.646621584892273,
+          "y": 0.9832973480224609,
+          "width": 0.09940286477406823,
+          "height": 0.016702651977539062
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1018.8107000431046,
+    "sha256": "83a780e20d60a610aee39f4efaa2d47b558b03f97a0a9d81dd4b02b25a3c794c"
+  },
+  "images/test/oiv2_2ce7c8772d5ae1964730.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.2817,
+        "bbox": {
+          "x": 0.8048801422119141,
+          "y": 0.7723145484924316,
+          "width": 0.1948898434638977,
+          "height": 0.22087200482686364
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0063,
+        "bbox": {
+          "x": 0.661617636680603,
+          "y": 0.6168800195058187,
+          "width": 0.338382363319397,
+          "height": 0.37102460861206055
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.6042089462280273,
+          "y": 0.5655943552652994,
+          "width": 0.15739727020263672,
+          "height": 0.16457851727803552
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 923.0673999991268,
+    "sha256": "2ce7c8772d5ae196473044f4d0b190da5c8f0e072deaa6b757992d4b88ddcc5d"
+  },
+  "images/test/oiv2_a7b99380bae42bfa07c2.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.3592,
+        "bbox": {
+          "x": 0.019836616045163003,
+          "y": 0.7755364312065972,
+          "width": 0.5650725998113185,
+          "height": 0.12427052941341954
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0037,
+        "bbox": {
+          "x": 0.2438282154224537,
+          "y": 0.7744329633045589,
+          "width": 0.3328105408468365,
+          "height": 0.07935606403115358
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0037,
+        "bbox": {
+          "x": 0.005939817075376158,
+          "y": 0.8439528853804977,
+          "width": 0.29488977879653744,
+          "height": 0.07009580007796423
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0035,
+        "bbox": {
+          "x": 0.460189525462963,
+          "y": 0.8019405412085262,
+          "width": 0.11835208092206784,
+          "height": 0.04418053646637088
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0032,
+        "bbox": {
+          "x": 0.36849317009066357,
+          "y": 0.8008432270568094,
+          "width": 0.20982244044174386,
+          "height": 0.05876975981786903
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0026,
+        "bbox": {
+          "x": 0.005483340981565876,
+          "y": 0.8244068789384003,
+          "width": 0.451493323997215,
+          "height": 0.10843598793563525
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.897225901913741,
+          "width": 0.09646852092978395,
+          "height": 0.06825168436937379
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.04015643838011188,
+          "y": 0.7673025876896862,
+          "width": 0.17648052451051313,
+          "height": 0.09823953761975956
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.42772825641396606,
+          "y": 0.8218273900663902,
+          "width": 0.14742106119791665,
+          "height": 0.048530547216596
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1279.9255999270827,
+    "sha256": "a7b99380bae42bfa07c229d338ef08f9e1a3234a352cc74200df27d83409645f"
+  },
+  "images/test/oiv2_59ed6179e4b8a4aadb72.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0021,
+        "bbox": {
+          "x": 0.5712737853489771,
+          "y": 0.17344936728477478,
+          "width": 0.4140091768671029,
+          "height": 0.22017130255699158
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 987.868900061585,
+    "sha256": "59ed6179e4b8a4aadb72e589287e792daa38b991e5b84a6534cc0597b58b971b"
+  },
+  "images/test/oiv2_6fcdaa15871dd4d380b9.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.8280570838671303,
+          "y": 0.8858522176742554,
+          "width": 0.1704484931197383,
+          "height": 0.1056206226348877
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1251.759500009939,
+    "sha256": "6fcdaa15871dd4d380b9e1c87c0fe1d2bd9c0fc35ce959f26b00d4cb001267f2"
+  },
+  "images/test/oiv2_f93f399c09f926c0ad39.jpg": {
+    "detections": [],
+    "milliseconds": 1318.2857999345288,
+    "sha256": "f93f399c09f926c0ad398b6c415505f839fd661c0f512114e947b2852e499697"
+  },
+  "images/test/oiv2_1feb2b29e5eabd7ff1f5.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0566,
+        "bbox": {
+          "x": 0.3046950399875641,
+          "y": 0.6114681887936283,
+          "width": 0.09453600645065308,
+          "height": 0.04978899274553561
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.2942057251930237,
+          "y": 0.19971642432274755,
+          "width": 0.05194902420043945,
+          "height": 0.1230735085227273
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1303.5997999832034,
+    "sha256": "1feb2b29e5eabd7ff1f53e64862c64dac96e5179e39334a1b29f1850bfce6585"
+  },
+  "images/test/oiv2_8150f17370521888c828.jpg": {
+    "detections": [],
+    "milliseconds": 1305.6742999469861,
+    "sha256": "8150f17370521888c82884dc82089e44139d0093df22b10e8dd1a390c7fd6ecb"
+  },
+  "images/test/oiv2_c10d57e5049cfb7f5611.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0219,
+        "bbox": {
+          "x": 0.38622039556503296,
+          "y": 0.529958963394165,
+          "width": 0.17162877321243286,
+          "height": 0.10261968771616614
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.8833900690078735,
+          "y": 0.16830730438232422,
+          "width": 0.11606955528259277,
+          "height": 0.04308885335922241
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1313.8275000965223,
+    "sha256": "c10d57e5049cfb7f5611e9a78ef59e49c7d01c7074525af1a7fd83134ff4159f"
+  },
+  "images/test/oiv2_b4852ca6cc68cd60fd0f.jpg": {
+    "detections": [],
+    "milliseconds": 1309.1792999766767,
+    "sha256": "b4852ca6cc68cd60fd0fbf1a6ab284d53e776eb4f14d61527ffa8b379ff7392a"
+  },
+  "images/test/oiv2_0b9e1791a1bf7787531d.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 0.7758919596672058,
+          "y": 0.5533216393512228,
+          "width": 0.08567297458648682,
+          "height": 0.039948798706812894
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.27751049399375916,
+          "y": 0.5514046805245536,
+          "width": 0.06994220614433289,
+          "height": 0.03282292525960784
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1294.0881999675184,
+    "sha256": "0b9e1791a1bf7787531d00e95ec5390bec573d0a461587208c11afbf84f4b6f5"
+  },
+  "images/test/oiv2_e53937ef32b01aeeb5a8.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0043,
+        "bbox": {
+          "x": 0.002269746731225249,
+          "y": 0.015830611810088158,
+          "width": 0.3066048088977091,
+          "height": 0.6979682687669992
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1060.4501999914646,
+    "sha256": "e53937ef32b01aeeb5a80198ba319809b117d22a22e70bb6475c3fb8b961d6c3"
+  },
+  "images/test/oiv2_acd2d04e1949eb22e6bf.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.3156300485134125,
+          "y": 0.9290496706962585,
+          "width": 0.6715687811374664,
+          "height": 0.07095032930374146
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.2563001215457916,
+          "y": 0.4384608864784241,
+          "width": 0.07541626691818237,
+          "height": 0.02349776029586792
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.3930562436580658,
+          "y": 0.3515178859233856,
+          "width": 0.3345459997653961,
+          "height": 0.21463677287101746
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 907.5859999284148,
+    "sha256": "acd2d04e1949eb22e6bf06df7cec0776ad4fede0bf00cc7310832e0ff84b9aee"
+  },
+  "images/test/oiv2_5aa0ec4d9e9d1379330c.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0041,
+        "bbox": {
+          "x": 0.7186182141304016,
+          "y": 0.3001744548479716,
+          "width": 0.057385027408599854,
+          "height": 0.02783101797103882
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.004,
+        "bbox": {
+          "x": 0.7632923126220703,
+          "y": 0.45612120628356934,
+          "width": 0.23607617616653442,
+          "height": 0.2675384680430094
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.8330742120742798,
+          "y": 0.7517112890879313,
+          "width": 0.11261516809463501,
+          "height": 0.06613818804423022
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.6506069302558899,
+          "y": 0.38718946774800617,
+          "width": 0.34817636013031006,
+          "height": 0.5212124188741047
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 902.0057000452653,
+    "sha256": "5aa0ec4d9e9d1379330c68c8d6689283f6647485286dc851d609a1af73c369ec"
+  },
+  "images/test/oiv2_f7fa241a889310e825e9.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.1528,
+        "bbox": {
+          "x": 0.6300950050354004,
+          "y": 0.865567968321056,
+          "width": 0.04602605104446411,
+          "height": 0.016557774466965602
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0722,
+        "bbox": {
+          "x": 0.8870221972465515,
+          "y": 0.883817480039806,
+          "width": 0.11297780275344849,
+          "height": 0.07378587401628844
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0514,
+        "bbox": {
+          "x": 0.4840254783630371,
+          "y": 0.946491559811951,
+          "width": 0.238017737865448,
+          "height": 0.04710314458844245
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.026,
+        "bbox": {
+          "x": 0.00016667842282913625,
+          "y": 0.9353281135614934,
+          "width": 0.3619470953999553,
+          "height": 0.06467188643850663
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0089,
+        "bbox": {
+          "x": 0.8931766748428345,
+          "y": 0.9079126941686494,
+          "width": 0.10655629634857178,
+          "height": 0.08599728406959184
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0056,
+        "bbox": {
+          "x": 0.8072231411933899,
+          "y": 0.8766364213488287,
+          "width": 0.19259721040725708,
+          "height": 0.11441536005559116
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0054,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.9610278463293832,
+          "width": 0.26093822717666626,
+          "height": 0.038972153670616794
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0051,
+        "bbox": {
+          "x": 0.4743369221687317,
+          "y": 0.8573108857407576,
+          "width": 0.10429829359054565,
+          "height": 0.04518674791819188
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0041,
+        "bbox": {
+          "x": 0.8902238607406616,
+          "y": 0.8090715757400714,
+          "width": 0.10977613925933838,
+          "height": 0.1712684910608071
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.4723251461982727,
+          "y": 0.9353668078845626,
+          "width": 0.4746066927909851,
+          "height": 0.06463319211543739
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.6044484972953796,
+          "y": 0.8572726382343521,
+          "width": 0.07371342182159424,
+          "height": 0.02637835791659049
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.5440780520439148,
+          "y": 0.8813699970831809,
+          "width": 0.03655511140823364,
+          "height": 0.023645627201912434
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 984.2609000625089,
+    "sha256": "f7fa241a889310e825e99cc29284697961b92a5e5ac5793c8f9e8999b32ee7e1"
+  },
+  "images/test/commonsv2_47bcafa817f7e3a0bb58.jpg": {
+    "detections": [],
+    "milliseconds": 863.2916000206023,
+    "sha256": "47bcafa817f7e3a0bb582730e381fdce7a283f2c39a1d722ba48e93826d3fc7a"
+  },
+  "images/test/commonsv2_86e1f019634c202f440c.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0414,
+        "bbox": {
+          "x": 0.4931475639343262,
+          "y": 0.9557736472938451,
+          "width": 0.278649107615153,
+          "height": 0.04422635270615494
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.022,
+        "bbox": {
+          "x": 0.5131314277648926,
+          "y": 0.9771135182737246,
+          "width": 0.18665405909220378,
+          "height": 0.022886481726275387
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.015,
+        "bbox": {
+          "x": 0.6126630783081055,
+          "y": 0.9790383303875555,
+          "width": 0.11608753204345701,
+          "height": 0.0209616696124445
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0105,
+        "bbox": {
+          "x": 0.6235741297403972,
+          "y": 0.9627048120148131,
+          "width": 0.14037799835205078,
+          "height": 0.037190600493108406
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0094,
+        "bbox": {
+          "x": 0.4877629280090332,
+          "y": 0.9631341467641001,
+          "width": 0.15807511011759445,
+          "height": 0.03686585323589986
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0085,
+        "bbox": {
+          "x": 0.4896576245625814,
+          "y": 0.9787488582016397,
+          "width": 0.10202557245890304,
+          "height": 0.021251141798360296
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.705462900797526,
+          "y": 0.9794241901586265,
+          "width": 0.07857131958007812,
+          "height": 0.020489014600166278
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.6725126266479492,
+          "y": 0.9684380941064639,
+          "width": 0.15995903015136725,
+          "height": 0.031507136703897376
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.5171277046203613,
+          "y": 0.9295494166617158,
+          "width": 0.3606980959574382,
+          "height": 0.07045058333828425
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 885.5655000079423,
+    "sha256": "86e1f019634c202f440c84c89f9bf09cb5c89efa935bed04118fd7159d6a70b5"
+  },
+  "images/test/commonsv2_a4848807a5f034f07f80.jpg": {
+    "detections": [],
+    "milliseconds": 981.679700082168,
+    "sha256": "a4848807a5f034f07f8002f82775efc18facdf75b94d039e16baa0cbfa332665"
+  },
+  "images/test/commonsv2_f25c393ae1c8e3de4206.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0423,
+        "bbox": {
+          "x": 0.31479326883951825,
+          "y": 0.7399614969889323,
+          "width": 0.12028757731119788,
+          "height": 0.029082912868923616
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0136,
+        "bbox": {
+          "x": 0.12495310306549072,
+          "y": 0.7360995822482639,
+          "width": 0.21186219056447347,
+          "height": 0.04080802069769962
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0047,
+        "bbox": {
+          "x": 0.427691396077474,
+          "y": 0.6534058464898004,
+          "width": 0.3833044052124023,
+          "height": 0.045267317030164844
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.4063566525777181,
+          "y": 0.7694166395399306,
+          "width": 0.2467732429504395,
+          "height": 0.029727172851562456
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.42467365264892576,
+          "y": 0.6761192321777344,
+          "width": 0.3950342814127604,
+          "height": 0.03501544528537326
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.4107448895772298,
+          "y": 0.36171756320529513,
+          "width": 0.18671795527140295,
+          "height": 0.03542650010850695
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 967.6657000090927,
+    "sha256": "f25c393ae1c8e3de4206ddfe9470dc764cd630e7eee2d38b1cb4b2a876ee0b1b"
+  },
+  "cover:images/val/commonsv2_c7720fd4d4dc628f84c0.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0035,
+        "bbox": {
+          "x": 0.1520005702972412,
+          "y": 0.4835834503173828,
+          "width": 0.48739533424377435,
+          "height": 0.06620432535807297
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.17483444213867189,
+          "y": 0.020075273513793946,
+          "width": 0.019737100601196267,
+          "height": 0.023990249633789065
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 952.8199000051245,
+    "sha256": "c7720fd4d4dc628f84c065577dff65ec192c5cba2c98bc2c8f239f16c66a27bf"
+  },
+  "cover:images/train/commonsv2_92df1fd9945e35c58bb3.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.0003177642822265625,
+          "y": 0.7010608196258545,
+          "width": 0.03624553680419922,
+          "height": 0.045684814453125
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 965.141799999401,
+    "sha256": "92df1fd9945e35c58bb39186abe68a0b33f3667b1015bc324622e8f1a2407f48"
+  },
+  "cover:images/train/commonsv2_904b83fb947782e4d435.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.1192,
+        "bbox": {
+          "x": 0.671454111735026,
+          "y": 0.5489304224650066,
+          "width": 0.32798461914062504,
+          "height": 0.45106957753499344
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0462,
+        "bbox": {
+          "x": 0.9029291152954102,
+          "y": 0.7147748947143555,
+          "width": 0.09706726074218741,
+          "height": 0.21014938354492185
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0214,
+        "bbox": {
+          "x": 0.6260820388793945,
+          "y": 0.9032770156860351,
+          "width": 0.20445620218912763,
+          "height": 0.09672298431396487
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.016,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.7003906885782878,
+          "width": 0.3527069091796875,
+          "height": 0.2996093114217122
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0044,
+        "bbox": {
+          "x": 0.9282428741455078,
+          "y": 0.8723991394042969,
+          "width": 0.07096748352050786,
+          "height": 0.12547607421874996
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0024,
+        "bbox": {
+          "x": 0.201668643951416,
+          "y": 0.7758125305175781,
+          "width": 0.7893597602844238,
+          "height": 0.22418746948242185
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.9772064208984375,
+          "y": 0.43245935440063477,
+          "width": 0.02264194488525395,
+          "height": 0.057518959045410156
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.9416969299316407,
+          "y": 0.7127971649169922,
+          "width": 0.058107948303222634,
+          "height": 0.15419025421142574
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.8002005259195963,
+          "y": 0.9522923151652019,
+          "width": 0.1322391510009766,
+          "height": 0.04770768483479815
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.2102935791015625,
+          "y": 0.88721923828125,
+          "width": 0.4655403137207031,
+          "height": 0.11274414062499993
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.9433020273844401,
+          "y": 0.7118128458658854,
+          "width": 0.05667552947998045,
+          "height": 0.0452552795410156
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.9014331817626953,
+          "y": 0.7149599711100261,
+          "width": 0.04629077911376955,
+          "height": 0.13700351715087888
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.4010166168212891,
+          "y": 0.8238351821899415,
+          "width": 0.2706871668497721,
+          "height": 0.1760318756103515
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.9668024063110352,
+          "y": 0.3376879374186198,
+          "width": 0.032593154907226474,
+          "height": 0.03482599258422853
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.9744098663330079,
+          "y": 0.872823969523112,
+          "width": 0.025590133666992143,
+          "height": 0.12249374389648438
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1007.2825000388548,
+    "sha256": "904b83fb947782e4d4350569aca3a8b2c21668b8ba276ff5a9c1c6db12ba8a2b"
+  },
+  "cover:images/train/commonsv2_1e6ee22795fef0148168.jpg": {
+    "detections": [],
+    "milliseconds": 1188.4361000265926,
+    "sha256": "1e6ee22795fef0148168902a293a5e5ea2d9ca46b9f7f754f4b8a7dcd188defb"
+  },
+  "cover:images/train/commonsv2_d250298114d5f25efdd3.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0029,
+        "bbox": {
+          "x": 7.807016372680664e-05,
+          "y": 0.3539465586344401,
+          "width": 0.04282276630401611,
+          "height": 0.25953203837076827
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.2956884702046712,
+          "y": 0.8734794616699219,
+          "width": 0.19690675735473634,
+          "height": 0.12539418538411462
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1021.9621999422088,
+    "sha256": "d250298114d5f25efdd3a5b5dbc899b0584e865059674baa6ae377333d9d514d"
+  },
+  "cover:images/train/commonsv2_b9080bbe5b23838c4b76.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.5552,
+        "bbox": {
+          "x": 0.6100458780924479,
+          "y": 0.22162466049194335,
+          "width": 0.3167218526204427,
+          "height": 0.18894042968750002
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.5545,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.11848077774047852,
+          "width": 0.22379570007324218,
+          "height": 0.1786424160003662
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.4592,
+        "bbox": {
+          "x": 0.2200420061747233,
+          "y": 0.0015361547470092774,
+          "width": 0.39798816045125324,
+          "height": 0.3472324132919311
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.3733,
+        "bbox": {
+          "x": 0.6299972534179688,
+          "y": 0.002497434616088867,
+          "width": 0.31054992675781246,
+          "height": 0.25698802471160886
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.1584,
+        "bbox": {
+          "x": 0.7553087870279948,
+          "y": 0.008619797229766846,
+          "width": 0.19487635294596362,
+          "height": 0.15353355407714842
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0588,
+        "bbox": {
+          "x": 0.004084523518880208,
+          "y": 0.808897590637207,
+          "width": 0.12725499471028648,
+          "height": 0.11093330383300781
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0089,
+        "bbox": {
+          "x": 0.5501394907633463,
+          "y": 0.016861355304718016,
+          "width": 0.08641599019368496,
+          "height": 0.054948210716247566
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0074,
+        "bbox": {
+          "x": 0.5522603988647461,
+          "y": 0.02476343363523483,
+          "width": 0.03957087198893228,
+          "height": 0.02757506519556046
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0072,
+        "bbox": {
+          "x": 0.002841059366861979,
+          "y": 0.30284481048583983,
+          "width": 0.2600075403849284,
+          "height": 0.5798480033874511
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0069,
+        "bbox": {
+          "x": 0.00035982131958007814,
+          "y": 0.3046124935150146,
+          "width": 0.2702190399169922,
+          "height": 0.20704154968261723
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0044,
+        "bbox": {
+          "x": 0.4376948038736979,
+          "y": 0.0003383994102478027,
+          "width": 0.2126997629801432,
+          "height": 0.05761856436729431
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0025,
+        "bbox": {
+          "x": 0.936603037516276,
+          "y": 0.0017511725425720214,
+          "width": 0.06199900309244788,
+          "height": 0.15029616355895997
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.4918944040934245,
+          "y": 0.00012101531028747558,
+          "width": 0.1493782043457031,
+          "height": 0.03698141872882843
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.9271891276041667,
+          "y": 0.0009036540985107421,
+          "width": 0.07275263468424475,
+          "height": 0.33345694541931153
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1080.476599978283,
+    "sha256": "b9080bbe5b23838c4b7657733e5d5bcac18cb6fa099b40a38f24c57ae217b595"
+  },
+  "cover:images/train/commonsv2_73cd7402661abb6ade6e.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.8015,
+        "bbox": {
+          "x": 0.7008763631184896,
+          "y": 0.559259033203125,
+          "width": 0.12283744812011721,
+          "height": 0.12588329315185554
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.586,
+        "bbox": {
+          "x": 0.6841391881306966,
+          "y": 0.3660118103027344,
+          "width": 0.13564923604329426,
+          "height": 0.1735047340393066
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.454,
+        "bbox": {
+          "x": 0.6525726954142252,
+          "y": 0.258648419380188,
+          "width": 0.1807666778564453,
+          "height": 0.10487241744995113
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.2203,
+        "bbox": {
+          "x": 0.8132486979166667,
+          "y": 0.33368353843688964,
+          "width": 0.18516489664713542,
+          "height": 0.1641057014465332
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.1196,
+        "bbox": {
+          "x": 0.8325720469156901,
+          "y": 0.2597144365310669,
+          "width": 0.16441650390625007,
+          "height": 0.06580410003662107
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0961,
+        "bbox": {
+          "x": 0.4480063120524089,
+          "y": 0.7174365997314454,
+          "width": 0.17479349772135416,
+          "height": 0.115447998046875
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0668,
+        "bbox": {
+          "x": 0.14720045725504557,
+          "y": 0.7068849563598633,
+          "width": 0.2889376958211263,
+          "height": 0.13620491027832038
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0541,
+        "bbox": {
+          "x": 0.8382692337036133,
+          "y": 0.7077569961547852,
+          "width": 0.16155503590901688,
+          "height": 0.09254426956176753
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0482,
+        "bbox": {
+          "x": 0.0021118958791097003,
+          "y": 0.0,
+          "width": 0.22325310707092286,
+          "height": 0.04502977430820465
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.041,
+        "bbox": {
+          "x": 0.0022812366485595705,
+          "y": 0.8475149154663086,
+          "width": 0.2992410182952881,
+          "height": 0.15248508453369136
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0396,
+        "bbox": {
+          "x": 0.8569203694661458,
+          "y": 0.5049315452575683,
+          "width": 0.12394816080729165,
+          "height": 0.02730216979980471
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0267,
+        "bbox": {
+          "x": 0.8578074137369792,
+          "y": 0.5014762878417969,
+          "width": 0.12558085123697915,
+          "height": 0.012963294982910156
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0191,
+        "bbox": {
+          "x": 0.2985499064127604,
+          "y": 0.8392482757568359,
+          "width": 0.07147782643636069,
+          "height": 0.019684219360351585
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0088,
+        "bbox": {
+          "x": 0.6654567718505859,
+          "y": 0.3405905246734619,
+          "width": 0.33452377319335935,
+          "height": 0.2009371757507324
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0084,
+        "bbox": {
+          "x": 0.04228159586588542,
+          "y": 0.0006371974945068359,
+          "width": 0.9564954121907552,
+          "height": 0.23754489421844482
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0071,
+        "bbox": {
+          "x": 0.01385342280069987,
+          "y": 0.9379074096679687,
+          "width": 0.32128880818684896,
+          "height": 0.061475372314453214
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0049,
+        "bbox": {
+          "x": 0.22738145192464193,
+          "y": 0.26873509883880614,
+          "width": 0.5839029947916667,
+          "height": 0.09119133949279784
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0046,
+        "bbox": {
+          "x": 0.04610441525777181,
+          "y": 0.9653728485107422,
+          "width": 0.22619872093200682,
+          "height": 0.03462715148925777
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0045,
+        "bbox": {
+          "x": 0.007987403869628906,
+          "y": 0.81519775390625,
+          "width": 0.6175776163736979,
+          "height": 0.18480224609374996
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0041,
+        "bbox": {
+          "x": 0.4863787968953451,
+          "y": 0.2566983699798584,
+          "width": 0.060910542805989565,
+          "height": 0.015165042877197277
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0032,
+        "bbox": {
+          "x": 0.0006945133209228516,
+          "y": 0.9525676727294922,
+          "width": 0.08869422276814778,
+          "height": 0.047432327270507835
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0027,
+        "bbox": {
+          "x": 0.006314245859781901,
+          "y": 0.0,
+          "width": 0.08939202626546225,
+          "height": 0.03958643078804016
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0024,
+        "bbox": {
+          "x": 0.20558738708496094,
+          "y": 0.8344668388366699,
+          "width": 0.17281964619954426,
+          "height": 0.02641353607177732
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0024,
+        "bbox": {
+          "x": 0.621990966796875,
+          "y": 0.7026439666748047,
+          "width": 0.37002690633138013,
+          "height": 0.28798770904541016
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0023,
+        "bbox": {
+          "x": 0.6079474131266276,
+          "y": 0.6947247505187988,
+          "width": 0.05767885843912757,
+          "height": 0.02100591659545903
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.002,
+        "bbox": {
+          "x": 0.02715466817220052,
+          "y": 0.7086865425109863,
+          "width": 0.598647689819336,
+          "height": 0.15337648391723635
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.002,
+        "bbox": {
+          "x": 0.09002571105957032,
+          "y": 0.9805048942565918,
+          "width": 0.1778202692667643,
+          "height": 0.0193883895874023
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0019,
+        "bbox": {
+          "x": 0.7980019887288411,
+          "y": 0.49213643074035646,
+          "width": 0.19654045104980478,
+          "height": 0.04603977203369142
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0019,
+        "bbox": {
+          "x": 0.01670691172281901,
+          "y": 0.001144099235534668,
+          "width": 0.2245965321858724,
+          "height": 0.1643404006958008
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0019,
+        "bbox": {
+          "x": 0.7226209004720052,
+          "y": 0.16268644332885743,
+          "width": 0.2771494547526041,
+          "height": 0.0978300094604492
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.010955111185709635,
+          "y": 0.9350333213806152,
+          "width": 0.19312241872151692,
+          "height": 0.046330833435058616
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.43867937723795575,
+          "y": 0.8593663215637207,
+          "width": 0.18933563232421874,
+          "height": 0.1285877227783203
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.19673891067504884,
+          "y": 0.8343658447265625,
+          "width": 0.06994349161783853,
+          "height": 0.02281532287597654
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.4676611582438151,
+          "y": 0.26096487045288086,
+          "width": 0.16558176676432296,
+          "height": 0.07453012466430664
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.7694343566894531,
+          "y": 0.18792706727981567,
+          "width": 0.22970301310221353,
+          "height": 0.1384409785270691
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1091.6520999744534,
+    "sha256": "73cd7402661abb6ade6ed43c2aec2b28d815c0349eb866f28d9d73554fa6ffd6"
+  },
+  "cover:images/train/commonsv2_c0674d8e781cfb3d1327.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0026,
+        "bbox": {
+          "x": 0.3594441095987956,
+          "y": 0.5828154563903809,
+          "width": 0.26390647888183594,
+          "height": 0.05085487365722652
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1058.9761999435723,
+    "sha256": "c0674d8e781cfb3d13277542e61393e1b5028ba969fc96bd4704450f30a813ea"
+  },
+  "cover:images/train/commonsv2_e18ee5f55571af78e36f.jpg": {
+    "detections": [],
+    "milliseconds": 912.8133999183774,
+    "sha256": "e18ee5f55571af78e36f6004c841cd75246a4b10ca34459c7b0176410d2b2a64"
+  },
+  "cover:images/train/commonsv2_b6ec7685aa8508100fc9.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0492,
+        "bbox": {
+          "x": 0.3569538116455078,
+          "y": 0.06775197982788086,
+          "width": 0.6340136210123697,
+          "height": 0.07029991149902343
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0223,
+        "bbox": {
+          "x": 0.23513412475585938,
+          "y": 0.08786171078681945,
+          "width": 0.1929247538248698,
+          "height": 0.05070871710777283
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0199,
+        "bbox": {
+          "x": 0.8651137669881185,
+          "y": 0.1265801429748535,
+          "width": 0.13462378184000656,
+          "height": 0.05362312793731691
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0133,
+        "bbox": {
+          "x": 0.015834681193033853,
+          "y": 0.0788368046283722,
+          "width": 0.974448013305664,
+          "height": 0.11582431197166443
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0082,
+        "bbox": {
+          "x": 0.6007875442504883,
+          "y": 0.07373736500740051,
+          "width": 0.2073121388753255,
+          "height": 0.0595432221889496
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0075,
+        "bbox": {
+          "x": 0.0018357594807942709,
+          "y": 0.08320229053497315,
+          "width": 0.6569226582845052,
+          "height": 0.05718033313751221
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0061,
+        "bbox": {
+          "x": 0.7942342122395833,
+          "y": 0.07279959917068482,
+          "width": 0.20244089762369788,
+          "height": 0.05796589851379394
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0052,
+        "bbox": {
+          "x": 0.0034043629964192706,
+          "y": 0.14011173248291015,
+          "width": 0.682485834757487,
+          "height": 0.059183597564697266
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.005,
+        "bbox": {
+          "x": 0.3300012588500977,
+          "y": 0.14116300344467164,
+          "width": 0.18491071065266929,
+          "height": 0.049181222915649414
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0027,
+        "bbox": {
+          "x": 0.4067288716634115,
+          "y": 0.08160016536712647,
+          "width": 0.21199620564778648,
+          "height": 0.05793256759643553
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0026,
+        "bbox": {
+          "x": 0.797534434000651,
+          "y": 0.10668437480926514,
+          "width": 0.20118865966796873,
+          "height": 0.023490953445434573
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0024,
+        "bbox": {
+          "x": 0.03672574361165364,
+          "y": 0.17459437847137452,
+          "width": 0.9484334309895834,
+          "height": 0.17269411087036132
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.6557577768961589,
+          "y": 0.12458250522613526,
+          "width": 0.34292449951171877,
+          "height": 0.06191062927246094
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.002,
+        "bbox": {
+          "x": 0.2967122395833333,
+          "y": 0.7502918720245362,
+          "width": 0.057119496663411484,
+          "height": 0.018369674682617188
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.07348869641621908,
+          "y": 4.664361476898193e-05,
+          "width": 0.12463618914286295,
+          "height": 0.013168998062610626
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.1157907485961914,
+          "y": 0.7585921287536621,
+          "width": 0.15061289469401043,
+          "height": 0.24066753387451167
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.01441466212272644,
+          "width": 0.12014147440592447,
+          "height": 0.07307145595550538
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.5293841044108073,
+          "y": 0.7833333015441895,
+          "width": 0.33395233154296877,
+          "height": 0.21396789550781248
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.004832808176676432,
+          "y": 0.0026205912232398986,
+          "width": 0.1990063985188802,
+          "height": 0.017226994037628174
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.0027767817179361978,
+          "y": 0.45950946807861326,
+          "width": 0.12695929209391277,
+          "height": 0.5404905319213867
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 965.1079999748617,
+    "sha256": "b6ec7685aa8508100fc938fb28335752df42bae5060de20186c35852f848f238"
+  },
+  "cover:images/train/commonsv2_95074a17096895d5d889.jpg": {
+    "detections": [],
+    "milliseconds": 1176.450900034979,
+    "sha256": "95074a17096895d5d8896338fcb58560ddbe0f3353f01878f6fded7215b19fd7"
+  },
+  "cover:images/train/commonsv2_66b583b0a29bd47c9df8.jpg": {
+    "detections": [],
+    "milliseconds": 962.3080000746995,
+    "sha256": "66b583b0a29bd47c9df8eee9904b5911b269d0086f1db37c45cb589df09565d3"
+  },
+  "cover:images/train/commonsv2_673d871185e03a8977c0.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0708,
+        "bbox": {
+          "x": 0.8735687255859375,
+          "y": 0.012435150146484376,
+          "width": 0.12643127441406254,
+          "height": 0.3452543258666992
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0104,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.16175195376078289,
+          "width": 0.06858539581298828,
+          "height": 0.5421371301015218
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0081,
+        "bbox": {
+          "x": 0.8716545104980469,
+          "y": 0.008373832702636719,
+          "width": 0.1270563125610351,
+          "height": 0.7819454828898112
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0078,
+        "bbox": {
+          "x": 0.5344375610351563,
+          "y": 5.507469177246094e-06,
+          "width": 0.12353858947753904,
+          "height": 0.10051159858703614
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0068,
+        "bbox": {
+          "x": 0.9058881759643554,
+          "y": 0.0,
+          "width": 0.09184608459472654,
+          "height": 0.010738090674082438
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.005,
+        "bbox": {
+          "x": 0.8727033615112305,
+          "y": 0.21956305503845214,
+          "width": 0.12725868225097647,
+          "height": 0.1339184602101644
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0021,
+        "bbox": {
+          "x": 0.00023427009582519532,
+          "y": 0.70850830078125,
+          "width": 0.15779390335083007,
+          "height": 0.29123325347900386
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.9273185729980469,
+          "y": 0.0007040053606033325,
+          "width": 0.07118110656738286,
+          "height": 0.041694948077201845
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3819209098815918,
+          "width": 0.03979581197102865,
+          "height": 0.3509156227111817
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 3.8450956344604494e-05,
+          "y": 0.18060655593872071,
+          "width": 0.031457495689392094,
+          "height": 0.23623336156209307
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.001,
+        "bbox": {
+          "x": 0.8733270645141602,
+          "y": 0.22878680229187012,
+          "width": 0.05319480895996087,
+          "height": 0.10220955212910968
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 811.2277999753132,
+    "sha256": "673d871185e03a8977c05fc4dc6c5a1bffdd425b5bd9b12456d798dae6855795"
+  },
+  "cover:images/train/commonsv2_6b4fab4b8fe18237f72e.jpg": {
+    "detections": [],
+    "milliseconds": 969.0274000167847,
+    "sha256": "6b4fab4b8fe18237f72e6ea231514a4663e29b92ca9807039394601ce86c0fa8"
+  },
+  "cover:images/train/commonsv2_f2bfca5243b32f88a9b4.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0114,
+        "bbox": {
+          "x": 0.0001846432685852051,
+          "y": 0.9494749704996744,
+          "width": 0.07942870060602823,
+          "height": 0.05052502950032556
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 894.5177999557927,
+    "sha256": "f2bfca5243b32f88a9b43f2c381e3922c2e76afe51a5f6032e6ab5593e27c855"
+  },
+  "cover:images/test/rdd_background_05545183e9c3e81aee8c.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.9415,
+        "bbox": {
+          "x": 0.26967981457710266,
+          "y": 0.13466206192970276,
+          "width": 0.7303201854228973,
+          "height": 0.8653379380702972
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0131,
+        "bbox": {
+          "x": 0.011092806234955788,
+          "y": 0.5233478546142578,
+          "width": 0.29756913147866726,
+          "height": 0.47305357456207275
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0052,
+        "bbox": {
+          "x": 0.8016027212142944,
+          "y": 0.3994464874267578,
+          "width": 0.19839727878570557,
+          "height": 0.22782593965530396
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0015,
+        "bbox": {
+          "x": 0.8254444003105164,
+          "y": 0.3996635377407074,
+          "width": 0.1741045117378235,
+          "height": 0.5991783440113068
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 948.9693000214174,
+    "sha256": "05545183e9c3e81aee8cc5a8273e0a0f37421bba50150fa6cb131196ef029f13"
+  },
+  "cover:images/test/rdd_background_a306ce6d67f7f2e4f4ed.jpg": {
+    "detections": [],
+    "milliseconds": 905.6084000039846,
+    "sha256": "a306ce6d67f7f2e4f4ed459195d955d7243be8c7540398998b0d51ef2887aac3"
+  },
+  "cover:images/test/rdd_background_8776d54625ef6022b17f.jpg": {
+    "detections": [],
+    "milliseconds": 1188.690899987705,
+    "sha256": "8776d54625ef6022b17f296c4e7668990d8cd53e7ca5140df060a6a17fe525be"
+  },
+  "cover:images/test/rdd_background_bac7e6700f1edb1b3f7a.jpg": {
+    "detections": [],
+    "milliseconds": 1225.6399999605492,
+    "sha256": "bac7e6700f1edb1b3f7a6b05c4ecd104ae7af0d8b97374fd3da3f59cb59c9630"
+  },
+  "cover:images/test/rdd_background_78c74663698ac16619a2.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.004,
+        "bbox": {
+          "x": 3.725886199390516e-05,
+          "y": 0.06631388515233994,
+          "width": 0.06954651475098217,
+          "height": 0.030396439135074615
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.0025817870628088713,
+          "y": 0.056973863393068314,
+          "width": 0.28662310843355954,
+          "height": 0.040990326553583145
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1205.1134000066668,
+    "sha256": "78c74663698ac16619a2b84a019c6a600a8dd1732c38e77025294b0e4a8fe362"
+  },
+  "cover:images/test/rdd_background_cf62b8fb9d7089ff24c1.jpg": {
+    "detections": [],
+    "milliseconds": 1056.6063000587747,
+    "sha256": "cf62b8fb9d7089ff24c1f1daf40d855b9d29446a54a7aa23f978fe64c660a741"
+  },
+  "cover:images/test/rdd_background_0119dc5842ffadc064de.jpg": {
+    "detections": [],
+    "milliseconds": 1130.6604000274092,
+    "sha256": "0119dc5842ffadc064de8da6cddfec28f90b47642685b9a8faa72b9c0ef56b44"
+  },
+  "cover:images/test/rdd_background_33dad5a8f2461b44d3ad.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.959,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.05789437144994736,
+          "width": 1.0,
+          "height": 0.6813615337014198
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.1077,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.7039254903793335,
+          "width": 1.0,
+          "height": 0.2960745096206665
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0023,
+        "bbox": {
+          "x": 0.5597348213195801,
+          "y": 9.504258923698217e-05,
+          "width": 0.06427651643753052,
+          "height": 0.010130075548659079
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1230.1624999381602,
+    "sha256": "33dad5a8f2461b44d3addc5c800d009b8f725c61e1a9788f253b00d9e41ee00a"
+  },
+  "cover:images/test/rdd_background_518e377b64b002b10894.jpg": {
+    "detections": [],
+    "milliseconds": 1127.9925999697298,
+    "sha256": "518e377b64b002b10894621090fcc5311805d6a15ea29258abbf0ad55d122d14"
+  },
+  "cover:images/test/rdd_background_c918b2f80312167f1823.jpg": {
+    "detections": [],
+    "milliseconds": 1120.2008000109345,
+    "sha256": "c918b2f80312167f1823c382364312ec34198db839e39c57f8b942ff8d6bf8e0"
+  },
+  "cover:images/train/oiv2_6fa5440054be27a4b605.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0154,
+        "bbox": {
+          "x": 0.0953785628080368,
+          "y": 0.5406622489293417,
+          "width": 0.05745558440685272,
+          "height": 0.02847810586293531
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0083,
+        "bbox": {
+          "x": 0.42276373505592346,
+          "y": 0.8155136108398438,
+          "width": 0.03771248459815979,
+          "height": 0.01795784632364905
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1071.8256999971345,
+    "sha256": "6fa5440054be27a4b6053afaf2ae6185e6448341210ea037624d6ed42bab520b"
+  },
+  "cover:images/train/oiv2_eef32dbe2e98288f397a.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.0149,
+        "bbox": {
+          "x": 0.3528539538383484,
+          "y": 0.8684309323628744,
+          "width": 0.0783330500125885,
+          "height": 0.037445068359375
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.5285500288009644,
+          "y": 0.815118153889974,
+          "width": 0.12279033660888672,
+          "height": 0.14401133855183912
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 0.20782950520515442,
+          "y": 0.8312455813090006,
+          "width": 0.08572062849998474,
+          "height": 0.05850164095560717
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0012,
+        "bbox": {
+          "x": 0.4696238934993744,
+          "y": 0.8161311944325765,
+          "width": 0.24749282002449036,
+          "height": 0.1703763802846272
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 971.532900002785,
+    "sha256": "eef32dbe2e98288f397acd0a0a7bb0cf54f53de2fb72747cbf84f49d052e4091"
+  },
+  "cover:images/train/oiv2_6e6d42bfb50d4a5f88ef.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.024,
+        "bbox": {
+          "x": 0.0025717257522046566,
+          "y": 0.7536345537971048,
+          "width": 0.6319892168976367,
+          "height": 0.06990832160500926
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0076,
+        "bbox": {
+          "x": 5.474090721691027e-05,
+          "y": 0.6324366850011489,
+          "width": 0.10670330226275837,
+          "height": 0.15310256060431982
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.005,
+        "bbox": {
+          "x": 0.004419135861098766,
+          "y": 0.7483465306899126,
+          "width": 0.9125209571793675,
+          "height": 0.13027976540958186
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0034,
+        "bbox": {
+          "x": 0.7072064280509949,
+          "y": 0.8952354879940257,
+          "width": 0.09842151403427124,
+          "height": 0.04419519761029411
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0027,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.6702607098747703,
+          "width": 0.06548662483692169,
+          "height": 0.1754963594324448
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0018,
+        "bbox": {
+          "x": 0.09637649357318878,
+          "y": 0.5692373387953814,
+          "width": 0.06258806586265564,
+          "height": 0.02586369233972885
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0013,
+        "bbox": {
+          "x": 0.000144207471748814,
+          "y": 0.5873296849867877,
+          "width": 0.15573724210844375,
+          "height": 0.27111811918370865
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1114.3673999467865,
+    "sha256": "6e6d42bfb50d4a5f88efa70fba6733f8d2046c6463e52d27cb14e195c77970b2"
+  },
+  "cover:images/train/oiv2_140f8069dd3bcc2a4564.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.026,
+        "bbox": {
+          "x": 0.46677032113075256,
+          "y": 0.4112521084872159,
+          "width": 0.07281157374382019,
+          "height": 0.03367337313565344
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.005,
+        "bbox": {
+          "x": 0.33113783597946167,
+          "y": 0.7054947506297718,
+          "width": 0.10107198357582092,
+          "height": 0.1697977672923695
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0033,
+        "bbox": {
+          "x": 0.8154438734054565,
+          "y": 0.515825705094771,
+          "width": 0.04767841100692749,
+          "height": 0.03005318208174268
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0011,
+        "bbox": {
+          "x": 0.08252076059579849,
+          "y": 0.9187319495461204,
+          "width": 0.030687794089317322,
+          "height": 0.01960147510875354
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1080.9325000736862,
+    "sha256": "140f8069dd3bcc2a45646abba02a12a8d91343c33eb10a5112ff2b1cc85547bf"
+  },
+  "cover:images/train/oiv2_9ead032a77286d5ec115.jpg": {
+    "detections": [],
+    "milliseconds": 1040.9085000865161,
+    "sha256": "9ead032a77286d5ec1151a1991e0dd0464a33a2c3c91a99c7644c78e8a54bd39"
+  },
+  "wet:images/test/roadway_2cb7c48d09105a283961.jpg": {
+    "detections": [],
+    "milliseconds": 1100.7153999526054,
+    "sha256": "2cb7c48d09105a283961ac491091e5a548ed509ab73d5b05e41c713e35d7294f"
+  },
+  "wet:images/test/roadway_3b98d0a9a2c6a837c3e7.jpg": {
+    "detections": [
+      {
+        "class": "pothole",
+        "confidence": 0.1415,
+        "bbox": {
+          "x": 0.8405788540840149,
+          "y": 0.8475696245829264,
+          "width": 0.1567920446395874,
+          "height": 0.1486440499623617
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0358,
+        "bbox": {
+          "x": 0.7445045709609985,
+          "y": 0.7547081311543783,
+          "width": 0.16461658477783203,
+          "height": 0.17025208473205566
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.028,
+        "bbox": {
+          "x": 0.06190364435315132,
+          "y": 0.6976718902587891,
+          "width": 0.15976623818278313,
+          "height": 0.2972980340321859
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0166,
+        "bbox": {
+          "x": 0.6551660299301147,
+          "y": 0.6828416188557943,
+          "width": 0.2508683204650879,
+          "height": 0.2527318000793457
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0113,
+        "bbox": {
+          "x": 0.7251208424568176,
+          "y": 0.7534862359364828,
+          "width": 0.26931053400039673,
+          "height": 0.23721369107564283
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0073,
+        "bbox": {
+          "x": 0.15695767104625702,
+          "y": 0.3637359142303467,
+          "width": 0.1554962545633316,
+          "height": 0.08183554808298749
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0022,
+        "bbox": {
+          "x": 0.6513855457305908,
+          "y": 0.8724697430928549,
+          "width": 0.34729570150375366,
+          "height": 0.11839723587036133
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0021,
+        "bbox": {
+          "x": 0.12959003448486328,
+          "y": 0.3410041332244873,
+          "width": 0.36251822113990784,
+          "height": 0.12778528531392414
+        },
+        "severity": "medium",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.002,
+        "bbox": {
+          "x": 0.06289215385913849,
+          "y": 0.858765443166097,
+          "width": 0.9283107966184616,
+          "height": 0.1371070543924967
+        },
+        "severity": "high",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0016,
+        "bbox": {
+          "x": 0.8405818939208984,
+          "y": 0.8399233818054199,
+          "width": 0.08135068416595459,
+          "height": 0.12362209955851233
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.6435294151306152,
+          "y": 0.6756665706634521,
+          "width": 0.1739991307258606,
+          "height": 0.1693732738494873
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      },
+      {
+        "class": "pothole",
+        "confidence": 0.0014,
+        "bbox": {
+          "x": 0.7876777648925781,
+          "y": 0.8017862637837728,
+          "width": 0.1597604751586914,
+          "height": 0.17948309580485022
+        },
+        "severity": "low",
+        "detector": "pothole-specialist"
+      }
+    ],
+    "milliseconds": 1006.1407999601215,
+    "sha256": "3b98d0a9a2c6a837c3e7bab61925af159a9a365fd05d42f7150512b38b8820bb"
+  },
+  "wet:commons": {
+    "detections": [],
+    "milliseconds": 1051.0717999422923,
+    "sha256": "ec2b0d7ac32c3d550c9e93eb44514e22a6296929f427d7db27a5eeab963649f4"
+  }
+}

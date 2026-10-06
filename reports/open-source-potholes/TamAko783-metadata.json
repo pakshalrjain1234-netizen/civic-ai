@@ -1,0 +1,141 @@
+{
+  "_id": "6a22a9ed673f684b0e219bc7",
+  "id": "TamAko783/YOLO26n_RDD_Base",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "yolo",
+    "yolo26",
+    "road-damage",
+    "pothole-detection",
+    "crack-detection",
+    "object-detection",
+    "license:agpl-3.0",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 9,
+  "likes": 0,
+  "modelId": "TamAko783/YOLO26n_RDD_Base",
+  "author": "TamAko783",
+  "sha": "043727c05db663bd85b5bc84673ddb06c097b8d9",
+  "lastModified": "2026-06-09T09:54:39.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": [
+    {
+      "name": "YOLO26n_RDD_Base",
+      "results": [
+        {
+          "task": {
+            "type": "object-detection",
+            "name": "Road Damage Detection"
+          },
+          "dataset": {
+            "name": "Unified Road Defect Dataset (held-out val",
+            "4509 imgs)": null,
+            "type": "TamAko783/Unified_Road_Defect_Dataset"
+          },
+          "metrics": [
+            {
+              "type": "mAP50",
+              "value": 0.635,
+              "name": "mAP@50",
+              "verified": false
+            },
+            {
+              "type": "mAP50-95",
+              "value": 0.334,
+              "name": "mAP@50-95",
+              "verified": false
+            },
+            {
+              "type": "F1",
+              "value": 0.621,
+              "name": "F1",
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {},
+  "cardData": {
+    "license": "agpl-3.0",
+    "library_name": "ultralytics",
+    "pipeline_tag": "object-detection",
+    "tags": [
+      "yolo",
+      "yolo26",
+      "road-damage",
+      "pothole-detection",
+      "crack-detection"
+    ],
+    "model-index": [
+      {
+        "name": "YOLO26n_RDD_Base",
+        "results": [
+          {
+            "task": {
+              "type": "object-detection",
+              "name": "Road Damage Detection"
+            },
+            "dataset": {
+              "name": "Unified Road Defect Dataset (held-out val",
+              "4509 imgs)": null,
+              "type": "TamAko783/Unified_Road_Defect_Dataset"
+            },
+            "metrics": [
+              {
+                "type": "mAP50",
+                "value": 0.635,
+                "name": "mAP@50",
+                "verified": false
+              },
+              {
+                "type": "mAP50-95",
+                "value": 0.334,
+                "name": "mAP@50-95",
+                "verified": false
+              },
+              {
+                "type": "F1",
+                "value": 0.621,
+                "name": "F1",
+                "verified": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "e7415daf6e66c188eadd606a8ae192f15818fa47",
+      "size": 4280
+    },
+    {
+      "rfilename": "YOLO26n_RDD_Base.pt",
+      "blobId": "4de08ebbe937c8951f2b1a4b9575b023edd1b6a7",
+      "size": 5400069,
+      "lfs": {
+        "sha256": "eb51ba9e09c1a71eb9b3582002f69e54115971354ba67f2b2799778e12cceaad",
+        "size": 5400069,
+        "pointerSize": 132
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-06-05T10:50:21.000Z",
+  "usedStorage": 5400069
+}

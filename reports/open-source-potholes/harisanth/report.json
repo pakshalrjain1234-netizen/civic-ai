@@ -1,0 +1,969 @@
+{
+  "name": "harisanth",
+  "validation_selection": {
+    "confidence": 0.35,
+    "tp": 46,
+    "fp_boxes": 17,
+    "gt_boxes": 56,
+    "precision": 0.7301587301587301,
+    "recall": 0.8214285714285714,
+    "mAP50": 0.790630302239381,
+    "mAP50_95": 0.42562171382097125,
+    "background_images": 82,
+    "background_false_positive_images": 6,
+    "background_false_positive_rate": 0.07317073170731707,
+    "background_categories": {
+      "clean_roads": {
+        "images": 20,
+        "false_positive_images": 2
+      },
+      "road_shadows": {
+        "images": 20,
+        "false_positive_images": 2
+      },
+      "road_patches": {
+        "images": 20,
+        "false_positive_images": 2
+      },
+      "people": {
+        "images": 21,
+        "false_positive_images": 1
+      },
+      "shelves": {
+        "images": 10,
+        "false_positive_images": 0
+      },
+      "indoor_scenes": {
+        "images": 10,
+        "false_positive_images": 0
+      },
+      "poles": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "road_signs": {
+        "images": 8,
+        "false_positive_images": 0
+      },
+      "tables": {
+        "images": 8,
+        "false_positive_images": 2
+      },
+      "furniture": {
+        "images": 8,
+        "false_positive_images": 2
+      },
+      "trees": {
+        "images": 4,
+        "false_positive_images": 1
+      },
+      "windows": {
+        "images": 10,
+        "false_positive_images": 0
+      },
+      "walls": {
+        "images": 10,
+        "false_positive_images": 0
+      },
+      "metal_grills": {
+        "images": 3,
+        "false_positive_images": 0
+      },
+      "manhole_covers": {
+        "images": 1,
+        "false_positive_images": 0
+      }
+    }
+  },
+  "validation_sweep": [
+    {
+      "confidence": 0.05,
+      "tp": 51,
+      "fp_boxes": 86,
+      "gt_boxes": 56,
+      "precision": 0.3722627737226277,
+      "recall": 0.9107142857142857,
+      "mAP50": 0.790630302239381,
+      "mAP50_95": 0.42562171382097125,
+      "background_images": 82,
+      "background_false_positive_images": 30,
+      "background_false_positive_rate": 0.36585365853658536,
+      "background_categories": {
+        "clean_roads": {
+          "images": 20,
+          "false_positive_images": 11
+        },
+        "road_shadows": {
+          "images": 20,
+          "false_positive_images": 11
+        },
+        "road_patches": {
+          "images": 20,
+          "false_positive_images": 11
+        },
+        "people": {
+          "images": 21,
+          "false_positive_images": 7
+        },
+        "shelves": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "indoor_scenes": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "poles": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "road_signs": {
+          "images": 8,
+          "false_positive_images": 0
+        },
+        "tables": {
+          "images": 8,
+          "false_positive_images": 5
+        },
+        "furniture": {
+          "images": 8,
+          "false_positive_images": 5
+        },
+        "trees": {
+          "images": 4,
+          "false_positive_images": 2
+        },
+        "windows": {
+          "images": 10,
+          "false_positive_images": 4
+        },
+        "walls": {
+          "images": 10,
+          "false_positive_images": 4
+        },
+        "metal_grills": {
+          "images": 3,
+          "false_positive_images": 2
+        },
+        "manhole_covers": {
+          "images": 1,
+          "false_positive_images": 1
+        }
+      }
+    },
+    {
+      "confidence": 0.1,
+      "tp": 50,
+      "fp_boxes": 52,
+      "gt_boxes": 56,
+      "precision": 0.49019607843137253,
+      "recall": 0.8928571428571429,
+      "mAP50": 0.790630302239381,
+      "mAP50_95": 0.42562171382097125,
+      "background_images": 82,
+      "background_false_positive_images": 20,
+      "background_false_positive_rate": 0.24390243902439024,
+      "background_categories": {
+        "clean_roads": {
+          "images": 20,
+          "false_positive_images": 8
+        },
+        "road_shadows": {
+          "images": 20,
+          "false_positive_images": 8
+        },
+        "road_patches": {
+          "images": 20,
+          "false_positive_images": 8
+        },
+        "people": {
+          "images": 21,
+          "false_positive_images": 4
+        },
+        "shelves": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "indoor_scenes": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "poles": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "road_signs": {
+          "images": 8,
+          "false_positive_images": 0
+        },
+        "tables": {
+          "images": 8,
+          "false_positive_images": 3
+        },
+        "furniture": {
+          "images": 8,
+          "false_positive_images": 3
+        },
+        "trees": {
+          "images": 4,
+          "false_positive_images": 2
+        },
+        "windows": {
+          "images": 10,
+          "false_positive_images": 3
+        },
+        "walls": {
+          "images": 10,
+          "false_positive_images": 3
+        },
+        "metal_grills": {
+          "images": 3,
+          "false_positive_images": 2
+        },
+        "manhole_covers": {
+          "images": 1,
+          "false_positive_images": 0
+        }
+      }
+    },
+    {
+      "confidence": 0.15,
+      "tp": 48,
+      "fp_boxes": 40,
+      "gt_boxes": 56,
+      "precision": 0.5454545454545454,
+      "recall": 0.8571428571428571,
+      "mAP50": 0.790630302239381,
+      "mAP50_95": 0.42562171382097125,
+      "background_images": 82,
+      "background_false_positive_images": 17,
+      "background_false_positive_rate": 0.2073170731707317,
+      "background_categories": {
+        "clean_roads": {
+          "images": 20,
+          "false_positive_images": 6
+        },
+        "road_shadows": {
+          "images": 20,
+          "false_positive_images": 6
+        },
+        "road_patches": {
+          "images": 20,
+          "false_positive_images": 6
+        },
+        "people": {
+          "images": 21,
+          "false_positive_images": 3
+        },
+        "shelves": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "indoor_scenes": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "poles": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "road_signs": {
+          "images": 8,
+          "false_positive_images": 0
+        },
+        "tables": {
+          "images": 8,
+          "false_positive_images": 3
+        },
+        "furniture": {
+          "images": 8,
+          "false_positive_images": 3
+        },
+        "trees": {
+          "images": 4,
+          "false_positive_images": 2
+        },
+        "windows": {
+          "images": 10,
+          "false_positive_images": 3
+        },
+        "walls": {
+          "images": 10,
+          "false_positive_images": 3
+        },
+        "metal_grills": {
+          "images": 3,
+          "false_positive_images": 2
+        },
+        "manhole_covers": {
+          "images": 1,
+          "false_positive_images": 0
+        }
+      }
+    },
+    {
+      "confidence": 0.25,
+      "tp": 47,
+      "fp_boxes": 28,
+      "gt_boxes": 56,
+      "precision": 0.6266666666666667,
+      "recall": 0.8392857142857143,
+      "mAP50": 0.790630302239381,
+      "mAP50_95": 0.42562171382097125,
+      "background_images": 82,
+      "background_false_positive_images": 13,
+      "background_false_positive_rate": 0.15853658536585366,
+      "background_categories": {
+        "clean_roads": {
+          "images": 20,
+          "false_positive_images": 4
+        },
+        "road_shadows": {
+          "images": 20,
+          "false_positive_images": 4
+        },
+        "road_patches": {
+          "images": 20,
+          "false_positive_images": 4
+        },
+        "people": {
+          "images": 21,
+          "false_positive_images": 2
+        },
+        "shelves": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "indoor_scenes": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "poles": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "road_signs": {
+          "images": 8,
+          "false_positive_images": 0
+        },
+        "tables": {
+          "images": 8,
+          "false_positive_images": 2
+        },
+        "furniture": {
+          "images": 8,
+          "false_positive_images": 2
+        },
+        "trees": {
+          "images": 4,
+          "false_positive_images": 2
+        },
+        "windows": {
+          "images": 10,
+          "false_positive_images": 3
+        },
+        "walls": {
+          "images": 10,
+          "false_positive_images": 3
+        },
+        "metal_grills": {
+          "images": 3,
+          "false_positive_images": 2
+        },
+        "manhole_covers": {
+          "images": 1,
+          "false_positive_images": 0
+        }
+      }
+    },
+    {
+      "confidence": 0.35,
+      "tp": 46,
+      "fp_boxes": 17,
+      "gt_boxes": 56,
+      "precision": 0.7301587301587301,
+      "recall": 0.8214285714285714,
+      "mAP50": 0.790630302239381,
+      "mAP50_95": 0.42562171382097125,
+      "background_images": 82,
+      "background_false_positive_images": 6,
+      "background_false_positive_rate": 0.07317073170731707,
+      "background_categories": {
+        "clean_roads": {
+          "images": 20,
+          "false_positive_images": 2
+        },
+        "road_shadows": {
+          "images": 20,
+          "false_positive_images": 2
+        },
+        "road_patches": {
+          "images": 20,
+          "false_positive_images": 2
+        },
+        "people": {
+          "images": 21,
+          "false_positive_images": 1
+        },
+        "shelves": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "indoor_scenes": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "poles": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "road_signs": {
+          "images": 8,
+          "false_positive_images": 0
+        },
+        "tables": {
+          "images": 8,
+          "false_positive_images": 2
+        },
+        "furniture": {
+          "images": 8,
+          "false_positive_images": 2
+        },
+        "trees": {
+          "images": 4,
+          "false_positive_images": 1
+        },
+        "windows": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "walls": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "metal_grills": {
+          "images": 3,
+          "false_positive_images": 0
+        },
+        "manhole_covers": {
+          "images": 1,
+          "false_positive_images": 0
+        }
+      }
+    },
+    {
+      "confidence": 0.45,
+      "tp": 41,
+      "fp_boxes": 10,
+      "gt_boxes": 56,
+      "precision": 0.803921568627451,
+      "recall": 0.7321428571428571,
+      "mAP50": 0.790630302239381,
+      "mAP50_95": 0.42562171382097125,
+      "background_images": 82,
+      "background_false_positive_images": 5,
+      "background_false_positive_rate": 0.06097560975609756,
+      "background_categories": {
+        "clean_roads": {
+          "images": 20,
+          "false_positive_images": 1
+        },
+        "road_shadows": {
+          "images": 20,
+          "false_positive_images": 1
+        },
+        "road_patches": {
+          "images": 20,
+          "false_positive_images": 1
+        },
+        "people": {
+          "images": 21,
+          "false_positive_images": 1
+        },
+        "shelves": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "indoor_scenes": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "poles": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "road_signs": {
+          "images": 8,
+          "false_positive_images": 0
+        },
+        "tables": {
+          "images": 8,
+          "false_positive_images": 2
+        },
+        "furniture": {
+          "images": 8,
+          "false_positive_images": 2
+        },
+        "trees": {
+          "images": 4,
+          "false_positive_images": 1
+        },
+        "windows": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "walls": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "metal_grills": {
+          "images": 3,
+          "false_positive_images": 0
+        },
+        "manhole_covers": {
+          "images": 1,
+          "false_positive_images": 0
+        }
+      }
+    },
+    {
+      "confidence": 0.55,
+      "tp": 36,
+      "fp_boxes": 6,
+      "gt_boxes": 56,
+      "precision": 0.8571428571428571,
+      "recall": 0.6428571428571429,
+      "mAP50": 0.790630302239381,
+      "mAP50_95": 0.42562171382097125,
+      "background_images": 82,
+      "background_false_positive_images": 4,
+      "background_false_positive_rate": 0.04878048780487805,
+      "background_categories": {
+        "clean_roads": {
+          "images": 20,
+          "false_positive_images": 1
+        },
+        "road_shadows": {
+          "images": 20,
+          "false_positive_images": 1
+        },
+        "road_patches": {
+          "images": 20,
+          "false_positive_images": 1
+        },
+        "people": {
+          "images": 21,
+          "false_positive_images": 1
+        },
+        "shelves": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "indoor_scenes": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "poles": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "road_signs": {
+          "images": 8,
+          "false_positive_images": 0
+        },
+        "tables": {
+          "images": 8,
+          "false_positive_images": 2
+        },
+        "furniture": {
+          "images": 8,
+          "false_positive_images": 2
+        },
+        "trees": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "windows": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "walls": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "metal_grills": {
+          "images": 3,
+          "false_positive_images": 0
+        },
+        "manhole_covers": {
+          "images": 1,
+          "false_positive_images": 0
+        }
+      }
+    },
+    {
+      "confidence": 0.65,
+      "tp": 29,
+      "fp_boxes": 4,
+      "gt_boxes": 56,
+      "precision": 0.8787878787878788,
+      "recall": 0.5178571428571429,
+      "mAP50": 0.790630302239381,
+      "mAP50_95": 0.42562171382097125,
+      "background_images": 82,
+      "background_false_positive_images": 3,
+      "background_false_positive_rate": 0.036585365853658534,
+      "background_categories": {
+        "clean_roads": {
+          "images": 20,
+          "false_positive_images": 1
+        },
+        "road_shadows": {
+          "images": 20,
+          "false_positive_images": 1
+        },
+        "road_patches": {
+          "images": 20,
+          "false_positive_images": 1
+        },
+        "people": {
+          "images": 21,
+          "false_positive_images": 1
+        },
+        "shelves": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "indoor_scenes": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "poles": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "road_signs": {
+          "images": 8,
+          "false_positive_images": 0
+        },
+        "tables": {
+          "images": 8,
+          "false_positive_images": 1
+        },
+        "furniture": {
+          "images": 8,
+          "false_positive_images": 1
+        },
+        "trees": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "windows": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "walls": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "metal_grills": {
+          "images": 3,
+          "false_positive_images": 0
+        },
+        "manhole_covers": {
+          "images": 1,
+          "false_positive_images": 0
+        }
+      }
+    },
+    {
+      "confidence": 0.75,
+      "tp": 16,
+      "fp_boxes": 2,
+      "gt_boxes": 56,
+      "precision": 0.8888888888888888,
+      "recall": 0.2857142857142857,
+      "mAP50": 0.790630302239381,
+      "mAP50_95": 0.42562171382097125,
+      "background_images": 82,
+      "background_false_positive_images": 2,
+      "background_false_positive_rate": 0.024390243902439025,
+      "background_categories": {
+        "clean_roads": {
+          "images": 20,
+          "false_positive_images": 0
+        },
+        "road_shadows": {
+          "images": 20,
+          "false_positive_images": 0
+        },
+        "road_patches": {
+          "images": 20,
+          "false_positive_images": 0
+        },
+        "people": {
+          "images": 21,
+          "false_positive_images": 1
+        },
+        "shelves": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "indoor_scenes": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "poles": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "road_signs": {
+          "images": 8,
+          "false_positive_images": 0
+        },
+        "tables": {
+          "images": 8,
+          "false_positive_images": 1
+        },
+        "furniture": {
+          "images": 8,
+          "false_positive_images": 1
+        },
+        "trees": {
+          "images": 4,
+          "false_positive_images": 0
+        },
+        "windows": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "walls": {
+          "images": 10,
+          "false_positive_images": 0
+        },
+        "metal_grills": {
+          "images": 3,
+          "false_positive_images": 0
+        },
+        "manhole_covers": {
+          "images": 1,
+          "false_positive_images": 0
+        }
+      }
+    }
+  ],
+  "test": {
+    "confidence": 0.35,
+    "tp": 27,
+    "fp_boxes": 7,
+    "gt_boxes": 28,
+    "precision": 0.7941176470588235,
+    "recall": 0.9642857142857143,
+    "mAP50": 0.9564356435643565,
+    "mAP50_95": 0.6586727680865252,
+    "background_images": 41,
+    "background_false_positive_images": 4,
+    "background_false_positive_rate": 0.0975609756097561,
+    "background_categories": {
+      "repaired_asphalt": {
+        "images": 2,
+        "false_positive_images": 0
+      },
+      "dark_patches": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "cracks": {
+        "images": 7,
+        "false_positive_images": 2
+      },
+      "road_markings": {
+        "images": 7,
+        "false_positive_images": 2
+      },
+      "clean_roads": {
+        "images": 2,
+        "false_positive_images": 0
+      },
+      "manhole_covers": {
+        "images": 1,
+        "false_positive_images": 1
+      },
+      "road_patches": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "vehicles": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "poles": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "road_signs": {
+        "images": 7,
+        "false_positive_images": 0
+      },
+      "tables": {
+        "images": 9,
+        "false_positive_images": 2
+      },
+      "furniture": {
+        "images": 9,
+        "false_positive_images": 2
+      },
+      "trees": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "windows": {
+        "images": 11,
+        "false_positive_images": 0
+      },
+      "walls": {
+        "images": 11,
+        "false_positive_images": 0
+      },
+      "metal_grills": {
+        "images": 4,
+        "false_positive_images": 0
+      }
+    }
+  },
+  "supplemental_hard_negatives": {
+    "confidence": 0.35,
+    "tp": 0,
+    "fp_boxes": 5,
+    "gt_boxes": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "mAP50": 0.0,
+    "mAP50_95": 0.0,
+    "background_images": 33,
+    "background_false_positive_images": 5,
+    "background_false_positive_rate": 0.15151515151515152,
+    "background_categories": {
+      "manhole_covers": {
+        "images": 15,
+        "false_positive_images": 3
+      },
+      "clean_roads": {
+        "images": 10,
+        "false_positive_images": 2
+      },
+      "road_shadows": {
+        "images": 10,
+        "false_positive_images": 2
+      },
+      "road_patches": {
+        "images": 10,
+        "false_positive_images": 2
+      },
+      "vehicles": {
+        "images": 5,
+        "false_positive_images": 0
+      },
+      "wet_roads": {
+        "images": 3,
+        "false_positive_images": 0
+      }
+    }
+  },
+  "supplemental_note": "Extra road covers include original train/val data; diagnostic only, not pooled into held-out test denominator.",
+  "all_unique_backgrounds": {
+    "confidence": 0.35,
+    "tp": 0,
+    "fp_boxes": 8,
+    "gt_boxes": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "mAP50": 0.0,
+    "mAP50_95": 0.0,
+    "background_images": 64,
+    "background_false_positive_images": 7,
+    "background_false_positive_rate": 0.109375,
+    "background_categories": {
+      "repaired_asphalt": {
+        "images": 2,
+        "false_positive_images": 0
+      },
+      "dark_patches": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "cracks": {
+        "images": 7,
+        "false_positive_images": 2
+      },
+      "road_markings": {
+        "images": 7,
+        "false_positive_images": 2
+      },
+      "clean_roads": {
+        "images": 2,
+        "false_positive_images": 0
+      },
+      "manhole_covers": {
+        "images": 16,
+        "false_positive_images": 4
+      },
+      "road_patches": {
+        "images": 1,
+        "false_positive_images": 0
+      },
+      "vehicles": {
+        "images": 6,
+        "false_positive_images": 0
+      },
+      "poles": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "road_signs": {
+        "images": 7,
+        "false_positive_images": 0
+      },
+      "tables": {
+        "images": 9,
+        "false_positive_images": 2
+      },
+      "furniture": {
+        "images": 9,
+        "false_positive_images": 2
+      },
+      "trees": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "windows": {
+        "images": 11,
+        "false_positive_images": 0
+      },
+      "walls": {
+        "images": 11,
+        "false_positive_images": 0
+      },
+      "metal_grills": {
+        "images": 4,
+        "false_positive_images": 0
+      },
+      "wet_roads": {
+        "images": 3,
+        "false_positive_images": 0
+      }
+    }
+  },
+  "numeric_passed": true,
+  "accepted": false,
+  "activated": false,
+  "manual_review_pending": true,
+  "average_inference_ms": 837.3325824525142,
+  "model_sha256": "6199495dcacbaecf37d160d8df091ddd4fb185e98c96938888124b495e3445ff",
+  "model_bytes": 44719014,
+  "input_resolution": 640,
+  "ort_threads": 2,
+  "nms_iou": 0.45,
+  "matching_iou": 0.5,
+  "source_overlap_status": "External training image list is not supplied; independence from RDD images cannot be guaranteed."
+}

@@ -1,0 +1,53 @@
+{
+  "review_method": "Manual visual inspection of original held-out road contact sheets; no image, label or split changes.",
+  "reviewed_test_categories": {
+    "rdd_background_05545183e9c3e81aee8c.jpg": [
+      "repaired_asphalt",
+      "dark_patches",
+      "cracks",
+      "road_markings"
+    ],
+    "rdd_background_a306ce6d67f7f2e4f4ed.jpg": [
+      "clean_roads"
+    ],
+    "rdd_background_8776d54625ef6022b17f.jpg": [
+      "manhole_covers",
+      "cracks",
+      "road_markings"
+    ],
+    "rdd_background_bac7e6700f1edb1b3f7a.jpg": [
+      "cracks",
+      "road_markings"
+    ],
+    "rdd_background_78c74663698ac16619a2.jpg": [
+      "cracks",
+      "road_markings"
+    ],
+    "rdd_background_cf62b8fb9d7089ff24c1.jpg": [
+      "cracks",
+      "road_patches"
+    ],
+    "rdd_background_0119dc5842ffadc064de.jpg": [
+      "clean_roads",
+      "cracks"
+    ],
+    "rdd_background_33dad5a8f2461b44d3ad.jpg": [
+      "repaired_asphalt",
+      "road_markings"
+    ],
+    "rdd_background_518e377b64b002b10894.jpg": [
+      "cracks",
+      "road_markings"
+    ],
+    "rdd_background_c918b2f80312167f1823.jpg": [
+      "vehicles",
+      "road_markings"
+    ]
+  },
+  "supplemental_pothole_negatives": [
+    "images/test/roadway_2cb7c48d09105a283961.jpg",
+    "images/test/roadway_3b98d0a9a2c6a837c3e7.jpg"
+  ],
+  "supplemental_note": "Existing V2 held-out waterlogging scenes with visible wet road but no visible pothole; evaluated separately, never added to training or the primary 41-background denominator. Invisible submerged defects cannot be assessed.",
+  "shadow_coverage_note": "Original metadata tags 10 roads as road_shadows; strong-shadow coverage is limited."
+}

@@ -1,0 +1,5 @@
+# Colab training/export only; never required by the local API.
+ultralytics==8.4.171
+onnx>=1.17,<2
+onnxruntime>=1.20,<2
+PyYAML>=6,<7

@@ -1,0 +1,665 @@
+{
+  "capture": {
+    "test_images": 92,
+    "background_images": 41,
+    "settings": {
+      "old": [
+        1024,
+        0.8
+      ],
+      "new": [
+        640,
+        0.8
+      ]
+    },
+    "jpeg_mean_bytes": {
+      "old": 92527,
+      "new": 57286
+    },
+    "base64_json_image_mean_bytes": {
+      "old": 123393,
+      "new": 76405
+    },
+    "local_decode_infer_mean_ms": {
+      "old": 114.05,
+      "new": 109.85
+    },
+    "stages_mean_ms": {
+      "preprocessing_ms": 7.33,
+      "inference_ms": 98.49,
+      "postprocessing_ms": 0.57,
+      "decode_ms": 2.93
+    },
+    "metrics": {
+      "old": {
+        "garbage": {
+          "gt": 15,
+          "tp": 9,
+          "fp": 4,
+          "fn": 6,
+          "recall": 0.6,
+          "precision": 0.6923076923076923
+        },
+        "waterlogging": {
+          "gt": 23,
+          "tp": 19,
+          "fp": 0,
+          "fn": 4,
+          "recall": 0.8260869565217391,
+          "precision": 1.0
+        }
+      },
+      "new": {
+        "garbage": {
+          "gt": 15,
+          "tp": 9,
+          "fp": 3,
+          "fn": 6,
+          "recall": 0.6,
+          "precision": 0.75
+        },
+        "waterlogging": {
+          "gt": 23,
+          "tp": 19,
+          "fp": 0,
+          "fn": 4,
+          "recall": 0.8260869565217391,
+          "precision": 1.0
+        }
+      }
+    },
+    "background_false_positive_images": {
+      "old": 3,
+      "new": 2
+    },
+    "v2_sha256": "c3fb34a3d0c597b01155306980c75bb553af41870b7fd1328491b10c3720869f",
+    "network_latency_measured": false,
+    "physical_moving_phone_tested": false,
+    "compression_regression_passed": true
+  },
+  "endpoints": {
+    "local": {
+      "health": {
+        "status": "online",
+        "model_loaded": true,
+        "garbage_waterlogging_detector": true,
+        "pothole_detector": false,
+        "pothole_runtime": "onnx",
+        "ready": true,
+        "automatic_pothole_ready": false,
+        "runtime": "onnx",
+        "model": "civiceye-v2.onnx",
+        "pothole_evaluation": "pretrained and zero-shot candidates failed acceptance",
+        "pothole_reporting": "user-assisted",
+        "supported_classes": [
+          "garbage",
+          "waterlogging"
+        ],
+        "model_error": null,
+        "pothole_error": "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review.",
+        "inference_location": "local",
+        "cloud_inference": false,
+        "paid_api_dependency": false
+      },
+      "samples": [
+        {
+          "image": "images/test/garbageexp_db4b1d32d35b9abbda41.jpg",
+          "request_roundtrip_ms": 245.93909992836416,
+          "success": true,
+          "processingTimeMs": 199.6,
+          "detections": [
+            {
+              "class": "garbage",
+              "confidence": 0.3504,
+              "bbox": {
+                "x": 0.008236026763916016,
+                "y": 0.5065498352050781,
+                "width": 0.9864485740661622,
+                "height": 0.4855626424153646
+              },
+              "severity": "high",
+              "detector": "civiceye-v2"
+            }
+          ],
+          "ready": true,
+          "pothole_pending": false,
+          "warnings": [
+            "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+          ],
+          "timings": {
+            "preprocessing_ms": 77.83,
+            "inference_ms": 115.44,
+            "postprocessing_ms": 0.89,
+            "decode_ms": 4.35,
+            "total_ms": 199.6
+          }
+        },
+        {
+          "image": "images/test/garbageexp_6628d380d0ee64bf78ab.jpg",
+          "request_roundtrip_ms": 130.74839999899268,
+          "success": true,
+          "processingTimeMs": 105.4,
+          "detections": [
+            {
+              "class": "garbage",
+              "confidence": 0.8177,
+              "bbox": {
+                "x": 0.0,
+                "y": 0.180929692586263,
+                "width": 0.9990249633789062,
+                "height": 0.5187154134114583
+              },
+              "severity": "high",
+              "detector": "civiceye-v2"
+            }
+          ],
+          "ready": true,
+          "pothole_pending": false,
+          "warnings": [
+            "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+          ],
+          "timings": {
+            "preprocessing_ms": 8.05,
+            "inference_ms": 91.5,
+            "postprocessing_ms": 0.65,
+            "decode_ms": 3.85,
+            "total_ms": 105.4
+          }
+        },
+        {
+          "image": "images/test/roadway_cec9ee1d6d7f6a7e3a10.jpg",
+          "request_roundtrip_ms": 110.37270002998412,
+          "success": true,
+          "processingTimeMs": 104.6,
+          "detections": [
+            {
+              "class": "waterlogging",
+              "confidence": 0.8724,
+              "bbox": {
+                "x": 0.012557124719023705,
+                "y": 0.5355544884999593,
+                "width": 0.9850342515856028,
+                "height": 0.46309145291646314
+              },
+              "severity": "high",
+              "detector": "civiceye-v2"
+            }
+          ],
+          "ready": true,
+          "pothole_pending": false,
+          "warnings": [
+            "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+          ],
+          "timings": {
+            "preprocessing_ms": 5.21,
+            "inference_ms": 95.24,
+            "postprocessing_ms": 0.77,
+            "decode_ms": 2.39,
+            "total_ms": 104.6
+          }
+        },
+        {
+          "image": "images/test/roadway_37d11a3da85155f94ca7.jpg",
+          "request_roundtrip_ms": 105.44129996560514,
+          "success": true,
+          "processingTimeMs": 99.2,
+          "detections": [
+            {
+              "class": "waterlogging",
+              "confidence": 0.8649,
+              "bbox": {
+                "x": 0.0,
+                "y": 0.3311433394749959,
+                "width": 1.0,
+                "height": 0.6355316241582234
+              },
+              "severity": "high",
+              "detector": "civiceye-v2"
+            }
+          ],
+          "ready": true,
+          "pothole_pending": false,
+          "warnings": [
+            "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+          ],
+          "timings": {
+            "preprocessing_ms": 6.28,
+            "inference_ms": 89.26,
+            "postprocessing_ms": 0.93,
+            "decode_ms": 1.8,
+            "total_ms": 99.2
+          }
+        },
+        {
+          "image": "images/test/rdd_background_05545183e9c3e81aee8c.jpg",
+          "request_roundtrip_ms": 123.48900001961738,
+          "success": true,
+          "processingTimeMs": 114.5,
+          "detections": [],
+          "ready": true,
+          "pothole_pending": false,
+          "warnings": [
+            "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+          ],
+          "timings": {
+            "preprocessing_ms": 6.1,
+            "inference_ms": 103.55,
+            "postprocessing_ms": 0.38,
+            "decode_ms": 3.11,
+            "total_ms": 114.5
+          }
+        },
+        {
+          "image": "images/test/rdd_background_a306ce6d67f7f2e4f4ed.jpg",
+          "request_roundtrip_ms": 110.98740005400032,
+          "success": true,
+          "processingTimeMs": 103.4,
+          "detections": [],
+          "ready": true,
+          "pothole_pending": false,
+          "warnings": [
+            "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+          ],
+          "timings": {
+            "preprocessing_ms": 6.71,
+            "inference_ms": 91.51,
+            "postprocessing_ms": 0.41,
+            "decode_ms": 3.77,
+            "total_ms": 103.4
+          }
+        }
+      ],
+      "mean_testclient_roundtrip_ms": 137.8296499994273,
+      "debug_only_timings": true
+    },
+    "production": {
+      "health": {
+        "status": "online",
+        "model_loaded": true,
+        "garbage_waterlogging_detector": true,
+        "pothole_detector": false,
+        "pothole_runtime": "onnx",
+        "ready": true,
+        "automatic_pothole_ready": false,
+        "runtime": "onnx",
+        "model": "civiceye-v2.onnx",
+        "pothole_evaluation": "pretrained and zero-shot candidates failed acceptance",
+        "pothole_reporting": "user-assisted",
+        "supported_classes": [
+          "garbage",
+          "waterlogging"
+        ],
+        "model_error": null,
+        "pothole_error": "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review.",
+        "inference_location": "render",
+        "cloud_inference": true,
+        "paid_api_dependency": false
+      },
+      "capture_comparison": [
+        {
+          "capture_size": 1024,
+          "samples": [
+            {
+              "image": "images/test/garbageexp_db4b1d32d35b9abbda41.jpg",
+              "roundtrip_ms": 2378.069999977015,
+              "response": {
+                "success": true,
+                "processingTimeMs": 1121.8,
+                "detections": [],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/garbageexp_6628d380d0ee64bf78ab.jpg",
+              "roundtrip_ms": 2183.147699921392,
+              "response": {
+                "success": true,
+                "processingTimeMs": 853.1,
+                "detections": [
+                  {
+                    "class": "garbage",
+                    "confidence": 0.8512,
+                    "bbox": {
+                      "x": 0.0,
+                      "y": 0.18016872803370157,
+                      "width": 0.9993104934692383,
+                      "height": 0.5179002086321514
+                    },
+                    "severity": "high",
+                    "detector": "civiceye-v2"
+                  }
+                ],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/roadway_cec9ee1d6d7f6a7e3a10.jpg",
+              "roundtrip_ms": 1192.9838999640197,
+              "response": {
+                "success": true,
+                "processingTimeMs": 843.4,
+                "detections": [
+                  {
+                    "class": "waterlogging",
+                    "confidence": 0.8724,
+                    "bbox": {
+                      "x": 0.012557124719023705,
+                      "y": 0.5355544884999593,
+                      "width": 0.9850342515856028,
+                      "height": 0.46309145291646314
+                    },
+                    "severity": "high",
+                    "detector": "civiceye-v2"
+                  }
+                ],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/roadway_37d11a3da85155f94ca7.jpg",
+              "roundtrip_ms": 1196.13960001152,
+              "response": {
+                "success": true,
+                "processingTimeMs": 863.2,
+                "detections": [
+                  {
+                    "class": "waterlogging",
+                    "confidence": 0.8649,
+                    "bbox": {
+                      "x": 0.0,
+                      "y": 0.3311433394749959,
+                      "width": 1.0,
+                      "height": 0.6355316241582234
+                    },
+                    "severity": "high",
+                    "detector": "civiceye-v2"
+                  }
+                ],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/rdd_background_05545183e9c3e81aee8c.jpg",
+              "roundtrip_ms": 1579.2326000519097,
+              "response": {
+                "success": true,
+                "processingTimeMs": 1018.2,
+                "detections": [],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/rdd_background_a306ce6d67f7f2e4f4ed.jpg",
+              "roundtrip_ms": 3582.008199999109,
+              "response": {
+                "success": true,
+                "processingTimeMs": 878.9,
+                "detections": [],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            }
+          ],
+          "mean_roundtrip_ms": 2018.5969999874942,
+          "mean_backend_ms": 929.7666666666667
+        },
+        {
+          "capture_size": 640,
+          "samples": [
+            {
+              "image": "images/test/garbageexp_db4b1d32d35b9abbda41.jpg",
+              "roundtrip_ms": 1474.312899983488,
+              "response": {
+                "success": true,
+                "processingTimeMs": 1008.3,
+                "detections": [
+                  {
+                    "class": "garbage",
+                    "confidence": 0.3504,
+                    "bbox": {
+                      "x": 0.008236026763916016,
+                      "y": 0.5065498352050781,
+                      "width": 0.9864485740661622,
+                      "height": 0.4855626424153646
+                    },
+                    "severity": "high",
+                    "detector": "civiceye-v2"
+                  }
+                ],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/garbageexp_6628d380d0ee64bf78ab.jpg",
+              "roundtrip_ms": 1569.400000036694,
+              "response": {
+                "success": true,
+                "processingTimeMs": 1235.8,
+                "detections": [
+                  {
+                    "class": "garbage",
+                    "confidence": 0.8177,
+                    "bbox": {
+                      "x": 0.0,
+                      "y": 0.180929692586263,
+                      "width": 0.9990249633789062,
+                      "height": 0.5187154134114583
+                    },
+                    "severity": "high",
+                    "detector": "civiceye-v2"
+                  }
+                ],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/roadway_cec9ee1d6d7f6a7e3a10.jpg",
+              "roundtrip_ms": 1412.854199996218,
+              "response": {
+                "success": true,
+                "processingTimeMs": 976.8,
+                "detections": [
+                  {
+                    "class": "waterlogging",
+                    "confidence": 0.8724,
+                    "bbox": {
+                      "x": 0.012557124719023705,
+                      "y": 0.5355544884999593,
+                      "width": 0.9850342515856028,
+                      "height": 0.46309145291646314
+                    },
+                    "severity": "high",
+                    "detector": "civiceye-v2"
+                  }
+                ],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/roadway_37d11a3da85155f94ca7.jpg",
+              "roundtrip_ms": 1302.6252000126988,
+              "response": {
+                "success": true,
+                "processingTimeMs": 935.9,
+                "detections": [
+                  {
+                    "class": "waterlogging",
+                    "confidence": 0.8649,
+                    "bbox": {
+                      "x": 0.0,
+                      "y": 0.3311433394749959,
+                      "width": 1.0,
+                      "height": 0.6355316241582234
+                    },
+                    "severity": "high",
+                    "detector": "civiceye-v2"
+                  }
+                ],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/rdd_background_05545183e9c3e81aee8c.jpg",
+              "roundtrip_ms": 1259.393799933605,
+              "response": {
+                "success": true,
+                "processingTimeMs": 838.3,
+                "detections": [],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            },
+            {
+              "image": "images/test/rdd_background_a306ce6d67f7f2e4f4ed.jpg",
+              "roundtrip_ms": 1495.8171000471339,
+              "response": {
+                "success": true,
+                "processingTimeMs": 1152.2,
+                "detections": [],
+                "ready": true,
+                "pothole_pending": false,
+                "warnings": [
+                  "Automatic pothole detection unavailable. Use Report an issue to submit a pothole photo for authority review."
+                ]
+              }
+            }
+          ],
+          "mean_roundtrip_ms": 1419.0672000016395,
+          "mean_backend_ms": 1024.55
+        }
+      ],
+      "new_code_deployed": false
+    }
+  },
+  "pothole_dataset": {
+    "source_real_positive_images": 300,
+    "original_box_count": 611,
+    "box_area_median_fraction": 0.0061439048734568,
+    "original_boxes_under_1_percent": 393,
+    "crop_box_area_median_fraction": 0.02622487419785656,
+    "splits": {
+      "train": {
+        "original_positive_images": 238,
+        "original_negative_images": 285,
+        "training_derivatives": 506,
+        "images": 1029
+      },
+      "val": {
+        "original_positive_images": 46,
+        "original_negative_images": 82,
+        "training_derivatives": 0,
+        "images": 128
+      },
+      "test": {
+        "original_positive_images": 16,
+        "original_negative_images": 41,
+        "training_derivatives": 0,
+        "images": 57
+      }
+    },
+    "validation_test_derivatives": 0,
+    "approved_v2_unchanged": true,
+    "cross_split_exact_duplicates": 0,
+    "inherited_near_duplicate_cross_split_pairs": 0,
+    "limitation": "Derivative-to-held-out perceptual similarity has not been exhaustively screened; parent groups and existing near-duplicate screen retained.",
+    "diagnosis": "Small road-view boxes are a plausible failure contributor, not proven sole cause. Original test boxes and original scenes are retained for acceptance."
+  },
+  "derivative_duplicate_screen": {
+    "training_derivatives": 506,
+    "held_out_originals": 185,
+    "pairs_checked": 93610,
+    "flagged_pairs": [],
+    "method": "pHash <=8 AND dHash <=10 AND mean RGB distance <=24; screening heuristic, not proof of scene independence."
+  },
+  "checks": {
+    "python_tests_passed": 13,
+    "motion_scan": true,
+    "photo_analysis": true,
+    "deployment_build": true,
+    "incident_routing_tests": 4
+  },
+  "photo_fix": {
+    "class_specific_controls": true,
+    "real_vs_demo_label": true,
+    "late_photo_response_guard": true,
+    "replacement_clears_scan_context": true
+  },
+  "pothole_training": {
+    "started": true,
+    "device": "cpu",
+    "epochs_maximum": 60,
+    "accepted": false,
+    "recall": null,
+    "false_positive_rate": null
+  },
+  "mobile_moving_camera_verified": false,
+  "new_code_deployed": false,
+  "deployment_blocker": "GitHub connector has no accessible repositories; repository URL/access required. Render origin was verified from deployed frontend configuration.",
+  "changed_files": [
+    "dist/live-scan.js",
+    "dist/motion-scan.js",
+    "dist/vision-backend.js",
+    "dist/local-workflow.js",
+    "dist/features.js",
+    "dist/index.html",
+    "dist/sw.js",
+    "dist/pwa.js",
+    "ai-service/main.py",
+    "ai-service/utils/detector.py",
+    "ai-service/utils/hybrid.py",
+    "ai-service/utils/pothole_onnx.py",
+    "ai-service/tests/test_api.py",
+    "ai-service/training/prepare_pothole_specialist.py",
+    "ai-service/training/train_pothole_specialist.py",
+    "ai-service/training/evaluate_pothole_specialist.py",
+    "scripts/build.mjs",
+    "scripts/verify-motion-scan.mjs",
+    "scripts/verify-photo-analysis.mjs",
+    "package.json",
+    "MOVING_SCAN.md",
+    "reports/moving-scan/*",
+    "generated build/*"
+  ]
+}

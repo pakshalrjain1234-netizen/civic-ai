@@ -1,0 +1,32 @@
+{
+  "status": "prepared_for_colab_not_trained",
+  "stage": "hardware_runtime_preflight",
+  "training_started": false,
+  "completed_epochs": 0,
+  "training_duration_seconds": 0,
+  "requested_settings": {
+    "pretrained": "yolo11n.pt",
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 8
+  },
+  "logical_cpu_count": 8,
+  "gpu_status": "unverified: PyTorch could not initialize; nvidia-smi not found",
+  "runtime_versions": {
+    "torch": "2.14.1",
+    "ultralytics": "8.4.171"
+  },
+  "error": "OSError [WinError 4551]: An Application Control policy has blocked torch/lib/torch.dll or one of its dependencies.",
+  "action_needed": "Run the delivered notebook in your own GPU Colab runtime. Local inference still requires an approved PyTorch runtime/host.",
+  "best_pt_exists": false,
+  "deployed_model_exists": false,
+  "metrics": null,
+  "confusion_matrix": null,
+  "health": {
+    "status": "online",
+    "model_loaded": false
+  },
+  "live_scan_observed": "AI SERVICE CONNECTED \u2014 MODEL NOT LOADED; AI model: model required",
+  "dataset_total_images": 1075,
+  "rdd_excluded_images": 42
+}

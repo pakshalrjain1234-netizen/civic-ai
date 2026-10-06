@@ -1,0 +1,112 @@
+{
+  "_id": "69b37a56d315f94a59d3a493",
+  "id": "EngJamesO/pothole-detector",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "computer-vision",
+    "object-detection",
+    "pothole-detection",
+    "yolov8",
+    "yolov9",
+    "yolov11",
+    "yolov12",
+    "en",
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 169,
+  "likes": 1,
+  "modelId": "EngJamesO/pothole-detector",
+  "author": "EngJamesO",
+  "sha": "73812508005f777f67e00f4959f8a1e4c752de81",
+  "lastModified": "2026-08-19T21:53:59.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "mit",
+    "pipeline_tag": "object-detection",
+    "tags": [
+      "computer-vision",
+      "object-detection",
+      "pothole-detection",
+      "yolov8",
+      "yolov9",
+      "yolov11",
+      "yolov12"
+    ],
+    "library_name": "ultralytics",
+    "language": [
+      "en"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "8bf2f707a1bd9e75a0a4da1f66750b426b99c0ea",
+      "size": 2744
+    },
+    {
+      "rfilename": "models/yolov11.pt",
+      "blobId": "27795ac0934fab5cbed71311f497956591b7490f",
+      "size": 5471770,
+      "lfs": {
+        "sha256": "334f010db37ac402611ae1d17bb1acc9dece9f89af74adea9d24225e99091a92",
+        "size": 5471770,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/yolov12n.pt",
+      "blobId": "0f4cd587b875573249c183b6c3d48b640d6cdcb0",
+      "size": 5518042,
+      "lfs": {
+        "sha256": "c7c2f8f6a6e2d35e44a77de5c988d6a898871397b1c32b7a794bcab8bc1daae3",
+        "size": 5518042,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/yolov8-fpn.pt",
+      "blobId": "5c187ed1648b555458bbf5582df7300ffcac620f",
+      "size": 4618390,
+      "lfs": {
+        "sha256": "367b3cda0d86f6aec52a7b7ae68380cf73a1abf5be8a12c969eed07d47a0aaa5",
+        "size": 4618390,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/yolov8n.pt",
+      "blobId": "cee7bf6dcf40185d276551e3456a539b209fb61e",
+      "size": 6249386,
+      "lfs": {
+        "sha256": "cd55c45d26c5eb48bad5821e37600b65909c1c470096e2f3a0dbfce0cca0fe93",
+        "size": 6249386,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/yolov9c.pt",
+      "blobId": "1d76d6680c608daffb53680b9edc41418d1a4d96",
+      "size": 51590476,
+      "lfs": {
+        "sha256": "3de4759676573d08ac587e236d99b9bac24198fbcaad7e5e8a8bac4e279f8372",
+        "size": 51590476,
+        "pointerSize": 133
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-03-13T02:45:42.000Z",
+  "usedStorage": 73448064
+}

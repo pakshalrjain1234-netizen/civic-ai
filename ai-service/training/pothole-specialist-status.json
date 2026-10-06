@@ -1,0 +1,14 @@
+{
+  "status": "stopped_by_user",
+  "device": "cpu",
+  "epochs_maximum": 60,
+  "imgsz": 640,
+  "started_unix": 1791292511.2915716,
+  "active_model_unchanged": true,
+  "accepted": false,
+  "resumed": true,
+  "resume_from_epoch": 20,
+  "prior_completed_training_seconds": 10964.56,
+  "stop_reason": "Explicit user instruction; interrupted active managed training session without restarting",
+  "automatic_monitoring": false
+}

@@ -1,0 +1,23 @@
+{
+  "local_cpu_only": true,
+  "render_cpu_quota_not_represented": true,
+  "samples_per_setting": 8,
+  "settings": [
+    {
+      "threads": 1,
+      "mean_inference_ms": 160.145,
+      "same_predictions": true
+    },
+    {
+      "threads": 2,
+      "mean_inference_ms": 95.65,
+      "same_predictions": true
+    },
+    {
+      "threads": 4,
+      "mean_inference_ms": 81.09875,
+      "same_predictions": true
+    }
+  ],
+  "deployment_default_threads": 2
+}

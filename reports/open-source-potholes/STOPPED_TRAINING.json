@@ -1,0 +1,60 @@
+{
+  "status": "stopped_by_user",
+  "latest_completed_epoch": 22,
+  "mechanism": "Interrupt sent to existing managed training session 82023; process exited; log exclusive read confirms no active writer.",
+  "supervisor_stopped": true,
+  "monitoring_automation": "PAUSED",
+  "restarted": false,
+  "production_unchanged": true,
+  "files": [
+    {
+      "original": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\weights\\best.pt",
+      "preserved_copy": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\stopped-by-user-2026-10-06\\best.pt",
+      "bytes": 16061908,
+      "sha256": "168227020efd0bacd9d42c6d4e754579e522ecd12f8c12ff91b430a3863d91e6"
+    },
+    {
+      "original": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\weights\\last.pt",
+      "preserved_copy": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\stopped-by-user-2026-10-06\\last.pt",
+      "bytes": 16063444,
+      "sha256": "12fca49b58c903b266fca5fa7d37c4a7bb0ab342aa8481ca8b69de90dff6f331"
+    },
+    {
+      "original": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\results.csv",
+      "preserved_copy": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\stopped-by-user-2026-10-06\\results.csv",
+      "bytes": 2898,
+      "sha256": "32b48e4f7dfb1957909a88c1ed06b0f370cda095778bb97e6d281bbf2a698417"
+    },
+    {
+      "original": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\args.yaml",
+      "preserved_copy": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\stopped-by-user-2026-10-06\\args.yaml",
+      "bytes": 2305,
+      "sha256": "e08e3a8b3cf82934145fcd451be41549d7e7e4e518abe92f8536fcad41f25a66"
+    },
+    {
+      "original": "work\\pothole-specialist-training.log",
+      "preserved_copy": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\stopped-by-user-2026-10-06\\pothole-specialist-training.log",
+      "bytes": 929,
+      "sha256": "2d80bc1b193d87d73796c309c42cae1cd313526e3f9fdb0f426f5d30a5c435c6"
+    },
+    {
+      "original": "work\\pothole-resume.stderr.log",
+      "preserved_copy": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\stopped-by-user-2026-10-06\\pothole-resume.stderr.log",
+      "bytes": 66,
+      "sha256": "0aae58fe6b780adf02c6176035cdf0c3073a9dcaec77098fd3ba4863faa2368d"
+    },
+    {
+      "original": "outputs\\civiceye-ai\\ai-service\\training\\train_pothole_specialist.py",
+      "preserved_copy": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\stopped-by-user-2026-10-06\\train_pothole_specialist.py",
+      "bytes": 4864,
+      "sha256": "e169903cbe4c25004ffebce37ab97d7d1b625cedea77226601d71b6500ce3198"
+    },
+    {
+      "original": "outputs\\civiceye-ai\\ai-service\\training\\evaluate_pothole_specialist.py",
+      "preserved_copy": "outputs\\civiceye-ai\\ai-service\\training\\runs\\pothole-specialist\\nano-640\\stopped-by-user-2026-10-06\\evaluate_pothole_specialist.py",
+      "bytes": 7065,
+      "sha256": "7756bef03b7a5023334156b92a8a260fdfaf62f16b84fe799f40fc8185a6f1a4"
+    }
+  ],
+  "dataset_manifest_sha256": "30401c5cc30e70d5897d0743b0b74ab770ffe44276940c7bfd42e24a81fcd7ca"
+}

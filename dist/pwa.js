@@ -27,7 +27,7 @@
     if (typeof scan === 'undefined' || typeof visionService === 'undefined') return;
     visionService.online = false; visionService.modelLoaded = false;
     visionService.error = 'AI SERVICE OFFLINE — internet connection unavailable.';
-    scan.controller?.abort(); clearTimeout(scan.timer); scan.detections = [];
+    scan.controller?.abort(); clearTimeout(scan.timer); clearScanHistory();
     scan.feed = scan.feed.filter(finding => finding.demo);
     if (scan.mode === 'live') scan.status = 'AI SERVICE OFFLINE';
     updateScanUi();

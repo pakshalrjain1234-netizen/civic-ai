@@ -1,0 +1,1412 @@
+[
+  {
+    "image": "images/test/rdd_ad29bc20587b1e674943.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_0824b7e672571ce1546e.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_0a8190a7cb89abf58607.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_ae0a70c81469547ff021.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_e4535b7679dd21bb0201.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_e73034917e643354f144.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_a3905da10ec3bdf7d163.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_ee2d2fddd85abdb5b856.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_740feccded27c59cb611.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_b69fd5c083a1b3f25e40.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_ca7e39ca6527cb51ee40.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_35f375bcfeb9c448512c.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_0c4032cacd2ed7adef46.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_c453a565c897e2096779.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_42a3bb33c71a66eefc4b.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_8ae603589d31f2a8eee4.jpg",
+    "classes": [
+      0
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/roadway_cec9ee1d6d7f6a7e3a10.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8724,
+        "bbox": {
+          "x": 0.012557124719023705,
+          "y": 0.5355544884999593,
+          "width": 0.9850342515856028,
+          "height": 0.46309145291646314
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8724,
+        "bbox": {
+          "x": 0.012557124719023705,
+          "y": 0.5355544884999593,
+          "width": 0.9850342515856028,
+          "height": 0.46309145291646314
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_37d11a3da85155f94ca7.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8649,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3311433394749959,
+          "width": 1.0,
+          "height": 0.6355316241582234
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8649,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3311433394749959,
+          "width": 1.0,
+          "height": 0.6355316241582234
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_346a74fbcbd6b4368c0a.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8596,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3599855899810791,
+          "width": 0.9971696734428406,
+          "height": 0.638556718826294
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8596,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3599855899810791,
+          "width": 0.9971696734428406,
+          "height": 0.638556718826294
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_750a5f9e9e68db5ddd02.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8621,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.2509326934814453,
+          "width": 1.0,
+          "height": 0.7448185284932455
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8621,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.2509326934814453,
+          "width": 1.0,
+          "height": 0.7448185284932455
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_8f12f86348ebbda22ab4.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.9646,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.34028204282124835,
+          "width": 0.9983296394348145,
+          "height": 0.6561524868011475
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.9646,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.34028204282124835,
+          "width": 0.9983296394348145,
+          "height": 0.6561524868011475
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_ea7c07bf692014b97adb.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.6207,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.20979702472686768,
+          "width": 0.9919661283493042,
+          "height": 0.7870308955510458
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.6207,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.20979702472686768,
+          "width": 0.9919661283493042,
+          "height": 0.7870308955510458
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_2fcd246703015f3a48eb.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.4764,
+        "bbox": {
+          "x": 0.0012860298156738281,
+          "y": 0.6648180484771729,
+          "width": 0.9987139701843262,
+          "height": 0.3083366552988688
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.4764,
+        "bbox": {
+          "x": 0.0012860298156738281,
+          "y": 0.6648180484771729,
+          "width": 0.9987139701843262,
+          "height": 0.3083366552988688
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_ffbc1b9309fc03e9f3b8.jpg",
+    "classes": [
+      2
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/roadway_c0ee57c322c84f60871e.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7847,
+        "bbox": {
+          "x": 0.0017389297718182206,
+          "y": 0.26951928933461505,
+          "width": 0.9982610702281818,
+          "height": 0.730480710665385
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7847,
+        "bbox": {
+          "x": 0.0017389297718182206,
+          "y": 0.26951928933461505,
+          "width": 0.9982610702281818,
+          "height": 0.730480710665385
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_8eb05329b3c17ad31553.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.968,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.26424864927927655,
+          "width": 0.9987794756889343,
+          "height": 0.734389344851176
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.968,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.26424864927927655,
+          "width": 0.9987794756889343,
+          "height": 0.734389344851176
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_e4383ff1bb30fe8ccaa7.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.9357,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.483932097752889,
+          "width": 0.9980758428573608,
+          "height": 0.5154062906901042
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.9357,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.483932097752889,
+          "width": 0.9980758428573608,
+          "height": 0.5154062906901042
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_207730a0ee4df0ba87c4.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.729,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.1804435650507609,
+          "width": 1.0,
+          "height": 0.8195475339889526
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.729,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.1804435650507609,
+          "width": 1.0,
+          "height": 0.8195475339889526
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_7cf3947a4c6fa13ac93d.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8903,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.4574263095855713,
+          "width": 1.0,
+          "height": 0.5403985182444254
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8903,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.4574263095855713,
+          "width": 1.0,
+          "height": 0.5403985182444254
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_2cb7c48d09105a283961.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.589,
+        "bbox": {
+          "x": 0.0014471054309979081,
+          "y": 0.21542370319366455,
+          "width": 0.9951656222110614,
+          "height": 0.7803121010462443
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.589,
+        "bbox": {
+          "x": 0.0014471054309979081,
+          "y": 0.21542370319366455,
+          "width": 0.9951656222110614,
+          "height": 0.7803121010462443
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_267d194e88135814019c.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8764,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.24710299571355185,
+          "width": 0.9955615997314453,
+          "height": 0.7517767548561096
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8764,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.24710299571355185,
+          "width": 0.9955615997314453,
+          "height": 0.7517767548561096
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_0d976f3dea575b4a33f8.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8096,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.34614841143290204,
+          "width": 1.0,
+          "height": 0.6471944650014241
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.8096,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.34614841143290204,
+          "width": 1.0,
+          "height": 0.6471944650014241
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_729668cab87c6c8e533f.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.4484,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.26220206419626874,
+          "width": 1.0,
+          "height": 0.7306616703669231
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.4484,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.26220206419626874,
+          "width": 1.0,
+          "height": 0.7306616703669231
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_3b98d0a9a2c6a837c3e7.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7481,
+        "bbox": {
+          "x": 0.003913688473403454,
+          "y": 0.37851957480112713,
+          "width": 0.9952634694054723,
+          "height": 0.6214804251988728
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7481,
+        "bbox": {
+          "x": 0.003913688473403454,
+          "y": 0.37851957480112713,
+          "width": 0.9952634694054723,
+          "height": 0.6214804251988728
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_7a5dee6c17d3544e225e.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7512,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.38409539063771564,
+          "width": 0.7399055361747742,
+          "height": 0.6156201759974163
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.7512,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.38409539063771564,
+          "width": 0.7399055361747742,
+          "height": 0.6156201759974163
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/roadway_52b7b3c711deff66ba30.jpg",
+    "classes": [
+      2
+    ],
+    "old": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.9486,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3780892690022786,
+          "width": 0.998095691204071,
+          "height": 0.620190938313802
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "waterlogging",
+        "confidence": 0.9486,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.3780892690022786,
+          "width": 0.998095691204071,
+          "height": 0.620190938313802
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/rdd_background_05545183e9c3e81aee8c.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_background_a306ce6d67f7f2e4f4ed.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_background_8776d54625ef6022b17f.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_background_bac7e6700f1edb1b3f7a.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_background_78c74663698ac16619a2.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_background_cf62b8fb9d7089ff24c1.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_background_0119dc5842ffadc064de.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_background_33dad5a8f2461b44d3ad.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_background_518e377b64b002b10894.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/rdd_background_c918b2f80312167f1823.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_c1dde6e0ce01d34d4c60.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_2112ef53884b667346f8.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_7ff230e5903ca3f596d5.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_e7380898e7eff11b9cbd.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_c12ff139db47c2f6ea3a.jpg",
+    "classes": [],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.5785,
+        "bbox": {
+          "x": 0.0038509368896484375,
+          "y": 0.16312469203540614,
+          "width": 0.9961490631103516,
+          "height": 0.8336219588396755
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.5258,
+        "bbox": {
+          "x": 0.00396881103515625,
+          "y": 0.15810462776454853,
+          "width": 0.9960311889648438,
+          "height": 0.83858482026357
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/oiv2_8f1605d54296d6678f50.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_c0bc213d46c09567fb54.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_662de00da3876e16fef0.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_e3cbbd96319236efa0ba.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_d700148ff9f322643f39.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_9299019d853c1acba48a.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_69ca11f1d66c94c5d351.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_83a780e20d60a610aee3.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_2ce7c8772d5ae1964730.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_a7b99380bae42bfa07c2.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_59ed6179e4b8a4aadb72.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_6fcdaa15871dd4d380b9.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_f93f399c09f926c0ad39.jpg",
+    "classes": [],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.6396,
+        "bbox": {
+          "x": 0.002997493837028742,
+          "y": 0.11585146188735962,
+          "width": 0.9770498513244092,
+          "height": 0.8150166869163513
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.6296,
+        "bbox": {
+          "x": 0.0030385971069335936,
+          "y": 0.11556523640950521,
+          "width": 0.9759479522705079,
+          "height": 0.8147412618001302
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/oiv2_1feb2b29e5eabd7ff1f5.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_8150f17370521888c828.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_c10d57e5049cfb7f5611.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_b4852ca6cc68cd60fd0f.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_0b9e1791a1bf7787531d.jpg",
+    "classes": [],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.3702,
+        "bbox": {
+          "x": 0.016316603869199753,
+          "y": 0.5676222901907026,
+          "width": 0.9779763109982014,
+          "height": 0.43237770980929735
+        },
+        "severity": "high"
+      }
+    ],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_e53937ef32b01aeeb5a8.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_acd2d04e1949eb22e6bf.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_5aa0ec4d9e9d1379330c.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/oiv2_f7fa241a889310e825e9.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/commonsv2_47bcafa817f7e3a0bb58.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/commonsv2_86e1f019634c202f440c.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/commonsv2_a4848807a5f034f07f80.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/commonsv2_f25c393ae1c8e3de4206.jpg",
+    "classes": [],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/garbageexp_db4b1d32d35b9abbda41.jpg",
+    "classes": [
+      1
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/garbageexp_6628d380d0ee64bf78ab.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.8512,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.18016872803370157,
+          "width": 0.9993104934692383,
+          "height": 0.5179002086321514
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.7827,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.1796886126200358,
+          "width": 0.9997798919677734,
+          "height": 0.520166810353597
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/garbageexp_f3d65c6b4ff1fefb0674.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.894,
+        "bbox": {
+          "x": 0.03014088657643924,
+          "y": 0.5209759473800659,
+          "width": 0.9412176995167083,
+          "height": 0.459606409072876
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.8998,
+        "bbox": {
+          "x": 0.028773209685651363,
+          "y": 0.5264284133911132,
+          "width": 0.9432535995671779,
+          "height": 0.4544898986816407
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/garbageexp_831144a5ffb08af6c5e8.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.5199,
+        "bbox": {
+          "x": 0.006563758943229914,
+          "y": 0.1422046813435943,
+          "width": 0.9880786775611341,
+          "height": 0.8577953186564057
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.4737,
+        "bbox": {
+          "x": 0.008063983917236329,
+          "y": 0.14695152219312674,
+          "width": 0.9864762306213379,
+          "height": 0.8530484778068732
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/garbageexp_32d03b65e78d213154cf.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.5612,
+        "bbox": {
+          "x": 0.007513062566773504,
+          "y": 0.1771160066127777,
+          "width": 0.9908272879464285,
+          "height": 0.8025259077548981
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.5635,
+        "bbox": {
+          "x": 0.008067578077316284,
+          "y": 0.1773845672607422,
+          "width": 0.9866001904010773,
+          "height": 0.8106027603149415
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/garbageexp_9cdd21b85f7c81a4491d.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.4461,
+        "bbox": {
+          "x": 0.003797340439632535,
+          "y": 0.12080811127736663,
+          "width": 0.9914103269111365,
+          "height": 0.8683098476069215
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.3595,
+        "bbox": {
+          "x": 0.003016757965087891,
+          "y": 0.1245238328705906,
+          "width": 0.992618179321289,
+          "height": 0.864226687429102
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/garbageexp_33015182935ec9abd2e5.jpg",
+    "classes": [
+      1
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/garbageexp_726ab65cd85728940c39.jpg",
+    "classes": [
+      1
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/garbageexp_bafd285fbc1bf95f6a67.jpg",
+    "classes": [
+      1
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/garbageexp_7bbdc68f75cba1057cbd.jpg",
+    "classes": [
+      1
+    ],
+    "old": [],
+    "new": []
+  },
+  {
+    "image": "images/test/garbageexp_b054986f71e6bcd90c07.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.3539,
+        "bbox": {
+          "x": 0.015034749386084342,
+          "y": 0.3217822015285492,
+          "width": 0.9716671602569358,
+          "height": 0.6637413799762726
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.4479,
+        "bbox": {
+          "x": 0.014865055262485397,
+          "y": 0.3294025421142578,
+          "width": 0.9728767181111273,
+          "height": 0.6573578834533692
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/garbageexp_008b4ca4a17f2d8c929f.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.9041,
+        "bbox": {
+          "x": 0.00027675629826262593,
+          "y": 0.25344929177740105,
+          "width": 0.9989862322690897,
+          "height": 0.746550708222599
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.7995,
+        "bbox": {
+          "x": 0.002454662322998047,
+          "y": 0.26787266261141063,
+          "width": 0.993885612487793,
+          "height": 0.7321273373885894
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/garbageexp_97d2e98d3f28cebbc20e.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.9075,
+        "bbox": {
+          "x": 0.0030932580045864837,
+          "y": 0.005776691250503063,
+          "width": 0.9957809427297656,
+          "height": 0.6570032360032201
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.7261,
+        "bbox": {
+          "x": 0.009549750656378074,
+          "y": 0.008100318908691406,
+          "width": 0.9879874021722226,
+          "height": 0.6364326477050781
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/garbageexp_89bf69bd62b933a8732a.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.9363,
+        "bbox": {
+          "x": 0.0,
+          "y": 0.27555858470775463,
+          "width": 1.0,
+          "height": 0.6766869439019098
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.9322,
+        "bbox": {
+          "x": 0.002021503448486328,
+          "y": 0.25830052693684896,
+          "width": 0.9969971656799317,
+          "height": 0.700317637125651
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "image": "images/test/garbageexp_f70f7146904aa7419868.jpg",
+    "classes": [
+      1
+    ],
+    "old": [
+      {
+        "class": "garbage",
+        "confidence": 0.9017,
+        "bbox": {
+          "x": 0.0023938179947435856,
+          "y": 0.2984405557314555,
+          "width": 0.9937110780738294,
+          "height": 0.6886810262997944
+        },
+        "severity": "high"
+      }
+    ],
+    "new": [
+      {
+        "class": "garbage",
+        "confidence": 0.8958,
+        "bbox": {
+          "x": 0.002725696563720703,
+          "y": 0.31405792236328123,
+          "width": 0.9930689811706543,
+          "height": 0.6689079284667969
+        },
+        "severity": "high"
+      }
+    ]
+  }
+]

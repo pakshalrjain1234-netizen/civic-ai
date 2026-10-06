@@ -2,6 +2,8 @@
 import ast
 import json
 import logging
+import os
+from time import perf_counter
 from pathlib import Path
 from .severity import visual_severity
 from .classes import CLASS_NAMES, validate_class_names
@@ -90,7 +92,11 @@ class CivicDetector:
             if self.model_path.suffix.lower() != '.onnx': raise ValueError('Local inference requires civiceye.onnx, not a PyTorch checkpoint.')
             if self.image_size != 640 or self.device != 'cpu' or not 0 < self.confidence <= 1:
                 raise ValueError('Use CPU ONNX inference, image size 640 and confidence in (0,1].')
-            options = ort.SessionOptions();options.intra_op_num_threads = 2
+            options = ort.SessionOptions()
+            options.intra_op_num_threads = max(1,min(4,int(os.getenv('CIVICEYE_ONNX_THREADS','2'))))
+            options.inter_op_num_threads = 1
+            options.execution_mode = ort.ExecutionMode.ORT_SEQUENTIAL
+            options.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
             session = ort.InferenceSession(str(self.model_path), sess_options=options, providers=['CPUExecutionProvider'])
             metadata = session.get_modelmeta().custom_metadata_map
             try: names = json.loads(metadata['names'])
@@ -111,7 +117,17 @@ class CivicDetector:
             logger.exception('CivicEye ONNX model remains unloaded')
 
     def detect(self,image):
+        return self.detect_profiled(image)[0]
+
+    def detect_profiled(self,image):
         if self.model is None: raise RuntimeError('Model not loaded.')
+        started = perf_counter()
         tensor,transform = letterbox_tensor(image,self.image_size)
+        preprocessed = perf_counter()
         output = self.model.run([self.output_name],{self.input_name:tensor})[0]
-        return postprocess(output,transform,self.confidence)
+        inferred = perf_counter()
+        detections = postprocess(output,transform,self.confidence)
+        finished = perf_counter()
+        return detections, {'preprocessing_ms':round((preprocessed-started)*1000,2),
+            'inference_ms':round((inferred-preprocessed)*1000,2),
+            'postprocessing_ms':round((finished-inferred)*1000,2)}

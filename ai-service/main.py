@@ -87,17 +87,26 @@ async def detect(payload: FrameRequest):
         return JSONResponse({'success': False, 'error': 'INFERENCE_BUSY',
                              'message': 'Previous inference is still running. Retry shortly.'}, 429)
     started = perf_counter()
+    debug_timings = os.getenv('CIVICEYE_DEBUG_TIMINGS') == '1'
     async with lock:
         try:
             image = await run_in_threadpool(decode_frame, payload.image, MAX_BYTES)
+            decoded = perf_counter()
         except ValueError as exc:
             return JSONResponse({'success': False, 'error': str(exc)}, 400)
         try:
-            detections = await run_in_threadpool(detector.detect, image)
+            if debug_timings:
+                detections, timings = await run_in_threadpool(detector.detect_profiled, image)
+            else:
+                detections = await run_in_threadpool(detector.detect, image)
         except Exception:
             logger.exception('ONNX inference failed')
             return JSONResponse({'success': False, 'error': 'AI detection temporarily unavailable.'}, 503)
-    return {'success': True, 'processingTimeMs': round((perf_counter() - started) * 1000, 1),
+    result = {'success': True, 'processingTimeMs': round((perf_counter() - started) * 1000, 1),
             'detections': detections, 'ready': detector.health()['ready'],
             'pothole_pending': False,
             'warnings': [detector.warning] if detector.warning else []}
+    if debug_timings:
+        result['timings'] = {**timings, 'decode_ms':round((decoded-started)*1000,2),
+                             'total_ms':result['processingTimeMs']}
+    return result

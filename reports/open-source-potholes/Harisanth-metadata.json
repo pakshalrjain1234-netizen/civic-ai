@@ -1,0 +1,92 @@
+{
+  "_id": "695f6ece9b71224e90dd85de",
+  "id": "Harisanth/Pothole-Finetuned-YOLOv8",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "yolov8",
+    "object-detection",
+    "pothole-detection",
+    "computer-vision",
+    "pytorch",
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 118,
+  "likes": 2,
+  "modelId": "Harisanth/Pothole-Finetuned-YOLOv8",
+  "author": "Harisanth",
+  "sha": "30a4d21de50998dbfa7cc79abb0d7a0d4aa71a4d",
+  "lastModified": "2026-01-08T09:02:29.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "model_type": "yolov8"
+  },
+  "cardData": {
+    "license": "mit",
+    "tags": [
+      "yolov8",
+      "object-detection",
+      "pothole-detection",
+      "computer-vision",
+      "pytorch",
+      "ultralytics"
+    ],
+    "library_name": "ultralytics",
+    "pipeline_tag": "object-detection"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "PUSH_TO_HUGGINGFACE.md",
+      "blobId": "97a93cbde1dd57dfbc13e20453de686fcd4d445d",
+      "size": 4047
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "79399458f075c61b2dc8fd4023a951a2b476293b",
+      "size": 4339
+    },
+    {
+      "rfilename": "args.yaml",
+      "blobId": "891544f5168f47c70284f3865abdfcc6b91d660d",
+      "size": 1724
+    },
+    {
+      "rfilename": "best.pt",
+      "blobId": "0cb4b3d7758444a075439312a238346513edb17f",
+      "size": 22492970,
+      "lfs": {
+        "sha256": "8542745fa3e4f7ee0d03d8320443c6161747ba4658d2bbd770ee93abf7a7701a",
+        "size": 22492970,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "ba4ee01a4c5519f3a0b2be506edb31b434a47d2d",
+      "size": 704
+    },
+    {
+      "rfilename": "model_card.md",
+      "blobId": "c1855ff4c77c76d118e93d2eebc804fca7210afc",
+      "size": 2348
+    }
+  ],
+  "spaces": [
+    "Mohamed-salah-dev/pothole-detection-api",
+    "bineetOG/civicai-classifier",
+    "sudarshanpadekal/pothole-detection-api",
+    "jinshi1410/urban-eye-detection"
+  ],
+  "createdAt": "2026-01-08T08:46:06.000Z",
+  "usedStorage": 22492970
+}

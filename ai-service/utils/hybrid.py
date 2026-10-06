@@ -35,4 +35,9 @@ class HybridDetector:
         return [{**d,'detector':'civiceye-v2'} for d in self.local.detect(image)
                 if d['class'] in ('garbage','waterlogging')]
 
+    def detect_profiled(self, image):
+        detections, timings = self.local.detect_profiled(image)
+        return [{**d,'detector':'civiceye-v2'} for d in detections
+                if d['class'] in ('garbage','waterlogging')], timings
+
     def close(self): pass

@@ -1,0 +1,78 @@
+{
+  "test_images": 92,
+  "background_images": 41,
+  "settings": {
+    "old": [
+      1024,
+      0.8
+    ],
+    "new": [
+      720,
+      0.7
+    ]
+  },
+  "jpeg_mean_bytes": {
+    "old": 92527,
+    "new": 53964
+  },
+  "base64_json_image_mean_bytes": {
+    "old": 123393,
+    "new": 71977
+  },
+  "local_decode_infer_mean_ms": {
+    "old": 134.93,
+    "new": 127.89
+  },
+  "stages_mean_ms": {
+    "preprocessing_ms": 8.92,
+    "inference_ms": 113.95,
+    "postprocessing_ms": 0.8,
+    "decode_ms": 3.59
+  },
+  "metrics": {
+    "old": {
+      "garbage": {
+        "gt": 15,
+        "tp": 9,
+        "fp": 4,
+        "fn": 6,
+        "recall": 0.6,
+        "precision": 0.6923076923076923
+      },
+      "waterlogging": {
+        "gt": 23,
+        "tp": 19,
+        "fp": 0,
+        "fn": 4,
+        "recall": 0.8260869565217391,
+        "precision": 1.0
+      }
+    },
+    "new": {
+      "garbage": {
+        "gt": 15,
+        "tp": 9,
+        "fp": 4,
+        "fn": 6,
+        "recall": 0.6,
+        "precision": 0.6923076923076923
+      },
+      "waterlogging": {
+        "gt": 23,
+        "tp": 17,
+        "fp": 1,
+        "fn": 6,
+        "recall": 0.7391304347826086,
+        "precision": 0.9444444444444444
+      }
+    }
+  },
+  "background_false_positive_images": {
+    "old": 3,
+    "new": 2
+  },
+  "v2_sha256": "c3fb34a3d0c597b01155306980c75bb553af41870b7fd1328491b10c3720869f",
+  "network_latency_measured": false,
+  "physical_moving_phone_tested": false,
+  "compression_regression_passed": false
+}

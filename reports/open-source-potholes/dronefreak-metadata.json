@@ -1,0 +1,272 @@
+{
+  "_id": "6ab007f8afd69b39eae776c4",
+  "id": "dronefreak/rdd2022-yolov8m",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "object-detection",
+    "detectionbench",
+    "pytorch",
+    "computer-vision",
+    "road-damage",
+    "pavement-distress",
+    "infrastructure",
+    "pothole-detection",
+    "autonomous-driving",
+    "dataset:dronefreak/RDD2022",
+    "arxiv:2209.08538",
+    "base_model:Ultralytics/YOLOv8",
+    "base_model:finetune:Ultralytics/YOLOv8",
+    "license:agpl-3.0",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 128,
+  "likes": 0,
+  "modelId": "dronefreak/rdd2022-yolov8m",
+  "author": "dronefreak",
+  "sha": "40684513b39331fc2b49f01123cc489ad5876624",
+  "lastModified": "2026-10-01T20:54:28.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": [
+    {
+      "name": "YOLOv8m Finetuned on RDD2022 Road Damage",
+      "results": [
+        {
+          "task": {
+            "type": "object-detection",
+            "name": "Object Detection"
+          },
+          "dataset": {
+            "name": "RDD2022 Road Damage",
+            "type": "rdd2022"
+          },
+          "metrics": [
+            {
+              "type": "mAP50",
+              "value": 62.03,
+              "name": "mAP@50 (test split)",
+              "verified": false
+            },
+            {
+              "type": "mAP50-95",
+              "value": 34.08,
+              "name": "mAP@50-95 (test split)",
+              "verified": false
+            },
+            {
+              "type": "precision",
+              "value": 65.61,
+              "name": "Precision (test split)",
+              "verified": false
+            },
+            {
+              "type": "recall",
+              "value": 57.42,
+              "name": "Recall (test split)",
+              "verified": false
+            }
+          ],
+          "source": {
+            "url": "https://github.com/dronefreak/DetectionBench",
+            "name": "DetectionBench"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {},
+  "cardData": {
+    "license": "agpl-3.0",
+    "pipeline_tag": "object-detection",
+    "library_name": "ultralytics",
+    "datasets": [
+      "dronefreak/RDD2022"
+    ],
+    "tags": [
+      "object-detection",
+      "detectionbench",
+      "ultralytics",
+      "pytorch",
+      "computer-vision",
+      "road-damage",
+      "pavement-distress",
+      "infrastructure",
+      "pothole-detection",
+      "autonomous-driving"
+    ],
+    "metrics": [
+      "map50",
+      "map50-95",
+      "precision",
+      "recall",
+      "f1"
+    ],
+    "base_model": "Ultralytics/YOLOv8",
+    "model-index": [
+      {
+        "name": "YOLOv8m Finetuned on RDD2022 Road Damage",
+        "results": [
+          {
+            "task": {
+              "type": "object-detection",
+              "name": "Object Detection"
+            },
+            "dataset": {
+              "name": "RDD2022 Road Damage",
+              "type": "rdd2022"
+            },
+            "metrics": [
+              {
+                "type": "mAP50",
+                "value": 62.03,
+                "name": "mAP@50 (test split)",
+                "verified": false
+              },
+              {
+                "type": "mAP50-95",
+                "value": 34.08,
+                "name": "mAP@50-95 (test split)",
+                "verified": false
+              },
+              {
+                "type": "precision",
+                "value": 65.61,
+                "name": "Precision (test split)",
+                "verified": false
+              },
+              {
+                "type": "recall",
+                "value": 57.42,
+                "name": "Recall (test split)",
+                "verified": false
+              }
+            ],
+            "source": {
+              "url": "https://github.com/dronefreak/DetectionBench",
+              "name": "DetectionBench"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "4d22f6079a410570a34f641e67c38a40f4f9f96f",
+      "size": 1971
+    },
+    {
+      "rfilename": "BoxF1_curve.png",
+      "blobId": "d2862bed0d29dc50160c2b2a3e10257c320494f3",
+      "size": 209997,
+      "lfs": {
+        "sha256": "3f1716f0d57bef3c4693bb6bad746927d49b1ee3a709e867e5e4eca0aaae6f74",
+        "size": 209997,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "BoxPR_curve.png",
+      "blobId": "ae5b08006f497c118f56ae49f68f0314795522c9",
+      "size": 220050,
+      "lfs": {
+        "sha256": "b6cb3e8f8cf570ccded60c4d5a7d7608196af273717b9030b1cac0da2dcf0f8c",
+        "size": 220050,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "BoxP_curve.png",
+      "blobId": "a767a6bf47a5b1643b1361dac3658b3a808c0c16",
+      "size": 214816,
+      "lfs": {
+        "sha256": "99fd2c9544efada3892236ea040a2ffe3a1d2b85f4a87ae7bbfe6c2d84556673",
+        "size": 214816,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "BoxR_curve.png",
+      "blobId": "3797957d487bb0edf54f27430fcffba9ac7b7821",
+      "size": 216482,
+      "lfs": {
+        "sha256": "187ec14be45b6f2cb9c5224cddbb58e0cf5fa18212abd280b108ec9843a76509",
+        "size": 216482,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "76a2aa756cf760665c2dea1f8a48ed7159b8f077",
+      "size": 9651
+    },
+    {
+      "rfilename": "args.yaml",
+      "blobId": "12dfda50b4482f5f0d88af1fb33d9de0ec2f00e6",
+      "size": 1852
+    },
+    {
+      "rfilename": "best.pt",
+      "blobId": "3017fe36695bca9ef58b43d84b345e4b0f64bb13",
+      "size": 52034002,
+      "lfs": {
+        "sha256": "bcbaa230a4fce93c15cfd1dd4e6bb40050ce9099750ea66e270f00c10ecfdcc6",
+        "size": 52034002,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "confusion_matrix.png",
+      "blobId": "0352605c2187723fcf6d41e6253f328b2e407d34",
+      "size": 185252,
+      "lfs": {
+        "sha256": "3f1ba17978d28ceabce07c840e62cc7c622e62046d7a69f920c104f924dc9e90",
+        "size": 185252,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "confusion_matrix_normalized.png",
+      "blobId": "839729636f062a94ad08bf7c5a9456ddeae54017",
+      "size": 180808,
+      "lfs": {
+        "sha256": "87bb70ff0f62d739e152abbe61168cb18fb4a2cc98928edebce9b125ad80c7b3",
+        "size": 180808,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "rdd2022_yolov8m_showcase.jpg",
+      "blobId": "a4372f9b74959d96d5793247c59fbc00861ef175",
+      "size": 615878,
+      "lfs": {
+        "sha256": "84651b7578e580b0ec645c857f0dee5e7bc7be9d4fb00c97539046b6ea4be838",
+        "size": 615878,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "results.csv",
+      "blobId": "4d802e349ac154dfb24325c5a65206322e12e737",
+      "size": 6446
+    },
+    {
+      "rfilename": "val_batch0_pred.jpg",
+      "blobId": "4b4993dd00c3addc6aef310fdadef3df0cca3508",
+      "size": 343486,
+      "lfs": {
+        "sha256": "102de57377acfe55dccd354e299075b753f3f62223b0c4b6dd9b5890e041218a",
+        "size": 343486,
+        "pointerSize": 131
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-09-20T16:21:12.000Z",
+  "usedStorage": 55483140
+}

@@ -1,6 +1,6 @@
 {
   "mode": "production",
-  "apiOrigin": "https://civiceye-ai.example.invalid",
-  "cacheVersion": "1d25937b1d0b5640",
+  "apiOrigin": "https://civiceye-ai.onrender.com",
+  "cacheVersion": "aac2d3cb3ad3a0c0",
   "publishDirectory": "build"
 }

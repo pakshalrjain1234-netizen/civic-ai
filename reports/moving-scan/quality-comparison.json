@@ -1,0 +1,65 @@
+[
+  {
+    "size": 720,
+    "quality": 0.8,
+    "mean_jpeg_bytes": 63016,
+    "metrics": {
+      "garbage": {
+        "gt": 15,
+        "tp": 9,
+        "fp": 2,
+        "fn": 6
+      },
+      "waterlogging": {
+        "gt": 23,
+        "tp": 19,
+        "fp": 0,
+        "fn": 4
+      }
+    },
+    "background_false_positive_images": 2,
+    "passed": true
+  },
+  {
+    "size": 720,
+    "quality": 0.75,
+    "mean_jpeg_bytes": 57750,
+    "metrics": {
+      "garbage": {
+        "gt": 15,
+        "tp": 9,
+        "fp": 3,
+        "fn": 6
+      },
+      "waterlogging": {
+        "gt": 23,
+        "tp": 18,
+        "fp": 0,
+        "fn": 5
+      }
+    },
+    "background_false_positive_images": 2,
+    "passed": false
+  },
+  {
+    "size": 640,
+    "quality": 0.8,
+    "mean_jpeg_bytes": 57286,
+    "metrics": {
+      "garbage": {
+        "gt": 15,
+        "tp": 9,
+        "fp": 3,
+        "fn": 6
+      },
+      "waterlogging": {
+        "gt": 23,
+        "tp": 19,
+        "fp": 0,
+        "fn": 4
+      }
+    },
+    "background_false_positive_images": 2,
+    "passed": true
+  }
+]

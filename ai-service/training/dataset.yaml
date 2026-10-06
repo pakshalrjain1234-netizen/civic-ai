@@ -1,0 +1,11 @@
+# Paths are resolved relative to this file by train.py / validate.py.
+# No automatic dataset downloads are configured.
+path: ../dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 3
+names:
+  0: pothole
+  1: garbage
+  2: waterlogging

@@ -1,0 +1,15 @@
+{
+  "torch": "2.6.0+cpu",
+  "cuda_available": false,
+  "threads": 4,
+  "batch": 8,
+  "image_size": 640,
+  "synthetic_tensor_benchmark_only": true,
+  "batch_seconds": [
+    6.526859499979764,
+    9.065494599984959,
+    3.8777016999665648
+  ],
+  "estimated_train_epoch_seconds": 834.8361613468733,
+  "not_trained_weights": true
+}

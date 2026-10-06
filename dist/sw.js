@@ -1,7 +1,7 @@
 // Only this explicit, same-origin frontend shell is cached. Never AI or user data.
 const CACHE = 'civiceye-shell-development';
 const SHELL = ['/', '/index.html', '/style.css', '/additions.css', '/favicon.svg',
-  '/config.js', '/vision-env.js', '/app.js', '/features.js', '/live-scan.js',
+  '/config.js', '/vision-env.js', '/app.js', '/features.js', '/live-scan.js', '/motion-scan.js',
   '/vision-backend.js', '/local-workflow.js', '/pwa.js', '/manifest.webmanifest',
   '/icons/icon-192.png', '/icons/icon-512.png', '/icons/maskable-192.png', '/icons/maskable-512.png'];
 const STATIC = new Set(SHELL);
